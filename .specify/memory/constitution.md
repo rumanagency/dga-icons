@@ -1,18 +1,19 @@
 <!--
 SYNC IMPACT REPORT
-Version change: [NEW] → 1.0.0
-Modified principles: N/A (initial constitution)
+Version change: 1.0.0 → 1.1.0
+Modified principles: N/A
 Added sections:
-  - Core Principles (10 principles)
-  - Technical Architecture Standards
-  - Quality & Performance Standards
-  - Governance
+  - Core Principles XI: Branch-Based Development & Merge Safety (new principle)
+  - Core Principles count: 10 → 11 principles
 Removed sections: N/A
 Templates requiring updates:
   ✅ .specify/templates/plan-template.md - Constitution Check section aligned
   ✅ .specify/templates/spec-template.md - Requirements alignment verified
   ✅ .specify/templates/tasks-template.md - Task categorization aligned
 Follow-up TODOs: None
+Amendment rationale: Added branch-based development principle to ensure code quality
+  and prevent unstable code from reaching main branch. MINOR version bump per
+  amendment rules (new principle added).
 -->
 
 # DGA Icons Constitution
@@ -276,6 +277,58 @@ import * as StrokeRounded from '@ruman/react/icons/stroke-rounded';
 - Core package version drives overall library versioning
 
 **Rationale**: Semantic versioning provides predictable upgrade paths, prevents unexpected breakage, and enables automated dependency updates. Clear deprecation policy gives users time to migrate.
+
+### XI. Branch-Based Development & Merge Safety (NON-NEGOTIABLE)
+
+**Rule**: All major work MUST be developed in dedicated feature branches and merged only after verification.
+
+**Branching Requirements**:
+- Create a new branch for every significant feature, bug fix, or package update
+- Branch naming convention: `{type}/{short-description}` (e.g., `feature/react-package`, `fix/svg-optimization`, `release/v1.2.0`)
+- Main branch (`main` or `master`) MUST always remain stable and deployable
+- No direct commits to main branch (except emergency hotfixes with proper approval)
+
+**Branch Types**:
+- `feature/*` - New features, packages, or capabilities
+- `fix/*` - Bug fixes and error corrections
+- `docs/*` - Documentation updates
+- `refactor/*` - Code refactoring without behavior changes
+- `test/*` - Test additions or improvements
+- `release/*` - Release preparation branches
+- `hotfix/*` - Emergency production fixes
+
+**Merge Criteria** (ALL must be satisfied):
+1. **All automated tests passing** - No exceptions, all CI/CD checks green
+2. **Code review approved** - Minimum 1 maintainer approval (2 for architecture changes)
+3. **Build succeeds** - All packages build without errors or warnings
+4. **Documentation updated** - README, CHANGELOG, API docs reflect changes
+5. **Manual verification** - Feature tested locally and works as expected
+6. **No merge conflicts** - Branch must be up-to-date with main
+7. **Constitution compliance** - Changes align with all core principles
+
+**Merge Process**:
+1. Push feature branch to remote repository
+2. Open Pull Request with clear description and rationale
+3. Automated CI/CD checks run (tests, linting, build, bundle size)
+4. Request review from maintainer(s)
+5. Address review feedback and update PR
+6. Ensure all merge criteria satisfied
+7. Maintainer performs merge (squash merge preferred for clean history)
+8. Delete feature branch after successful merge
+
+**Protection Rules**:
+- Main branch MUST have branch protection enabled
+- Require status checks to pass before merging
+- Require pull request reviews before merging
+- Dismiss stale pull request approvals when new commits pushed
+- Require linear history (squash or rebase merge)
+
+**Exceptions**:
+- Emergency hotfixes: Streamlined review process (1 maintainer approval, critical tests only)
+- Documentation typos: Can use fast-track review for minor fixes
+- Automated bot commits: Dependabot, version bumps (pre-approved automation only)
+
+**Rationale**: Branch-based development isolates work-in-progress from stable code, enables parallel development, facilitates code review, and ensures main branch reliability. This practice prevents breaking changes from impacting users and maintains project stability.
 
 ## Technical Architecture Standards
 
@@ -588,4 +641,4 @@ For day-to-day development guidance, reference materials, and detailed technical
 
 This constitution establishes the "why" and "what"; the guidance files provide the "how".
 
-**Version**: 1.0.0 | **Ratified**: 2025-11-17 | **Last Amended**: 2025-11-17
+**Version**: 1.1.0 | **Ratified**: 2025-11-17 | **Last Amended**: 2025-11-17
