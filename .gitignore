@@ -68,9 +68,6 @@ packages/**/dynamic.mjs.map
 
 # Published Files (generated during build, not source)
 packages/**/LICENSE
-icons/metadata.json
-icons/categories.json
-icons/tags.json
 
 # Documentation Build
 docs/.vitepress/cache

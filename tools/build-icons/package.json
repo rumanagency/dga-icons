@@ -1,0 +1,23 @@
+{
+  "name": "@ruman/build-icons",
+  "version": "0.1.0",
+  "description": "Icon generation CLI for DGA Icons",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "build-icons": "./cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ruman/build-helpers": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.8.3"
+  }
+}

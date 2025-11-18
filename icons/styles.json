@@ -1,0 +1,124 @@
+{
+  "styles": [
+    {
+      "id": "bulk-rounded",
+      "name": "Bulk Rounded",
+      "description": "Bulk style with rounded corners and filled backgrounds",
+      "multiColor": true,
+      "colorCount": 2,
+      "directory": "bulk-rounded",
+      "iconCount": 0,
+      "defaultProps": {
+        "strokeWidth": 0,
+        "fill": "currentColor"
+      }
+    },
+    {
+      "id": "duotone-rounded",
+      "name": "Duotone Rounded",
+      "description": "Two-tone design with rounded corners for visual depth",
+      "multiColor": true,
+      "colorCount": 2,
+      "directory": "duotone-rounded",
+      "iconCount": 0,
+      "defaultProps": {
+        "strokeWidth": 1.5,
+        "fill": "none"
+      }
+    },
+    {
+      "id": "solid-rounded",
+      "name": "Solid Rounded",
+      "description": "Fully filled icons with smooth rounded corners",
+      "multiColor": false,
+      "colorCount": 1,
+      "directory": "solid-rounded",
+      "iconCount": 0,
+      "defaultProps": {
+        "strokeWidth": 0,
+        "fill": "currentColor"
+      }
+    },
+    {
+      "id": "solid-sharp",
+      "name": "Solid Sharp",
+      "description": "Fully filled icons with crisp sharp corners",
+      "multiColor": false,
+      "colorCount": 1,
+      "directory": "solid-sharp",
+      "iconCount": 0,
+      "defaultProps": {
+        "strokeWidth": 0,
+        "fill": "currentColor"
+      }
+    },
+    {
+      "id": "solid-standard",
+      "name": "Solid Standard",
+      "description": "Fully filled icons with standard corner style",
+      "multiColor": false,
+      "colorCount": 1,
+      "directory": "solid-standard",
+      "iconCount": 0,
+      "defaultProps": {
+        "strokeWidth": 0,
+        "fill": "currentColor"
+      }
+    },
+    {
+      "id": "stroke-rounded",
+      "name": "Stroke Rounded",
+      "description": "Outline strokes with rounded corners and ends",
+      "multiColor": false,
+      "colorCount": 1,
+      "directory": "stroke-rounded",
+      "iconCount": 0,
+      "defaultProps": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "currentColor"
+      }
+    },
+    {
+      "id": "stroke-sharp",
+      "name": "Stroke Sharp",
+      "description": "Outline strokes with sharp corners and angles",
+      "multiColor": false,
+      "colorCount": 1,
+      "directory": "stroke-sharp",
+      "iconCount": 0,
+      "defaultProps": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "currentColor"
+      }
+    },
+    {
+      "id": "stroke-standard",
+      "name": "Stroke Standard",
+      "description": "Outline strokes with standard corner style",
+      "multiColor": false,
+      "colorCount": 1,
+      "directory": "stroke-standard",
+      "iconCount": 0,
+      "defaultProps": {
+        "strokeWidth": 1.5,
+        "fill": "none",
+        "stroke": "currentColor"
+      }
+    },
+    {
+      "id": "twotone-rounded",
+      "name": "Twotone Rounded",
+      "description": "Two-tone style with rounded corners combining fills and strokes",
+      "multiColor": true,
+      "colorCount": 2,
+      "directory": "twotone-rounded",
+      "iconCount": 0,
+      "defaultProps": {
+        "strokeWidth": 1.5,
+        "fill": "none"
+      }
+    }
+  ]
+}

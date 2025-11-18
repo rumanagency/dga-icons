@@ -1,0 +1,23 @@
+{
+  "name": "@ruman/rollup-plugins",
+  "version": "0.1.0",
+  "description": "Shared Rollup plugins for DGA Icons packages",
+  "private": true,
+  "type": "module",
+  "main": "./plugins.js",
+  "scripts": {
+    "build": "echo 'No build needed for JS plugins'",
+    "clean": "echo 'No clean needed'",
+    "type-check": "echo 'No TypeScript to check'"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  },
+  "devDependencies": {
+    "rollup": "^4.9.6"
+  }
+}

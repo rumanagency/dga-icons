@@ -1,0 +1,93 @@
+name: Test Packages
+
+on:
+  pull_request:
+    paths:
+      - 'packages/**'
+      - 'tools/**'
+  push:
+    branches: [master, main]
+    paths:
+      - 'packages/**'
+      - 'tools/**'
+
+jobs:
+  test-matrix:
+    name: Test ${{ matrix.package }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        package:
+          - icons
+          - react
+          - vue
+          - svelte
+          - angular
+          - solid
+          - preact
+          - astro
+          - nuxt
+          - laravel
+          - static
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.11.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build dependencies
+        run: pnpm build --filter=@ruman/${{ matrix.package }}^...
+
+      - name: Build package
+        run: pnpm build --filter=@ruman/${{ matrix.package }}
+
+      - name: Run tests
+        run: pnpm test --filter=@ruman/${{ matrix.package }}
+
+      - name: Check types
+        run: pnpm type-check --filter=@ruman/${{ matrix.package }}
+
+  test-tools:
+    name: Test Tools
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.11.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build build-helpers
+        run: pnpm build --filter=@ruman/build-helpers
+
+      - name: Test build-icons CLI
+        run: |
+          cd tools/build-icons
+          pnpm run cli --help
+
+      - name: Verify icon generation
+        run: |
+          pnpm build-icons --package=test-output
+          test -d test-output || exit 1
