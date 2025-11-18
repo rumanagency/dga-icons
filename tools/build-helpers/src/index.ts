@@ -1,0 +1,12 @@
+export { readSvg, type SvgData } from './readSvg.js';
+export { readAllStyles, ICON_STYLES, type IconStyle, type StyleDirectory } from './readAllStyles.js';
+export { toPascalCase } from './toPascalCase.js';
+export { toKebabCase } from './toKebabCase.js';
+export { readSvgDirectory } from './readSvgDirectory.js';
+export { getSvgFiles } from './getSvgFiles.js';
+export { convertStyleName } from './convertStyleName.js';
+export { buildIconsObject, type IconsObject } from './buildIconsObject.js';
+export { getCurrentDirPath } from './getCurrentDirPath.js';
+export { asyncMap } from './asyncMap.js';
+export { appendFile } from './appendFile.js';
+export { resetFile } from './resetFile.js';
