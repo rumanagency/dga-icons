@@ -1,1 +1,122 @@
+# Development
+.DS_Store
+.idea
+.vscode
+node_modules/
+*.log
+.pnpm-store/
+
+# Build Artifacts
+dist/
+build/
+coverage/
+.next/
+.nuxt/
+.turbo/
+*.tsbuildinfo
+
+# Generated Icon Files (NOT committed - auto-generated at build time)
+packages/**/src/bulk-rounded/*.ts
+packages/**/src/bulk-rounded/*.tsx
+packages/**/src/bulk-rounded/*.vue
+packages/**/src/bulk-rounded/*.svelte
+packages/**/src/duotone-rounded/*.ts
+packages/**/src/duotone-rounded/*.tsx
+packages/**/src/duotone-rounded/*.vue
+packages/**/src/duotone-rounded/*.svelte
+packages/**/src/solid-rounded/*.ts
+packages/**/src/solid-rounded/*.tsx
+packages/**/src/solid-rounded/*.vue
+packages/**/src/solid-rounded/*.svelte
+packages/**/src/solid-sharp/*.ts
+packages/**/src/solid-sharp/*.tsx
+packages/**/src/solid-sharp/*.vue
+packages/**/src/solid-sharp/*.svelte
+packages/**/src/solid-standard/*.ts
+packages/**/src/solid-standard/*.tsx
+packages/**/src/solid-standard/*.vue
+packages/**/src/solid-standard/*.svelte
+packages/**/src/stroke-rounded/*.ts
+packages/**/src/stroke-rounded/*.tsx
+packages/**/src/stroke-rounded/*.vue
+packages/**/src/stroke-rounded/*.svelte
+packages/**/src/stroke-sharp/*.ts
+packages/**/src/stroke-sharp/*.tsx
+packages/**/src/stroke-sharp/*.vue
+packages/**/src/stroke-sharp/*.svelte
+packages/**/src/stroke-standard/*.ts
+packages/**/src/stroke-standard/*.tsx
+packages/**/src/stroke-standard/*.vue
+packages/**/src/stroke-standard/*.svelte
+packages/**/src/twotone-rounded/*.ts
+packages/**/src/twotone-rounded/*.tsx
+packages/**/src/twotone-rounded/*.vue
+packages/**/src/twotone-rounded/*.svelte
+
+# Generated Type Files
+packages/**/src/aliases/*.ts
+packages/**/src/aliases.ts
+!packages/**/src/aliases/index.ts
+packages/**/src/dynamicIconImports.ts
+packages/**/DynamicIcon.d.ts
+packages/**/dynamicIconImports.js
+packages/**/dynamicIconImports.d.ts
+packages/**/dynamicIconImports.js.map
+packages/**/dynamic.d.ts
+packages/**/dynamic.mjs
+packages/**/dynamic.mjs.map
+
+# Published Files (generated during build, not source)
+packages/**/LICENSE
+icons/metadata.json
+icons/categories.json
+icons/tags.json
+
+# Documentation Build
+docs/.vitepress/cache
+docs/.vitepress/dist
+docs/.vitepress/.temp
+docs/.vitepress/data/iconNodes
+docs/.vitepress/data/iconMetaData.ts
+docs/.vitepress/data/releaseMetaData.json
+
+# Environment
+.env
+.env.local
+.env.production
+.env.development
+
+# Testing
+*.test.js.snap
+*.test.tsx.snap
+__snapshots__/
+
+# OS Files
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+*.iml
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Logs
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Lucide Reference (keep for development reference)
 .claude/lucide-main-full-for-example
