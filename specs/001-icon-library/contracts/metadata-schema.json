@@ -1,0 +1,488 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ruman.sa/schemas/dga-icons/icon-metadata.json",
+  "title": "DGA Icons Metadata Schema",
+  "description": "JSON Schema for DGA Icons metadata files. Each icon can have an optional metadata file ({icon-name}.json) containing categorization, tagging, and versioning information.",
+  "type": "object",
+  "required": ["name", "categories", "tags", "styles", "multiColor", "version"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The unique identifier for the icon in kebab-case (e.g., 'home', 'settings-01'). Must match the SVG filename without extension.",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "minLength": 1,
+      "maxLength": 100,
+      "examples": ["home", "settings-01", "user-profile", "arrow-left"]
+    },
+    "displayName": {
+      "type": "string",
+      "description": "Human-readable display name for the icon (optional). If not provided, the name will be converted to Title Case.",
+      "minLength": 1,
+      "maxLength": 100,
+      "examples": ["Home", "Settings", "User Profile", "Arrow Left"]
+    },
+    "categories": {
+      "type": "array",
+      "description": "List of categories this icon belongs to. Used for filtering and organization in documentation.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Arrows",
+          "Business",
+          "Buildings",
+          "Charts",
+          "Communication",
+          "Cryptocurrency",
+          "Database",
+          "Development",
+          "Devices",
+          "Education",
+          "Ecommerce",
+          "Files",
+          "Finance",
+          "Food",
+          "Health",
+          "Interface",
+          "Location",
+          "Marketing",
+          "Media",
+          "Navigation",
+          "Nature",
+          "People",
+          "Security",
+          "Shapes",
+          "Shopping",
+          "Social",
+          "Sports",
+          "Text Editing",
+          "Time",
+          "Transportation",
+          "Travel",
+          "Weather"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 5,
+      "uniqueItems": true,
+      "examples": [
+        ["Navigation", "Interface"],
+        ["Communication", "Social"],
+        ["Files", "Development"]
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "description": "Searchable keywords and synonyms for the icon. Used for full-text search.",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+        "minLength": 2,
+        "maxLength": 50
+      },
+      "minItems": 1,
+      "maxItems": 20,
+      "uniqueItems": true,
+      "examples": [
+        ["house", "main", "homepage", "dashboard"],
+        ["cog", "preferences", "options", "configuration"],
+        ["person", "account", "profile", "avatar"]
+      ]
+    },
+    "aliases": {
+      "type": "array",
+      "description": "Alternative names for the icon. Used to support imports like 'import { HomeIcon } from ...' when the canonical name is 'home'.",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+        "minLength": 1,
+        "maxLength": 100
+      },
+      "uniqueItems": true,
+      "examples": [
+        ["house", "homepage"],
+        ["cog", "gear", "preferences"],
+        ["user", "person", "account"]
+      ]
+    },
+    "styles": {
+      "type": "object",
+      "description": "Indicates which visual styles are available for this icon. True means the icon exists in that style.",
+      "properties": {
+        "stroke-rounded": {
+          "type": "boolean",
+          "description": "Outline stroke with rounded corners and endpoints"
+        },
+        "stroke-sharp": {
+          "type": "boolean",
+          "description": "Outline stroke with sharp corners"
+        },
+        "stroke-standard": {
+          "type": "boolean",
+          "description": "Outline stroke with standard corners"
+        },
+        "solid-rounded": {
+          "type": "boolean",
+          "description": "Solid fill with rounded corners"
+        },
+        "solid-sharp": {
+          "type": "boolean",
+          "description": "Solid fill with sharp corners"
+        },
+        "solid-standard": {
+          "type": "boolean",
+          "description": "Solid fill with standard corners"
+        },
+        "duotone-rounded": {
+          "type": "boolean",
+          "description": "Two-tone with rounded corners (primary + secondary colors)"
+        },
+        "twotone-rounded": {
+          "type": "boolean",
+          "description": "Two-tone variation with rounded corners"
+        },
+        "bulk-rounded": {
+          "type": "boolean",
+          "description": "Bulk style with rounded corners (main shape + accent overlays)"
+        }
+      },
+      "additionalProperties": false,
+      "minProperties": 1,
+      "examples": [
+        {
+          "stroke-rounded": true,
+          "stroke-sharp": true,
+          "stroke-standard": true,
+          "solid-rounded": true,
+          "solid-sharp": true,
+          "solid-standard": true,
+          "duotone-rounded": true,
+          "twotone-rounded": true,
+          "bulk-rounded": true
+        },
+        {
+          "stroke-rounded": true,
+          "solid-rounded": true,
+          "duotone-rounded": true
+        }
+      ]
+    },
+    "multiColor": {
+      "type": "boolean",
+      "description": "Indicates if the icon supports multiple colors (true for duotone, twotone, bulk styles).",
+      "examples": [true, false]
+    },
+    "deprecated": {
+      "type": "boolean",
+      "description": "Indicates if the icon is deprecated and should not be used in new projects.",
+      "default": false
+    },
+    "deprecationMessage": {
+      "type": "string",
+      "description": "Message explaining why the icon is deprecated and suggesting alternatives.",
+      "minLength": 10,
+      "maxLength": 500,
+      "examples": [
+        "Use 'home-02' instead for better visual consistency.",
+        "This icon has been replaced by 'settings-gear'. It will be removed in v2.0.0."
+      ]
+    },
+    "version": {
+      "type": "string",
+      "description": "Version when this icon was added or last significantly updated (semantic versioning).",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "examples": ["0.1.0", "1.0.0", "1.2.5"]
+    },
+    "source": {
+      "type": "object",
+      "description": "Information about the original source of the icon design.",
+      "properties": {
+        "designer": {
+          "type": "string",
+          "description": "Name of the icon designer or design system",
+          "default": "HugeIcons V4",
+          "examples": ["HugeIcons V4", "Material Design", "Feather Icons"]
+        },
+        "designerUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to the designer's website or icon set",
+          "default": "https://hugeicons.com",
+          "examples": ["https://hugeicons.com", "https://material.io/icons"]
+        },
+        "license": {
+          "type": "string",
+          "description": "License of the original icon design",
+          "default": "CC BY 4.0",
+          "examples": ["CC BY 4.0", "MIT", "Apache 2.0"]
+        },
+        "figmaUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "Direct link to the Figma file for this icon",
+          "examples": [
+            "https://www.figma.com/community/file/1392269191144731080/icons-platforms-code"
+          ]
+        }
+      }
+    },
+    "accessibility": {
+      "type": "object",
+      "description": "Accessibility information for this icon.",
+      "properties": {
+        "defaultAriaLabel": {
+          "type": "string",
+          "description": "Default ARIA label for screen readers when icon is used semantically.",
+          "minLength": 3,
+          "maxLength": 100,
+          "examples": ["Home", "Settings", "User profile", "Navigate back"]
+        },
+        "isDecorative": {
+          "type": "boolean",
+          "description": "Indicates if the icon is typically decorative (aria-hidden=true recommended).",
+          "default": false
+        },
+        "semanticMeaning": {
+          "type": "string",
+          "description": "Description of the semantic meaning of the icon for documentation.",
+          "maxLength": 500,
+          "examples": [
+            "Represents the home or main page of an application",
+            "Indicates user settings or preferences",
+            "Signifies an error or warning state"
+          ]
+        }
+      }
+    },
+    "usage": {
+      "type": "object",
+      "description": "Guidance on how and when to use this icon.",
+      "properties": {
+        "commonContexts": {
+          "type": "array",
+          "description": "Common contexts or use cases for this icon",
+          "items": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 200
+          },
+          "examples": [
+            [
+              "Navigation to home page",
+              "Dashboard main view",
+              "Back to main menu button"
+            ],
+            [
+              "Application settings menu",
+              "User preferences dialog",
+              "Configuration panel"
+            ]
+          ]
+        },
+        "doNotUse": {
+          "type": "array",
+          "description": "Contexts where this icon should NOT be used",
+          "items": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 200
+          },
+          "examples": [
+            [
+              "Do not use for building or architecture (use 'building' icon instead)",
+              "Avoid using for real estate applications"
+            ]
+          ]
+        }
+      }
+    },
+    "relatedIcons": {
+      "type": "array",
+      "description": "List of related icon names that users might also be interested in.",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      },
+      "uniqueItems": true,
+      "maxItems": 10,
+      "examples": [
+        ["home-02", "home-03", "building", "dashboard"],
+        ["settings-02", "settings-gear", "preferences", "tools"]
+      ]
+    },
+    "metrics": {
+      "type": "object",
+      "description": "Usage metrics and analytics for this icon (auto-populated).",
+      "properties": {
+        "popularity": {
+          "type": "number",
+          "description": "Popularity score (0-100) based on search and usage statistics",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "searchCount": {
+          "type": "integer",
+          "description": "Number of times this icon was searched for",
+          "minimum": 0
+        },
+        "downloadCount": {
+          "type": "integer",
+          "description": "Number of times this icon was downloaded (SVG or copied)",
+          "minimum": 0
+        }
+      }
+    }
+  },
+  "if": {
+    "properties": {
+      "deprecated": {
+        "const": true
+      }
+    }
+  },
+  "then": {
+    "required": ["deprecationMessage"]
+  },
+  "examples": [
+    {
+      "name": "home",
+      "displayName": "Home",
+      "categories": ["Navigation", "Interface"],
+      "tags": ["house", "main", "homepage", "dashboard", "index"],
+      "aliases": ["house", "homepage"],
+      "styles": {
+        "stroke-rounded": true,
+        "stroke-sharp": true,
+        "stroke-standard": true,
+        "solid-rounded": true,
+        "solid-sharp": true,
+        "solid-standard": true,
+        "duotone-rounded": true,
+        "twotone-rounded": true,
+        "bulk-rounded": true
+      },
+      "multiColor": false,
+      "deprecated": false,
+      "version": "0.1.0",
+      "source": {
+        "designer": "HugeIcons V4",
+        "designerUrl": "https://hugeicons.com",
+        "license": "CC BY 4.0",
+        "figmaUrl": "https://www.figma.com/community/file/1392269191144731080"
+      },
+      "accessibility": {
+        "defaultAriaLabel": "Home",
+        "isDecorative": false,
+        "semanticMeaning": "Represents the home or main page of an application"
+      },
+      "usage": {
+        "commonContexts": [
+          "Navigation to home page",
+          "Dashboard main view",
+          "Back to main menu button"
+        ],
+        "doNotUse": [
+          "Do not use for building or architecture (use 'building' icon instead)"
+        ]
+      },
+      "relatedIcons": ["home-02", "home-03", "building", "dashboard"],
+      "metrics": {
+        "popularity": 95,
+        "searchCount": 15430,
+        "downloadCount": 8765
+      }
+    },
+    {
+      "name": "settings-01",
+      "displayName": "Settings",
+      "categories": ["Interface", "System"],
+      "tags": ["cog", "gear", "preferences", "options", "configuration", "admin"],
+      "aliases": ["cog", "gear", "preferences"],
+      "styles": {
+        "stroke-rounded": true,
+        "solid-rounded": true,
+        "duotone-rounded": true
+      },
+      "multiColor": true,
+      "deprecated": false,
+      "version": "0.1.0",
+      "source": {
+        "designer": "HugeIcons V4",
+        "designerUrl": "https://hugeicons.com",
+        "license": "CC BY 4.0"
+      },
+      "accessibility": {
+        "defaultAriaLabel": "Settings",
+        "isDecorative": false,
+        "semanticMeaning": "Access to application settings or user preferences"
+      },
+      "relatedIcons": ["settings-02", "tools", "wrench", "preferences"]
+    },
+    {
+      "name": "old-icon",
+      "displayName": "Old Icon (Deprecated)",
+      "categories": ["Interface"],
+      "tags": ["legacy", "deprecated"],
+      "styles": {
+        "stroke-rounded": true
+      },
+      "multiColor": false,
+      "deprecated": true,
+      "deprecationMessage": "This icon has been replaced by 'new-icon' for better visual consistency. It will be removed in v2.0.0.",
+      "version": "0.1.0"
+    }
+  ],
+  "definitions": {
+    "iconStyle": {
+      "type": "string",
+      "enum": [
+        "stroke-rounded",
+        "stroke-sharp",
+        "stroke-standard",
+        "solid-rounded",
+        "solid-sharp",
+        "solid-standard",
+        "duotone-rounded",
+        "twotone-rounded",
+        "bulk-rounded"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "Arrows",
+        "Business",
+        "Buildings",
+        "Charts",
+        "Communication",
+        "Cryptocurrency",
+        "Database",
+        "Development",
+        "Devices",
+        "Education",
+        "Ecommerce",
+        "Files",
+        "Finance",
+        "Food",
+        "Health",
+        "Interface",
+        "Location",
+        "Marketing",
+        "Media",
+        "Navigation",
+        "Nature",
+        "People",
+        "Security",
+        "Shapes",
+        "Shopping",
+        "Social",
+        "Sports",
+        "Text Editing",
+        "Time",
+        "Transportation",
+        "Travel",
+        "Weather"
+      ]
+    }
+  },
+  "additionalProperties": false
+}
