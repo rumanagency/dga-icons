@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const PlayListAdd: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.5 1.75h5.733l-2.18 4H1.75V2.5a.75.75 0 0 1 .75-.75m10.553 4H7.761l2.18-4h5.292zm3.888-4-2.18 4h6.489V2.5a.75.75 0 0 0-.75-.75zm4.309 5.5H1.75V20.5c0 .414.336.75.75.75h10.25v-5.5h3v-3h5.5zm-2 15v-3h3v-2h-3v-3h-2v3h-3v2h3v3z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default PlayListAdd;

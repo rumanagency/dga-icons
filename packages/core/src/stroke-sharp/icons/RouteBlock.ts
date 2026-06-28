@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const RouteBlock: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m16.94 5-2.47-2.47 1.06-1.061L18 3.939l2.47-2.47 1.06 1.06L19.06 5l2.47 2.47-1.06 1.06L18 6.06l-2.47 2.47-1.06-1.06zM6 16.748a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5m-3.75 2.25a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0M8.5 4.249a4.25 4.25 0 0 0 0 8.5h7a2.75 2.75 0 1 1 0 5.5H12v1.5h3.5a4.25 4.25 0 0 0 0-8.5h-7a2.75 2.75 0 1 1 0-5.5H12v-1.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default RouteBlock;

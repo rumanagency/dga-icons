@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Prescription: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4.25 3A.75.75 0 0 1 5 2.25h4.5a5.25 5.25 0 0 1 1.94 10.13L16 16.94l2.47-2.47a.75.75 0 1 1 1.06 1.06L17.06 18l2.47 2.47a.75.75 0 1 1-1.06 1.06L16 19.06l-2.47 2.47a.75.75 0 1 1-1.06-1.06L14.94 18l-5.254-5.253-.186.003H5.75V19a.75.75 0 0 1-1.5 0zm1.5 8.25H9.5a3.75 3.75 0 1 0 0-7.5H5.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Prescription;

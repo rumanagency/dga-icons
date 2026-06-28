@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Facebook02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M7.795 1.25H19.75v5.944h-5.727v2.39h5.07l-2.078 5.388h-2.992v7.778H7.795v-7.778H4.25V9.583h3.545zm1.5 1.5v8.333H5.75v2.39h3.545v7.777h3.228v-7.778h3.462l.922-2.389h-4.384V5.694h5.727V2.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Facebook02;

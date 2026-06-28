@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SearchList02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M14.85 2a6.85 6.85 0 1 0 4.085 12.35l2.358 2.357a1 1 0 0 0 1.414-1.414l-2.358-2.358A6.85 6.85 0 0 0 14.85 2M10 8.85a4.85 4.85 0 1 1 9.7 0 4.85 4.85 0 0 1-9.7 0M2 5a1 1 0 1 0 0 2h4a1 1 0 0 0 0-2zm-1 8a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2H2a1 1 0 0 1-1-1m1 7a1 1 0 1 0 0 2h19a1 1 0 1 0 0-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SearchList02;

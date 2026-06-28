@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Figma: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M19 5.333A3.333 3.333 0 0 0 15.667 2H8.333a3.333 3.333 0 0 0 0 6.667 3.333 3.333 0 0 0 0 6.667 3.334 3.334 0 0 0 0 6.667A3.667 3.667 0 0 0 12 18.334v-6.135a3.5 3.5 0 1 0 3.636-3.532h.031A3.333 3.333 0 0 0 19 5.333m-3.637 3.334A3.5 3.5 0 0 0 12 12.129V8.667z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Figma;

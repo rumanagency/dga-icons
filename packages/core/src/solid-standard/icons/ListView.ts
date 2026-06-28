@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ListView: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.25 5c0-.966.784-1.75 1.75-1.75h16c.966 0 1.75.784 1.75 1.75v1A1.75 1.75 0 0 1 20 7.75H4A1.75 1.75 0 0 1 2.25 6zm0 6.5c0-.966.784-1.75 1.75-1.75h16c.966 0 1.75.784 1.75 1.75v1A1.75 1.75 0 0 1 20 14.25H4a1.75 1.75 0 0 1-1.75-1.75zM4 16.25A1.75 1.75 0 0 0 2.25 18v1c0 .966.784 1.75 1.75 1.75h16A1.75 1.75 0 0 0 21.75 19v-1A1.75 1.75 0 0 0 20 16.25z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ListView;

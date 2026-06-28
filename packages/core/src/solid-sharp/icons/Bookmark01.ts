@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Bookmark01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.47 1.47A.75.75 0 0 1 4 1.252h16a.75.75 0 0 1 .75.75v4.25H3.25v-4.25a.75.75 0 0 1 .22-.53m-.22 6.281h17.5v15L12 18.376l-8.75 4.375z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Bookmark01;

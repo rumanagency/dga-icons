@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CoPresent: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.227 2.25a.974.974 0 0 0-.977.97v14.56c0 .535.438.97.977.97H5.16v-1.941H3.205V4.19h17.59v12.62h-1.954v1.941h2.932c.54 0 .977-.434.977-.97V3.22a.974.974 0 0 0-.977-.97zM12 7.75a3.25 3.25 0 1 0 0 6.5 3.25 3.25 0 0 0 0-6.5m0 7.5A5.75 5.75 0 0 0 6.25 21v.75h11.5V21A5.75 5.75 0 0 0 12 15.25",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CoPresent;

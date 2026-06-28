@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Gpu: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4.75 2.25h-3.5V4.2H3v17.55h1.75zm4.786 16H6v-14h16.75v16H10.537zM14.5 11.5a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0m2.25-3.75a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5m-9 0h3.5v1.5h-3.5zm0 3h3.5v1.5h-3.5zm0 3h3.5v1.5h-3.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Gpu;

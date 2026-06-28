@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Shampoo: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.5 2.75v1.5h2v3.699c1.787.975 3 2.871 3 5.051v9.75H6V13a5.75 5.75 0 0 1 3-5.051V4.25h2v-1.5H8.75v-1.5h7.22a.75.75 0 0 1 .53.22l1.5 1.5-1.06 1.06-1.281-1.28zm-2 4.636a5.8 5.8 0 0 1 2.5 0V5.75h-2.5zm5.435 4.864a4.251 4.251 0 0 0-8.369 0z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Shampoo;

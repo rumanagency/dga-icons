@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SignalNo01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.347 4.63A.75.75 0 0 1 2 4.25h6a.75.75 0 0 1 .643 1.136L5.75 10.208V19h-1.5v-8.792L1.357 5.386a.75.75 0 0 1-.01-.756M5 8.542 6.675 5.75h-3.35zM16.49 12l2.47 2.47-1.062 1.06-2.47-2.47-2.469 2.47-1.06-1.06 2.47-2.47-2.47-2.47 1.06-1.06 2.47 2.47 2.47-2.47 1.06 1.06zm-6.74 5.5h-2.5V19h2.5zm4 0h-2.5V19h2.5zm4 0h-2.5V19h2.5zm4 0h-2.5V19h2.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SignalNo01;

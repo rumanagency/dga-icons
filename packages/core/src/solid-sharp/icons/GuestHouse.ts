@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const GuestHouse: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M11.72 1.304a.75.75 0 0 1 .558 0l6.972 2.728V3h1.5v1.619l1.75.685-.557 1.392-1.193-.466v13.52h-6V12a.75.75 0 0 0-.75-.75h-4a.75.75 0 0 0-.75.75v7.75h-6V6.23l-1.193.466L1.5 5.304zm-.97 18.446h2.5v-7h-2.5zM11 7h2.012v2H11zm3 13.75h-4v2h4z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default GuestHouse;

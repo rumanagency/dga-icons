@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const LimitOrder: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2 6h3.91l4.38 4.38c.52-.24 1.1-.38 1.71-.38 2.21 0 4 1.79 4 4s-1.79 4-4 4a3.999 3.999 0 0 1-3.25-6.33L5.09 8H2zm10 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m10 3v-2.01h-2V15zm-3 .01V13h-2v2.01zM4 13v2.01H2V13zm3 .01v2.01H5v-2.01zM13 15v-2.01h-2V15z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default LimitOrder;

@@ -1,0 +1,16 @@
+import type { IconNode } from '../../types';
+
+const Menu10: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 3.75a1.25 1.25 0 1 0 0 2.5h.009a1.25 1.25 0 1 0 0-2.5zm-7 4.5a.75.75 0 0 0 0 1.5h14a.75.75 0 0 0 0-1.5zM4.25 14a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75M5 18.25a.75.75 0 0 0 0 1.5h14a.75.75 0 0 0 0-1.5z",
+        "clipRule": "evenodd",
+        "opacity": ".4"
+      }
+    ]
+  ];
+
+export default Menu10;

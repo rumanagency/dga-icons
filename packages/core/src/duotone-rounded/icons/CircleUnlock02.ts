@@ -1,0 +1,23 @@
+import type { IconNode } from '../../types';
+
+const CircleUnlock02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M5 15a7 7 0 1 1 14 0 7 7 0 0 1-14 0",
+        "opacity": ".4"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6.75 6.5a5.25 5.25 0 0 1 9.616-2.917.75.75 0 0 1-1.247.834A3.75 3.75 0 0 0 8.25 6.5v1.716a7.75 7.75 0 1 1-1.5 1.083zM12 8.75a6.25 6.25 0 1 0 0 12.5 6.25 6.25 0 0 0 0-12.5m.75 5.25a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CircleUnlock02;

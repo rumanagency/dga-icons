@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const LayoutRight: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.25 5.5A2.25 2.25 0 0 1 5.5 3.25h8.75v17.5H5.5a2.25 2.25 0 0 1-2.25-2.25zm12.5 15.25h2.75a2.25 2.25 0 0 0 2.25-2.25v-13a2.25 2.25 0 0 0-2.25-2.25h-2.75zM5.5 1.75A3.75 3.75 0 0 0 1.75 5.5v13a3.75 3.75 0 0 0 3.75 3.75h13a3.75 3.75 0 0 0 3.75-3.75v-13a3.75 3.75 0 0 0-3.75-3.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default LayoutRight;

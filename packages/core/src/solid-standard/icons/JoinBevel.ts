@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const JoinBevel: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M2 13.672V3a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10h10a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H10.328a2 2 0 0 1-1.414-.586l-6.328-6.328A2 2 0 0 1 2 13.672"
+      }
+    ]
+  ];
+
+export default JoinBevel;

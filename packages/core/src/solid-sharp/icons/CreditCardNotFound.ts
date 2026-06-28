@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CreditCardNotFound: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m19.336 20.75 2 2 1.414-1.414L2.664 1.25 1.25 2.664l.6.6a.75.75 0 0 0-.6.736v4.25h5.586l1.5 1.5H1.25V20c0 .414.336.75.75.75zM22.75 4v4.25H11.786l-5-5H22a.75.75 0 0 1 .75.75m0 5.75v9.464L13.286 9.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CreditCardNotFound;

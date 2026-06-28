@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Tag02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m19.266 5.795-1.74 1.74-1.061-1.06 1.724-1.724H11.3L3.04 13.03l7.966 7.933 8.26-8.241zm1.5-1.5v9.05l-9.194 9.173a.8.8 0 0 1-1.13 0l-8.956-8.92a.8.8 0 0 1-.002-1.132l9.194-9.215h9.01l1.782-1.782 1.06 1.06zM9.458 16.548l-2.001-2.004 1.061-1.06 2.001 2.004z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Tag02;

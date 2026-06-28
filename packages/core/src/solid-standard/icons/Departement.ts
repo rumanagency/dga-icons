@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Departement: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M13.23 1.54a2.75 2.75 0 0 0-2.46 0l-7 3.5A2.75 2.75 0 0 0 2.25 7.5V20A2.75 2.75 0 0 0 5 22.75h14A2.75 2.75 0 0 0 21.75 20V7.5a2.75 2.75 0 0 0-1.52-2.46zM8 8a1 1 0 0 0 0 2h2a1 1 0 1 0 0-2zm6 0a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2zm-6 4a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2zm6 0a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2zm-6 4a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2zm6 0a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Departement;

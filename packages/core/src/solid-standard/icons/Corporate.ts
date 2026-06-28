@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Corporate: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.5 4.5a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v3h6a3 3 0 0 1 3 3v11a1 1 0 0 1-1 1h-19a1 1 0 0 1-1-1zm9-1a1 1 0 0 1 1 1v16h-8v-16a1 1 0 0 1 1-1zm5 8a1 1 0 1 0 0 2h3a1 1 0 1 0 0-2zm0 4a1 1 0 1 0 0 2h3a1 1 0 1 0 0-2zM6 5.5a1 1 0 0 0 0 2h3a1 1 0 0 0 0-2zm0 4a1 1 0 0 0 0 2h3a1 1 0 1 0 0-2zm0 4a1 1 0 1 0 0 2h3a1 1 0 1 0 0-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Corporate;

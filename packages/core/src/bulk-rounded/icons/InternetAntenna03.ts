@@ -1,0 +1,25 @@
+import type { IconNode } from '../../types';
+
+const InternetAntenna03: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 7a5 5 0 0 0-3.727 8.333 1 1 0 1 1-1.49 1.334 7 7 0 1 1 10.435 0 1 1 0 1 1-1.49-1.334A5 5 0 0 0 12 7",
+        "clipRule": "evenodd",
+        "opacity": ".4"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 12a9 9 0 0 1 18 0c0 2.028-.67 3.896-1.8 5.4a1 1 0 0 0 1.6 1.202A10.96 10.96 0 0 0 23 12c0-6.075-4.925-11-11-11S1 5.925 1 12c0 2.476.819 4.763 2.2 6.602A1 1 0 0 0 4.8 17.4 8.96 8.96 0 0 1 3 12m10 0a1 1 0 1 0-2 0v9H9a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2h-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default InternetAntenna03;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const AiCloud01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 12a5.75 5.75 0 0 1 4.603-5.635 6.252 6.252 0 0 1 12.394.938A5.251 5.251 0 0 1 19 17.533V13.5h-1.75V12h-1.5v-1.75h-7.5V12h-1.5v1.5H5v3.893A5.75 5.75 0 0 1 1.25 12m8.5-.25v1.75h-1.5V15H6.5v1.5h1.75V18H6.5v1.5h1.75V21h1.5v1.75h1.5V21h1.5v1.75h1.5V21h1.5v-1.5h1.75V18h-1.75v-1.5h1.75V15h-1.75v-1.5h-1.5v-1.75h-1.5v1.75h-1.5v-1.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default AiCloud01;

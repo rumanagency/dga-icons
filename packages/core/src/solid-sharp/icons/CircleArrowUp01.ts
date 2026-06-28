@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CircleArrowUp01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75 22.75 17.937 22.75 12 17.937 1.25 12 1.25m5.624 11.969L12 8.719l-5.625 4.5 1.25 1.561L12 11.28l4.375 3.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CircleArrowUp01;

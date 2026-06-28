@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const LessThanSquare: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 2.25a.75.75 0 0 0-.75.75v18c0 .414.336.75.75.75h18a.75.75 0 0 0 .75-.75V3a.75.75 0 0 0-.75-.75zm.75 18V3.75h16.5v16.5zM14.53 8.53l-1.06-1.06L8.939 12l4.53 4.53 1.061-1.06L11.06 12z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default LessThanSquare;

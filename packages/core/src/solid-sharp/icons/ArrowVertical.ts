@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const ArrowVertical: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "m17 6-1.414 1.414L13 4.828v14.344l2.586-2.586L17 18l-5 5-5-5 1.414-1.414L11 19.172V4.828L8.414 7.414 7 6l5-5z"
+      }
+    ]
+  ];
+
+export default ArrowVertical;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const PeerToPeer02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.25 4.5a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0m-2 7c0-2.175 2.015-3.75 4.25-3.75s4.25 1.575 4.25 3.75v.75h-8.5zm13 9.5c0-2.175 2.015-3.75 4.25-3.75s4.25 1.575 4.25 3.75v.75h-8.5zm4.25-4.75a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5m.75-13v6.5h-1.5l-2.2-1.65.9-1.2 1.3.975V4.75H11.5v-1.5zm-13.5 11h-1.5v6.5H12v-1.5H5.75v-3.125l1.3.975.9-1.2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default PeerToPeer02;

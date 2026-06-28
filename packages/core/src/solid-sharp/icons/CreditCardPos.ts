@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CreditCardPos: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M13.53 1.47a.75.75 0 0 0-1.06 0l-11 11a.75.75 0 0 0 0 1.06l2.674 2.675 12.061-12.06zm3.736 3.735L5.205 17.265l3.484 3.485H4v2h16v-2h-6.69l9.22-9.22a.75.75 0 0 0 0-1.06zm.263 6.38-2.206 2.205-1.06-1.06 2.206-2.207zm-3.5 3.499-1.543 1.543-1.06-1.06 1.543-1.544z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CreditCardPos;

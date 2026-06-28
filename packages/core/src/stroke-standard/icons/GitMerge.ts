@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const GitMerge: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M5.75 6a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0M7 3.25a2.75 2.75 0 0 0-.75 5.396v6.708a2.751 2.751 0 1 0 1.5 0v-2.548h6.62A2.751 2.751 0 0 0 19.75 12a2.75 2.75 0 0 0-5.412-.694H7.75v-2.66A2.751 2.751 0 0 0 7 3.25M5.75 18a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0M17 10.75a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default GitMerge;

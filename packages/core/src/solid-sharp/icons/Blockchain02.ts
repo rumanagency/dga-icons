@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Blockchain02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M11 5.3V1.625h2v3.677l6.26 3.59a.97.97 0 0 1 .488.844v7.711l2.892 2.41-1.28 1.536-3-2.5.03-.036-5.911 3.39a.97.97 0 0 1-.962 0L5.613 18.86l.027.032-3 2.5-1.28-1.536 2.888-2.407V9.736c0-.349.186-.67.488-.844zm-4.814 6.111 4.843 2.778v5.538L6.186 16.95zm6.78 8.316 4.845-2.778v-5.538l-4.844 2.778z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Blockchain02;

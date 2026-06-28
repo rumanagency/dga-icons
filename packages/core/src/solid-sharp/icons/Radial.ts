@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Radial: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M21 12a9 9 0 0 0-9-9V1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12c0-1.988.528-3.855 1.452-5.466l1.735.995A8.95 8.95 0 0 0 3 12a9 9 0 1 0 18 0m-3 0a6 6 0 0 0-6-6V4a8 8 0 1 1-8 8h2a6 6 0 0 0 12 0m-6-3a3 3 0 1 1 0 6v2a5 5 0 0 0 0-10z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Radial;

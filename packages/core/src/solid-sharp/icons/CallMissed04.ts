@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CallMissed04: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m12 10 6-5.586L16.586 3 12 7.172 9.414 5h2.336V3H6v5.75h2V6.414zm10.5 6.57L19.875 21 16.2 19.338l-.525-3.323c-2.1-1.107-5.25-1.107-7.35 0L7.8 19.338 4.125 21 1.5 16.57c6.3-6.093 14.7-6.093 21 0",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CallMissed04;

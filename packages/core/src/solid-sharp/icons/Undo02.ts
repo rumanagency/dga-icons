@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Undo02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4 2v4c1.82-2.43 4.73-4 8-4 5.52 0 10 4.48 10 10s-4.48 10-10 10h-1v-2h1c4.42 0 8-3.58 8-8A7.998 7.998 0 0 0 5.32 7.6l4.5-.75.33 1.97L2 10.18V2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Undo02;

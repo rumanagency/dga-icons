@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const DashboardCircleEdit: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M20.03 1.47a.75.75 0 0 0-1.06 0l-5.5 5.5a.75.75 0 0 0-.22.53V10c0 .414.336.75.75.75h2.5a.75.75 0 0 0 .53-.22l5.5-5.5a.75.75 0 0 0 0-1.06zM6.25 1.5a4.75 4.75 0 1 0 0 9.5 4.75 4.75 0 0 0 0-9.5M17.75 13a4.75 4.75 0 1 0 0 9.5 4.75 4.75 0 0 0 0-9.5M1.5 17.75a4.75 4.75 0 1 1 9.5 0 4.75 4.75 0 0 1-9.5 0",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default DashboardCircleEdit;

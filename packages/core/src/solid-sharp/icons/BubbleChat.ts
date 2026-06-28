@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const BubbleChat: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M11.75 1C5.85 1 1 5.554 1 11.25c0 2.719 1.11 5.186 2.911 7.014L3 22.5l4.767-1.727c1.233.47 2.578.727 3.983.727 5.9 0 10.75-4.554 10.75-10.25S17.65 1 11.75 1m-2.991 9.75H6.75v2h2.009zm3.996 2v-2h-2.01v2zm3.995-2h-2.009v2h2.009z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default BubbleChat;

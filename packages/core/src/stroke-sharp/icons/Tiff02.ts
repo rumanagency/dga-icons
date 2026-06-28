@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Tiff02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.25 22.75h17.5v-1.5h-16V2.75h7.5v7h7v2h1.5V8.69l-7.44-7.44H2.25zm14.94-14.5h-4.44V3.81zm1.06 11.5h1.5v-2.5h2v-1.5h-2v-1h2v-1.5h-3.5zm-4.5 0h1.5v-2.5h2v-1.5h-2v-1h2v-1.5h-3.5zm-2.5 0h1.5v-6.5h-1.5zm-4 0h1.5v-5h1.5v-1.5h-4.5v1.5h1.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Tiff02;

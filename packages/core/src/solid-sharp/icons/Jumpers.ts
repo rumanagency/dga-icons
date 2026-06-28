@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Jumpers: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M15.18 2.25H8.82L4.37 4.48.75 16.9v2.69l3.08.77 1.35-2.03 1.07-3.41v4.26l1.29 2.57h8.92l1.29-2.57v-4.26l1.07 3.41 1.35 2.03 3.08-.77V16.9L19.63 4.48zM12 7.5 9.5 3.75h5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Jumpers;

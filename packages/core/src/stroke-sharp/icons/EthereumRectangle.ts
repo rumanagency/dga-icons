@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const EthereumRectangle: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 2.25a.75.75 0 0 0-.75.75v18c0 .414.336.75.75.75h18a.75.75 0 0 0 .75-.75V3a.75.75 0 0 0-.75-.75zm.75 18V3.75h16.5v16.5zm8.874-14.666a.75.75 0 0 0-1.248 0l-4 6a.75.75 0 0 0 0 .832l4 6a.75.75 0 0 0 1.248 0l4-6a.75.75 0 0 0 0-.832zM12 16.648l-2.086-3.13 1.823.684a.75.75 0 0 0 .526 0l1.823-.683zm0-3.949 2.852-1.07L12 7.353 9.148 11.63z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default EthereumRectangle;

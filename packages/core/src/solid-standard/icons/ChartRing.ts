@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ChartRing: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 12c0-2.698.994-5.165 2.636-7.052L8.69 9.755a4 4 0 0 0 2.561 6.175v6.794c-5.587-.385-10-5.039-10-10.724m11.5 3.93v6.794a10.75 10.75 0 0 0 9.974-9.974H15.93a4 4 0 0 1-3.18 3.18m3.18-4.68h6.794c-.385-5.587-5.04-10-10.724-10-2.699 0-5.165.994-7.053 2.637l4.801 4.806a4 4 0 0 1 6.181 2.557",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ChartRing;

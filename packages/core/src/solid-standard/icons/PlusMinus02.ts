@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const PlusMinus02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m21.707 2.707-18 18a1 1 0 0 1-1.414-1.414l18-18a1 1 0 1 1 1.414 1.414M7 1a1 1 0 0 1 1 1v3h3a1 1 0 1 1 0 2H8v3a1 1 0 1 1-2 0V7H3a1 1 0 0 1 0-2h3V2a1 1 0 0 1 1-1m6 15a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default PlusMinus02;

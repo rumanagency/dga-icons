@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FolderDetails: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.008 1.5a.76.76 0 0 0-.76.76v17.918a1 1 0 0 0 0 .108.754.754 0 0 0 .749.71h9.012v-1.5h-8.26V3h5.87l1.877 2.498h-3.51v1.5H21.25v4.738h1.5V6.258a.76.76 0 0 0-.76-.76h-9.618L9.369 1.5zm-.756 18.627-.001.011zM22 14.5h-8V16h8zm0 3h-8V19h8zm-4 3h-4V22h4z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FolderDetails;

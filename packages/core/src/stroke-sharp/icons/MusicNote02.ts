@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MusicNote02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.335 2.33A.75.75 0 0 0 11.25 3v10.536A4.75 4.75 0 1 0 12.75 17v-6.786l6.915 3.457A.75.75 0 0 0 20.75 13V7a.75.75 0 0 0-.415-.67zm6.915 9.456-6.5-3.25V4.214l6.5 3.25zM4.75 17a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MusicNote02;

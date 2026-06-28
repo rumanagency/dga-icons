@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SwipeRight03: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M19.207 1.293a1 1 0 1 0-1.414 1.414l.793.793H15a1 1 0 1 0 0 2h3.586l-.793.793a1 1 0 0 0 1.414 1.414l2.5-2.5a1 1 0 0 0 0-1.414zm-9.452.957a2.5 2.5 0 0 0-2.5 2.5v8.12l-.896-.768a2.49 2.49 0 0 0-3.576 3.43l4 5.994A2.75 2.75 0 0 0 9.07 22.75H16A3.75 3.75 0 0 0 19.75 19v-5A3.75 3.75 0 0 0 16 10.25h-3.745v-5.5a2.5 2.5 0 0 0-2.5-2.5",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SwipeRight03;

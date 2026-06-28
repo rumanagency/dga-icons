@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Airpod01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.75 5.5A3.75 3.75 0 0 1 5.5 1.75h13a3.75 3.75 0 0 1 3.75 3.75V8h-4.42A3 3 0 0 0 15 6H9a3 3 0 0 0-2.83 2H1.75zM6.17 10H1.75v8.5a3.75 3.75 0 0 0 3.75 3.75h13a3.75 3.75 0 0 0 3.75-3.75V10h-4.42A3 3 0 0 1 15 12H9a3 3 0 0 1-2.83-2M8 9a1 1 0 0 1 1-1h6a1 1 0 1 1 0 2H9a1 1 0 0 1-1-1",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Airpod01;

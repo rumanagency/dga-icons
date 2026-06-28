@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const BurningCd: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 2.25a.75.75 0 0 0-.75.75v18c0 .414.336.75.75.75h11a.75.75 0 0 0 .75-.75v-1.286a7.75 7.75 0 0 0 0-15.428V3a.75.75 0 0 0-.75-.75zM19.813 12a5.814 5.814 0 0 1-5.063 5.765v-2.86a3.001 3.001 0 0 0 0-5.81v-2.86A5.814 5.814 0 0 1 19.813 12M10 10v4h2v-4z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default BurningCd;

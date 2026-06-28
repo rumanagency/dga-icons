@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Activity02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M19.5 1.75a2.75 2.75 0 1 0 0 5.5 2.75 2.75 0 0 0 0-5.5m-4 2.75c0-.628.145-1.221.402-1.75H2.5a.75.75 0 0 0-.75.75v18c0 .414.336.75.75.75h18a.75.75 0 0 0 .75-.75V8.098A4 4 0 0 1 15.5 4.5M13 15.414l4.914-4.914L16.5 9.086l-3.5 3.5-3-3L5.086 14.5 6.5 15.914l3.5-3.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Activity02;

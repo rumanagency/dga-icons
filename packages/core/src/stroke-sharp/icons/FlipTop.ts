@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FlipTop: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.1 1.242a.85.85 0 0 0-.85.85v10.653h19.503V2.092a.85.85 0 0 0-.85-.85zm.65 10.003V2.742h16.503v8.503zm0 5.746v-1.999h-1.5v2zm18.003 0v-1.999h-1.5v2zM3.767 18.994l-.013 2.245h2.247v1.5H3a.75.75 0 0 1-.75-.754l.017-2.999zm16.486-.004v2.249h-2.251v1.5h3.001a.75.75 0 0 0 .75-.75V18.99zm-9.252 2.249h-3v1.5h3zm5 0h-3v1.5h3z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FlipTop;

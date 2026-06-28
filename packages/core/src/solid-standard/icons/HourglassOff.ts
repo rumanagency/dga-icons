@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const HourglassOff: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M5.5 2a1 1 0 0 1 1-1H20a1 1 0 1 1 0 2v2.333c0 2.864-1.634 5.338-4.017 6.651a1 1 0 1 1-.966-1.752C16.82 9.24 18 7.405 18 5.333V3H6.5a1 1 0 0 1-1-1m.207 2.293 12.5 12.5 4.5 4.5a1 1 0 0 1-1.414 1.414L18.5 19.914V22a1 1 0 0 1-1 1H4a1 1 0 1 1 0-2v-2.333C4 15.787 5.643 13.31 8.05 12 5.664 10.7 4.03 8.26 4 5.415L1.293 2.707a1 1 0 0 1 1.414-1.414z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default HourglassOff;

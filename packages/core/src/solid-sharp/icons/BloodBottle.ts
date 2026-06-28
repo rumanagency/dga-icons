@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const BloodBottle: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4.25 1.25a1 1 0 0 0-1 1v20.5h2V3.25H13v1H8.214a.96.96 0 0 0-.682.284.97.97 0 0 0-.282.685V18.78c0 .535.432.969.964.969h4.518a2 2 0 0 1-1.732 1v2a4 4 0 0 0 3.874-3h4.912a.967.967 0 0 0 .964-.969V5.22a.967.967 0 0 0-.964-.969H15v-1h2.25v-2zm4.928 4.938h9.643v4.589c-2.218.599-3.343-.122-4.428-.817-1.252-.803-2.45-1.57-5.215-.232z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default BloodBottle;

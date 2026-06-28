@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const KeyframeBottom: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M13.356 2.86a1.812 1.812 0 0 0-2.712 0L6.72 7.263a1.863 1.863 0 0 0 0 2.474l3.924 4.403a1.81 1.81 0 0 0 2.712 0l3.924-4.403a1.863 1.863 0 0 0 0-2.474zM13 17.5a1 1 0 1 0-2 0V20H3a1 1 0 1 0 0 2h18a1 1 0 1 0 0-2h-8z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default KeyframeBottom;

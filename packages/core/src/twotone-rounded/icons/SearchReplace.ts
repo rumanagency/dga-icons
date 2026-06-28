@@ -1,0 +1,25 @@
+import type { IconNode } from '../../types';
+
+const SearchReplace: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m18.405 17.345 4.125 4.125a.75.75 0 1 1-1.06 1.06l-4.125-4.125a9.7 9.7 0 0 1-6.343 2.345 9.73 9.73 0 0 1-7.315-3.303V20a.75.75 0 0 1-1.5 0v-5a.75.75 0 0 1 .75-.75h4.565a.75.75 0 0 1 0 1.5H4.256A8.25 8.25 0 0 0 19.252 11a.75.75 0 0 1 1.5 0c0 2.423-.884 4.64-2.347 6.345",
+        "clipRule": "evenodd"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M11 2.75A8.25 8.25 0 0 0 2.75 11a.75.75 0 0 1-1.5 0A9.75 9.75 0 0 1 11 1.25a9.73 9.73 0 0 1 7.314 3.303V2a.75.75 0 0 1 1.5 0v5a.75.75 0 0 1-.75.75H14.5a.75.75 0 0 1 0-1.5h3.246A8.24 8.24 0 0 0 11 2.75",
+        "clipRule": "evenodd",
+        "opacity": ".4"
+      }
+    ]
+  ];
+
+export default SearchReplace;

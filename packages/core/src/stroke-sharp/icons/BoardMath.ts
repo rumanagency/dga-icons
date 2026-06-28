@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const BoardMath: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 1.25a.75.75 0 0 0-.75.75v13.25h-1v1.5h4.537L3.33 21.664l1.342.67 2.792-5.584h3.786V20h1.5v-3.25h3.786l2.792 5.585 1.342-.67-2.457-4.915h4.537v-1.5h-1V2a.75.75 0 0 0-.75-.75zm17.25 14V2.75H3.75v12.5zm-9.75-7h3v1.5h-3zM8.75 7a.75.75 0 0 0-1.085-.67l-2 1 .67 1.34.915-.456V12h1.5zm8.644-.638A.75.75 0 0 1 17.75 7v5h-1.5V8.214l-.915.457-.67-1.342 2-1a.75.75 0 0 1 .73.033",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default BoardMath;

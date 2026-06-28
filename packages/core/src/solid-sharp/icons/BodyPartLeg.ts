@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const BodyPartLeg: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M5.002 2C7.693 2.314 17 4 20 12l-4.901 10H7.627c0-5.2 2.917-7.682 4.375-8.274-3.836.87-7 0-8-1.726l.44-4.393 7.307 2.6.503-1.414L4.595 6.07z"
+      }
+    ]
+  ];
+
+export default BodyPartLeg;

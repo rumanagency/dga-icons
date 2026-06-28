@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const TextFirstlineLeft: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M13 1.75a.75.75 0 0 0-.75.75v8c0 .414.336.75.75.75h8a.75.75 0 0 0 .75-.75v-8a.75.75 0 0 0-.75-.75zm.75 8v-6.5h6.5v6.5zm-11.5-7h7.5v1.5h-7.5zm0 6h7.5v1.5h-7.5zm19.5 6H2.25v1.5h19.5zm-19.5 6h19.5v1.5H2.25z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default TextFirstlineLeft;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FolderOff: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m21.338 22.75 1.414-1.414L2.666 1.25l-.997 1h-.417v19.5h19.086zm1.414-16.506v12.971L5.787 2.25h3.588l3.018 3.994z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FolderOff;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const RightToLeftListBullet: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4 4a1 1 0 0 0 0 2h12a1 1 0 1 0 0-2zm15.996 0A1 1 0 0 0 19 5c0 .552.446 1 .995 1h.01c.55 0 .995-.448.995-1s-.446-1-.995-1zM19 12c0-.552.446-1 .995-1h.01c.55 0 .995.448.995 1s-.446 1-.995 1h-.01A1 1 0 0 1 19 12m.995 6A1 1 0 0 0 19 19c0 .552.446 1 .995 1h.01c.55 0 .995-.448.995-1s-.446-1-.995-1zM3 12a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1m1 6a1 1 0 1 0 0 2h12a1 1 0 1 0 0-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default RightToLeftListBullet;

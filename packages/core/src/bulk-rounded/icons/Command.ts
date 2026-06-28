@@ -1,0 +1,25 @@
+import type { IconNode } from '../../types';
+
+const Command: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M18 2a4 4 0 0 0-4 4v3a1 1 0 0 0 1 1h3a4 4 0 0 0 0-8m-2 4a2 2 0 1 1 2 2h-2zM4 18a2 2 0 0 1 2-2h2v2a2 2 0 1 1-4 0m2-4a4 4 0 1 0 4 4v-3a1 1 0 0 0-1-1z",
+        "clipRule": "evenodd",
+        "opacity": ".4"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6 2a4 4 0 1 0 0 8h2v5a1 1 0 0 0 1 1h5v2a4 4 0 1 0 4-4h-2V9a1 1 0 0 0-1-1h-5V6a4 4 0 0 0-4-4M4 6a2 2 0 1 1 4 0v2H6a2 2 0 0 1-2-2m6 4v4h4v-4zm6 6v2a2 2 0 1 0 2-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Command;

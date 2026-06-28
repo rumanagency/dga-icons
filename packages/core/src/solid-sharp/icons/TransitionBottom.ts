@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const TransitionBottom: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M21.999 1.25a.75.75 0 0 1 .75.75v8a.75.75 0 0 1-.75.75h-9v4.836l.793-.793 1.414 1.414L12 19.414l-3.207-3.207 1.414-1.414.793.793V10.75H2a.75.75 0 0 1-.75-.75V2A.75.75 0 0 1 2 1.25zm-1.204 19.611v-6.61h1.954v7.555c0 .521-.437.944-.977.944H2.226c-.54 0-.977-.423-.977-.944V14.25h1.955v6.611z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default TransitionBottom;

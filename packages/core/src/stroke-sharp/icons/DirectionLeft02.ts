@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const DirectionLeft02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m14.75 4.236 3.24-.004c.42 0 .76.34.76.76v6.998c0 .42-.34.76-.759.76l-3.242.004v7.496H18v1.5H9.998v-1.5h3.252v-7.495l-4.557.005-3.677-4.275L8.68 4.242l4.57-.005V3h1.5zM9.365 5.74l7.884-.008v5.518l-7.87.009-2.385-2.773z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default DirectionLeft02;

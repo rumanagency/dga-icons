@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Bank: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.364 1.344a.75.75 0 0 0-.728 0l-9 5A.75.75 0 0 0 2.25 7v2.295a.7.7 0 0 0 .7.7h18.1a.7.7 0 0 0 .7-.7V7a.75.75 0 0 0-.386-.656zM10.996 7a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1M4.25 17.497h5.5v-6.005h-5.5zm10 0h5.5v-6.005h-5.5zm7.5 2.203a.7.7 0 0 0-.7-.7H2.95a.7.7 0 0 0-.7.7V22c0 .414.336.75.75.75h18a.75.75 0 0 0 .75-.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Bank;

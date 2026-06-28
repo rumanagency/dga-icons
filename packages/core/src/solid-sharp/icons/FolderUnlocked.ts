@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FolderUnlocked: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 2.25h8.123l3.018 3.994H22.75V14h-.575a3.751 3.751 0 0 0-7.35 0H13v7.75H1.25zm16.25 12.5a1 1 0 0 1 1.7-.714l1.05-1.072A2.5 2.5 0 0 0 16 14.75v.5h-1.75v6.5h8.5v-6.5H17.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FolderUnlocked;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Ethereum: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 1.25c.242 0 .467.12.605.32l6.608 9.6-7.212 3.02-7.212-3.02 6.608-9.6c.138-.2.363-.32.604-.32m.282 14.444 6.968-2.918-6.646 9.654a.73.73 0 0 1-.604.32.73.73 0 0 1-.604-.32L4.75 12.775l6.97 2.919a.73.73 0 0 0 .562 0",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Ethereum;

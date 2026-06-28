@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ArrangeByNumbers91: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4.25 3A.75.75 0 0 1 5 2.25h4a.75.75 0 0 1 .75.75v7a.75.75 0 0 1-.75.75H5a.75.75 0 0 1 0-1.5h3.25v-2H5a.75.75 0 0 1-.75-.75zm4 2.75v-2h-2.5v2zm-.896 7.589A.75.75 0 0 1 7.75 14v6.25h.75a.75.75 0 0 1 0 1.5h-3a.75.75 0 0 1 0-1.5h.75v-4.849l-.334.223a.75.75 0 1 1-.832-1.248l1.5-1a.75.75 0 0 1 .77-.037M17.25 4a.75.75 0 0 0-1.5 0v14.19l-1.22-1.22a.75.75 0 1 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l2.5-2.5a.75.75 0 1 0-1.06-1.06l-1.22 1.22z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ArrangeByNumbers91;

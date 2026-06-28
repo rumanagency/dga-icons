@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Unavailable: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 12a9 9 0 0 0 14.618 7.032L4.968 6.382A8.96 8.96 0 0 0 3 12m16.032 5.617a9 9 0 0 0-12.65-12.65zM12 23C5.925 23 1 18.075 1 12S5.925 1 12 1s11 4.925 11 11-4.925 11-11 11",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Unavailable;

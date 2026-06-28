@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MailLock01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.227 1.75a.975.975 0 0 0-.977.974v16.552c0 .538.438.974.977.974H12v-1.947H3.205v-10.7L12 12l8.796-4.398V10.5h1.954V2.724a.975.975 0 0 0-.977-.974zM15.75 14.5a2.75 2.75 0 1 1 5.5 0v.75h1.5v7h-8.5v-7h1.5zm4 .75v-.75a1.25 1.25 0 1 0-2.5 0v.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MailLock01;

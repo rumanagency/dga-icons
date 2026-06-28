@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const EaseOut: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M2.75 19.625s.467-1.341.89-2.108a43 43 0 0 1 3.697-5.633C10.501 7.834 15.261 3.5 21.25 3.5v2c-5.01 0-9.251 3.666-12.337 7.616a41 41 0 0 0-3.522 5.367c-.405.733-.843 2.017-.843 2.017z"
+      }
+    ]
+  ];
+
+export default EaseOut;

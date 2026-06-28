@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const LinkSquare01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M5 2.25A2.75 2.75 0 0 0 2.25 5v14A2.75 2.75 0 0 0 5 21.75h14A2.75 2.75 0 0 0 21.75 19v-5.5a.75.75 0 0 0-1.5 0V19c0 .69-.56 1.25-1.25 1.25H5c-.69 0-1.25-.56-1.25-1.25V5c0-.69.56-1.25 1.25-1.25h5.5a.75.75 0 0 0 0-1.5zm10 0a.75.75 0 0 0 0 1.5h4.19l-4.72 4.72a.75.75 0 0 0 1.06 1.06l4.72-4.719L20.249 9a.75.75 0 0 0 1.5 0l.001-6a.75.75 0 0 0-.75-.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default LinkSquare01;

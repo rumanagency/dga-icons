@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const DocumentValidation: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.225 1.25a.976.976 0 0 0-.975.977v19.546a.98.98 0 0 0 .975.977h17.55a.974.974 0 0 0 .975-.977v-7.41H18.8v6.433H3.2V3.204h7.284V1.25zM11.25 7a5.75 5.75 0 1 1 11.5 0 5.75 5.75 0 0 1-11.5 0m7.47-2.03 1.06 1.06-3.53 3.53-2.03-2.03 1.06-1.06.97.97zM12 14H6v-2h6zm-6 4h10v-2H6z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default DocumentValidation;

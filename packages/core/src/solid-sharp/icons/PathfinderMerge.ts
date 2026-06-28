@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const PathfinderMerge: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M2 1.25a.75.75 0 0 0-.75.75v13c0 .414.336.75.75.75h4.75V10h1.5v12c0 .414.336.75.75.75h13a.75.75 0 0 0 .75-.75V9a.75.75 0 0 0-.75-.75h-6.25V2a.75.75 0 0 0-.75-.75z"
+      }
+    ]
+  ];
+
+export default PathfinderMerge;

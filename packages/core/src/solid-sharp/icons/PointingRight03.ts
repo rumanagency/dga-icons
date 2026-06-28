@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const PointingRight03: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M22.75 4.457 19.543 1.25l-1.414 1.414.793.793h-3.586v2h3.586l-.793.793 1.414 1.414zM11.564 5.796a2.49 2.49 0 0 0-3.095-.013l-6.885 4.593A.75.75 0 0 0 1.25 11v8A3.75 3.75 0 0 0 5 22.75h5.522a3.75 3.75 0 0 0 3.75-3.75v-3.745h4.978a2.5 2.5 0 0 0 0-5h-8.12l.768-.896a2.49 2.49 0 0 0-.335-3.563",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default PointingRight03;

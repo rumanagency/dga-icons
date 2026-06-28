@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Home11: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m12 1.098 9.75 6.5v15.151h-7.5v-7h-4.5v7h-7.5V7.598zM3.75 8.4v12.85h4.5v-7h7.5v7h4.5V8.4L12 2.9z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Home11;

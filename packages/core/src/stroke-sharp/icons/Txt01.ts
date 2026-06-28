@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Txt01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M13.31 1.25H3.25v12.5h1.5v-11h7.5v7h7v4h1.5V8.69zm4.88 7-4.44-4.44v4.44zm-5.371 10.68 1.693-3.234L13.184 15l-1.203 2.296-1.146-2.29-1.341.671 1.637 3.274-1.612 3.4 1.355.643 1.148-2.42 1.332 2.374 1.308-.734zM8.75 15.245h-5.5v1.5h2v6h1.5v-6h2zm12 0h-5.5v1.5h2v6h1.5v-6h2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Txt01;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MobileSecurity: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.99 1H6.5a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-6.75h-7A2.25 2.25 0 0 1 10.25 11V5.5a2.25 2.25 0 0 1 1.548-2.138A4.24 4.24 0 0 1 12.99 1M9.5 19a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2h-2a1 1 0 0 1-1-1m5.25-15a1.25 1.25 0 1 1 2.5 0v.75h-2.5zm4 0v.75h.75a.75.75 0 0 1 .75.75V11a.75.75 0 0 1-.75.75h-7a.75.75 0 0 1-.75-.75V5.5a.75.75 0 0 1 .75-.75h.75V4a2.75 2.75 0 1 1 5.5 0",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MobileSecurity;

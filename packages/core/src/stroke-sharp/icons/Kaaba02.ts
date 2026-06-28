@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Kaaba02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.75 18.25v-8.5H6v-1.5H3.75v-1.5h16.5v1.5H18v1.5h2.25v8.5h-7.5v-4h-6.5v4zm-1.5 3h-1v1.5h21.5v-1.5h-1V2a.75.75 0 0 0-.75-.75H3a.75.75 0 0 0-.75.75zm1.5 0h2.5v-1.5h-2.5zm4 0h3.5v-5.5h-3.5zm5 0h7.5v-1.5h-7.5zm7.5-16H3.75v-2.5h16.5zM11 9.75H8v-1.5h3zm5 0h-3v-1.5h3z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Kaaba02;

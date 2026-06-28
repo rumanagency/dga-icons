@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Plug01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M14.75 6.75h-8v5.014l3.14 4.486h4.22l3.14-4.486V6.75zm-5.64 11h2.14v5h1.5v-5h2.14l3.86-5.514V5.25h-2.5v-4h-1.5v4h-5.5v-4h-1.5v4h-2.5v6.986zm1.14-9.5h3.5v1.5h-3.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Plug01;

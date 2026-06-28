@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Knowledge02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.75 4a.75.75 0 0 1 .75-.75h7a.75.75 0 0 1 .75.75v1H23v2h-1.75v3a.75.75 0 0 1-.75.75h-7a.75.75 0 0 1-.75-.75V7h-1.5v3a.75.75 0 0 1-.75.75h-7a.75.75 0 0 1-.75-.75V7H1V5h1.75V4a.75.75 0 0 1 .75-.75h7a.75.75 0 0 1 .75.75v1h1.5zM3 12.75a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h18v-2h-1.5v-4H21v-2zm14.5 2v4H4v-4z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Knowledge02;

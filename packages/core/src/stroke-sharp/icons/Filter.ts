@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Filter: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.75 3.752v2.879l5.97 4.97.887 8.284 2.68-1.38 1.027-6.915 5.936-4.97V3.752zm-.65-1.5h17.799c.47 0 .85.381.85.85v4.217l-6.035 5.055-1.056 7.112-4.208 2.167a.85.85 0 0 1-1.234-.666l-.922-8.623-6.044-5.03V3.102c0-.469.38-.85.85-.85",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Filter;

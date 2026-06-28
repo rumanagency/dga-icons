@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Watch02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m16.587 5.25-1-4H8.415l-1 4H6a.75.75 0 0 0-.75.75v12c0 .414.336.75.75.75h1.415l1 4h7.172l1-4H18a.75.75 0 0 0 .75-.75V6a.75.75 0 0 0-.75-.75zm-7 16-.625-2.5h6.078l-.624 2.5zm5.454-16-.626-2.5H9.587l-.625 2.5zm-8.291 12V6.75h10.5v10.5zm6-8.25v2.694l1.28 1.275-1.06 1.062-1.72-1.715V9z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Watch02;

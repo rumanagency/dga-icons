@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const RotateCrop: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M15.75 3.324c2.93.442 5 2.821 5 5.926a1 1 0 1 0 2 0c0-4.552-3.448-8-8-8a1 1 0 0 0-1 1v2a1 1 0 1 0 2 0zM2.25 13.75a1 1 0 0 0-1 1c0 4.552 3.448 8 8 8a1 1 0 0 0 1-1v-2a1 1 0 1 0-2 0v.926c-2.93-.442-5-2.821-5-5.926a1 1 0 0 0-1-1M9 5.5a1 1 0 0 0-2 0V7H5.5a1 1 0 0 0 0 2H7v5a3 3 0 0 0 3 3h5v1.5a1 1 0 1 0 2 0V17h1.5a1 1 0 1 0 0-2H17v-5a3 3 0 0 0-3-3H9z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default RotateCrop;

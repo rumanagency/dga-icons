@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ArrowExpandDiagonal01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M16.25 3a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-1.5 0V4.81l-4.72 4.72a.75.75 0 1 1-1.06-1.06l4.72-4.72H17a.75.75 0 0 1-.75-.75M7.47 7.47a.75.75 0 0 1 1.06 0l8 8a.75.75 0 1 1-1.06 1.06l-8-8a.75.75 0 0 1 0-1.06M3.75 17a.75.75 0 0 0-1.5 0v4a.75.75 0 0 0 .75.75h4a.75.75 0 0 0 0-1.5H4.81l4.72-4.72a.75.75 0 1 0-1.06-1.06l-4.72 4.72z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ArrowExpandDiagonal01;

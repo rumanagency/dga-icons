@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const GitPullRequestClosed: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6 3.25a2.75 2.75 0 0 0-1 5.313v6.874a2.75 2.75 0 1 0 2 0V8.564A2.751 2.751 0 0 0 6 3.25M17 11v4.438a2.751 2.751 0 1 0 2 0V11zm2.336-2.336-1.293-1.293-1.293 1.293-1.414-1.414 1.293-1.293-1.293-1.293L16.75 3.25l1.293 1.293 1.293-1.293 1.414 1.414-1.293 1.293L20.75 7.25z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default GitPullRequestClosed;

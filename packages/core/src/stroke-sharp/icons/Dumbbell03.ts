@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Dumbbell03: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M5.75 3v8h1.5V7.75h9.5V11h1.5V3h-1.5v3.25h-9.5V3zm0 10v8h1.5v-3.25h9.5V21h1.5v-8h-1.5v3.25h-9.5V13zM2 6.25h1.25V4.5h1.5v5h-1.5V7.75H2zm20 1.5h-1.25V9.5h-1.5v-5h1.5v1.75H22zm-18.75 8.5H2v1.5h1.25v1.75h1.5v-5h-1.5zm17.5 1.5H22v-1.5h-1.25V14.5h-1.5v5h1.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Dumbbell03;

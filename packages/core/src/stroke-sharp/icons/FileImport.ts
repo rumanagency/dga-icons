@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FileImport: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M13.31 1.25H3.25v21.5h7.5v-1.5h-6V2.75h7.5v7h7v5h1.5V8.69zm4.88 7-4.44-4.44v4.44zm-4.38 9.998 2.25-2.25-1.06-1.06-4.06 4.06 4.06 4.06 1.06-1.06-2.25-2.25h6.94v-1.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FileImport;

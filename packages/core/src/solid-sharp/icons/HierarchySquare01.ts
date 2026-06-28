@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const HierarchySquare01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 1.25a.75.75 0 0 0-.75.75v6c0 .414.336.75.75.75h3V19.5a1 1 0 0 0 1 1h6.25V22c0 .414.336.75.75.75h6a.75.75 0 0 0 .75-.75v-5a.75.75 0 0 0-.75-.75h-6a.75.75 0 0 0-.75.75v1.5H8v-6h5.25V14c0 .414.336.75.75.75h6a.75.75 0 0 0 .75-.75V9a.75.75 0 0 0-.75-.75h-6a.75.75 0 0 0-.75.75v1.5H8V8.75h3a.75.75 0 0 0 .75-.75V2a.75.75 0 0 0-.75-.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default HierarchySquare01;

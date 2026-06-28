@@ -1,0 +1,23 @@
+import type { IconNode } from '../../types';
+
+const Register: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M1.25 12C1.25 6.063 6.063 1.25 12 1.25S22.75 6.063 22.75 12 17.937 22.75 12 22.75 1.25 17.937 1.25 12",
+        "opacity": ".4"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M9 9a2 2 0 0 1 2-2h1.75a3.25 3.25 0 0 1 1.589 6.086l1.08 2.52a1 1 0 1 1-1.838.788L12.34 13.5H11V16a1 1 0 1 1-2 0zm2 2.5h1.75a1.25 1.25 0 1 0 0-2.5H11z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Register;

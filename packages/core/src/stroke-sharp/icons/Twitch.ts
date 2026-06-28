@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Twitch: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.25 3.502a.76.76 0 0 1 .76-.76h15.982a.76.76 0 0 1 .76.76V13.82l-3.453 3.44h-5.973L7.57 21.022c-.484.485-1.297.133-1.297-.537v-3.259l-2.254.026a.76.76 0 0 1-.769-.76zm1.5.74v11.5l3.023-.034v2.988l2.931-2.935h5.975l2.573-2.564V4.242zm6.48 3.25v5h1.5v-5zm4 0v5h1.5v-5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Twitch;

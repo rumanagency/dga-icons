@@ -1,0 +1,23 @@
+import type { IconNode } from '../../types';
+
+const CirclePassword: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M4.25 15a7.75 7.75 0 1 1 15.5 0 7.75 7.75 0 0 1-15.5 0",
+        "opacity": ".4"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6.5 6.75a5.5 5.5 0 1 1 11 0v2.79a7.8 7.8 0 0 0-2-1.457V6.75a3.5 3.5 0 1 0-7 0v1.333a7.8 7.8 0 0 0-2 1.457zM10 14a1 1 0 1 0 0 2h.007a1 1 0 1 0 0-2zm3.993 0a1 1 0 1 0 0 2H14a1 1 0 1 0 0-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CirclePassword;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const StructureFolderCircle: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M7.5 1.25a.75.75 0 0 0-.75.75v8c0 .414.336.75.75.75h9a.75.75 0 0 0 .75-.75V4a.75.75 0 0 0-.75-.75h-3.69l-2-2zM4.001 13a1 1 0 0 1 1-1H19a1 1 0 0 1 1 1v2.385a3.752 3.752 0 0 1-1 7.365 3.75 3.75 0 0 1-1-7.365V14H6v1.385a3.752 3.752 0 0 1-1 7.365 3.75 3.75 0 0 1-1-7.365z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default StructureFolderCircle;

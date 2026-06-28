@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Computer: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2 1.75a.75.75 0 0 0-.75.75v15c0 .414.336.75.75.75h7.25v2.5H7v1.5h10v-1.5h-2.25v-2.5H22a.75.75 0 0 0 .75-.75v-15a.75.75 0 0 0-.75-.75zm11.25 19v-2.5h-2.5v2.5zm-10.5-4V3.25h18.5v13.5zm7.75-1.5h3v-1.5h-3z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Computer;

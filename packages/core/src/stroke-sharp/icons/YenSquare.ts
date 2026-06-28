@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const YenSquare: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 2.25a.75.75 0 0 0-.75.75v18c0 .414.336.75.75.75h18a.75.75 0 0 0 .75-.75V3a.75.75 0 0 0-.75-.75zm.75 18V3.75h16.5v16.5zM8.4 7.947l2.85 3.8v1H9v1.5h2.25v2.25h1.5v-2.25H15v-1.5h-2.25v-1l2.85-3.8-1.2-.9-2.4 3.2-2.4-3.2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default YenSquare;

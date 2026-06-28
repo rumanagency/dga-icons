@@ -1,0 +1,23 @@
+import type { IconNode } from '../../types';
+
+const LayerMask02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75 22.75 17.937 22.75 12 17.937 1.25 12 1.25",
+        "opacity": ".4"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M9.231 3.648a8.8 8.8 0 0 0 0 16.703A9.25 9.25 0 0 0 14.5 12a9.25 9.25 0 0 0-5.27-8.352",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default LayerMask02;

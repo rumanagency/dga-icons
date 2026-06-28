@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SecurityKeyUsb: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M5.75 1.25h8.5v5.5h1.5v4.258a4 4 0 0 0-4.22 3.492H10v8.25H9A4.75 4.75 0 0 1 4.25 18V6.75h1.5zm7 1.5v4h-5.5v-4zm-4 1h2.5v1.5h-2.5zm6.75 8.5A2.75 2.75 0 0 0 12.75 15v.75h-1.5v7h8.5v-7h-1.5V15a2.75 2.75 0 0 0-2.75-2.75m1.25 3.5V15a1.25 1.25 0 1 0-2.5 0v.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SecurityKeyUsb;

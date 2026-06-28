@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CameraOff02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M9 1.25a.75.75 0 0 0-.67.415L7.285 3.75 22.75 19.214V6a.75.75 0 0 0-.75-.75h-4.538L15.67 1.665A.75.75 0 0 0 15 1.25zM1.25 22c0 .415.336.75.75.75h20.75v-1.414L2.664 1.25 1.25 2.664l2.587 2.587H2a.75.75 0 0 0-.75.75zm8.23-11.106a4 4 0 1 0 5.627 5.627z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CameraOff02;

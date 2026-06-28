@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FlowSquare: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.5 1.25a.75.75 0 0 0-.75.75v1.5H5.5a1 1 0 0 0-1 1v3.75H2a.75.75 0 0 0-.75.75v6c0 .414.336.75.75.75h2.5v3.75a1 1 0 0 0 1 1h6.25V22c0 .414.336.75.75.75h5a.75.75 0 0 0 .75-.75v-1.5H22v-2h-3.75V17a.75.75 0 0 0-.75-.75h-5a.75.75 0 0 0-.75.75v1.5H6.5v-2.75H9a.75.75 0 0 0 .75-.75V9A.75.75 0 0 0 9 8.25H6.5V5.5h5.25V7c0 .414.336.75.75.75h5a.75.75 0 0 0 .75-.75V5.5H22v-2h-3.75V2a.75.75 0 0 0-.75-.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FlowSquare;

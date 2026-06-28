@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FolderLibrary: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M17.25 1.75H6.75v3h1.5v-1.5h7.5v1.5h1.5zm-13 4h15.5v3h-1.5v-1.5H5.75v1.5h-1.5zm-2.275 4h20.051l-3.977 12.5H5.952zm2.051 1.5 3.023 9.5h9.903l3.023-9.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FolderLibrary;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ThumbsDownEllipse: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M11.999 22.75c-5.937 0-10.75-4.813-10.75-10.75S6.062 1.25 11.999 1.25 22.749 6.063 22.749 12s-4.813 10.75-10.75 10.75m-3-17a1.75 1.75 0 0 0-1.75 1.75v4.649c0 .397.135.783.384 1.093l3.78 4.726a.75.75 0 0 0 1.036.132l.114-.086a3.75 3.75 0 0 0 1.197-4.477l-.124-.287h2.934a1.75 1.75 0 0 0 1.644-2.35l-1.458-4a1.75 1.75 0 0 0-1.644-1.15z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ThumbsDownEllipse;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const AppleNews: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.75 1.75h7.06l13.44 13.44v7.06h-7.06L1.75 8.81zm1.5 1.5v4.94l12.56 12.56h4.94v-4.94L8.19 3.25zm9.062 18.998H1.75v-10.56zm-3.622-1.5-5.44-5.44v5.44zM22.251 1.75H11.69l10.56 10.56zm-1.5 6.94-5.44-5.44h5.44z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default AppleNews;

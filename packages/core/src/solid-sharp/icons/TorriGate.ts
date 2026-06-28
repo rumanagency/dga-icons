@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const TorriGate: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m19.104 2.752 1.793.884a10 10 0 0 1-3.016 3.616H21v2h-2v2h2v2h-2v8h-2v-8H7v8H5v-8H3v-2h2v-2H3v-2h3.12a10 10 0 0 1-3.016-3.616l1.793-.884C6.198 5.39 8.893 7.194 12 7.194c3.108 0 5.803-1.804 7.104-4.442M9 9.252H7v2h2zm4 0h-2v2h2zm4 0h-2v2h2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default TorriGate;

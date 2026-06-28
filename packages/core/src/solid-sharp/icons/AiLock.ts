@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const AiLock: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M8.5 6.75a3.5 3.5 0 1 1 7 0v1.5h-7zm-2 1.5v-1.5a5.5 5.5 0 1 1 11 0v1.5h3.25v14.5H3.25V8.25zm2.993 4h1.515l2.467 6.168-1.392.557-.69-1.725H9.108l-.69 1.725-1.393-.557zm.215 3.5h1.085l-.543-1.356zm6.042-3.5v6.5h-1.5v-6.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default AiLock;

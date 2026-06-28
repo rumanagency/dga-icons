@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Locker: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 3A.75.75 0 0 1 2 2.25h20a.75.75 0 0 1 .75.75v4.25H1.25zM5 19.75v2h2v-2h4.25v-11h-10V19c0 .414.336.75.75.75zm17 0h-3v2h-2v-2h-4.25v-11h10V19a.75.75 0 0 1-.75.75m-7.75-6.5v2h1.5v-2zm-6 0v2h1.5v-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Locker;

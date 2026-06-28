@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Hologram: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M11.665 1.33a.75.75 0 0 1 .67 0l5 2.5a.75.75 0 0 1 .415.67v6a.75.75 0 0 1-.415.67l-5 2.5a.75.75 0 0 1-.67 0l-5-2.5a.75.75 0 0 1-.415-.67v-6a.75.75 0 0 1 .415-.67zm4.585 4.384-3.5 1.75v4.323l3.5-1.75zm-8.5 0v4.323l3.5 1.75V7.464zM15.323 4.5 12 6.161 8.677 4.5 12 2.839zM6.28 19.284l1.5-5 1.437.431-1.5 5zm9.937-5 1.5 5-1.437.431-1.5-5zM11.25 19.5v-4h1.5v4zM21 21.25v1.5H3v-1.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Hologram;

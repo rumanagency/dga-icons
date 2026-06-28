@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const Fiverr: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M7 2h8.53v3.5H11v3h9V22h-4.47V12H11v10H7V12H4V8.5h3z"
+      }
+    ]
+  ];
+
+export default Fiverr;

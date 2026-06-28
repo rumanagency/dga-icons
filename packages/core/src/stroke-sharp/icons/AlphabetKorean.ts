@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const AlphabetKorean: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M16.75 3h-1.5v18h1.5v-8.25H19v-1.5h-2.25zM5.002 6.75h7.247c.031 1.467-.263 3.622-1.205 5.717-1.088 2.422-3.02 4.722-6.282 5.822l.48 1.422c3.741-1.263 5.95-3.916 7.17-6.63 1.21-2.692 1.467-5.485 1.288-7.16l-.072-.671H5.002z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default AlphabetKorean;

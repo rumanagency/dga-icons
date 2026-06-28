@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FlowConnection: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.5 1.25a.75.75 0 0 0-.75.75v7c0 .414.336.75.75.75H5v4.187L1.468 17.47a.75.75 0 0 0 0 1.06l4 4a.75.75 0 0 0 1.06 0l3.53-3.53h4.192v2.5c0 .414.336.75.75.75h7a.75.75 0 0 0 .75-.75v-7a.75.75 0 0 0-.75-.75h-7a.75.75 0 0 0-.75.75V17h-4.191L7 13.941V9.75h2.5a.75.75 0 0 0 .75-.75V2a.75.75 0 0 0-.75-.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FlowConnection;

@@ -1,0 +1,25 @@
+import type { IconNode } from '../../types';
+
+const Slack: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6.75 14.75a2.5 2.5 0 0 1 5 0v5.5a2.5 2.5 0 0 1-5 0zm5.5-11a2.5 2.5 0 0 1 5 0v5.5a2.5 2.5 0 0 1-5 0zm2.5 8.5a2.5 2.5 0 0 0 0 5h5.5a2.5 2.5 0 0 0 0-5zm-13.5-3a2.5 2.5 0 0 1 2.5-2.5h5.5a2.5 2.5 0 0 1 0 5h-5.5a2.5 2.5 0 0 1-2.5-2.5",
+        "clipRule": "evenodd"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.75 18.5a.75.75 0 0 1 .75-.75h1.75a2.5 2.5 0 1 1-2.5 2.5zM6.25 3.75a2.5 2.5 0 0 1 5 0V5.5a.75.75 0 0 1-.75.75H8.75a2.5 2.5 0 0 1-2.5-2.5m14 2.5a2.5 2.5 0 0 0-2.5 2.5v1.75a.75.75 0 0 0 .75.75h1.75a2.5 2.5 0 0 0 0-5m-19 9a2.5 2.5 0 0 1 2.5-2.5H5.5a.75.75 0 0 1 .75.75v1.75a2.5 2.5 0 0 1-5 0",
+        "clipRule": "evenodd",
+        "opacity": ".4"
+      }
+    ]
+  ];
+
+export default Slack;

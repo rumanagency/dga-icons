@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Stop: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M7 4.75A2.25 2.25 0 0 0 4.75 7v10A2.25 2.25 0 0 0 7 19.25h10A2.25 2.25 0 0 0 19.25 17V7A2.25 2.25 0 0 0 17 4.75zM3.25 7A3.75 3.75 0 0 1 7 3.25h10A3.75 3.75 0 0 1 20.75 7v10A3.75 3.75 0 0 1 17 20.75H7A3.75 3.75 0 0 1 3.25 17z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Stop;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const TextCenterlineCenterTop: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2 2.25h3v2H2zm17 0h3v2h-3zm-14 6H2v2h3zm14 0h3v2h-3zm3 6H2v2h20zm-20 5.5h20v2H2zm6-17.5a.75.75 0 0 0-.75.75v8c0 .414.336.75.75.75h8a.75.75 0 0 0 .75-.75V3a.75.75 0 0 0-.75-.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default TextCenterlineCenterTop;

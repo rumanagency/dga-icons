@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MailOpen01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.7 22.25h20.288c.42 0 .762-.341.762-.76V8.075L12.361 1.857l-.188-.107h-.417L1.25 8.056v13.745zm1.052-2.75 6.303-4.733-6.303-4.735zm.834 1.25h16.787l-8.394-6.304zm17.661-1.22v-9.528l-6.343 4.765zm-.592-10.96-7 5.26-1.676-1.26-1.675 1.259-6.998-5.257 8.663-5.2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MailOpen01;

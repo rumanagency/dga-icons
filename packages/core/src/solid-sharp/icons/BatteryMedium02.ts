@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const BatteryMedium02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 6A.75.75 0 0 1 2 5.25h17a.75.75 0 0 1 .75.75v2.866l3 .507v5.254l-3 .507V18a.75.75 0 0 1-.75.75H2a.75.75 0 0 1-.75-.75zm18.5 7.613v-3.226l1.5.254v2.719zM5.25 9v6h1.5V9zm3 6V9h1.5v6zm3-6v6h1.5V9z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default BatteryMedium02;

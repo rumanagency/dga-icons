@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MilkCarton: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.293 7.293 6 4.586V3a2 2 0 0 1 2-2h8.5a2 2 0 0 1 2 2v1.642l2.259 2.682a1 1 0 0 1 .208.42A1 1 0 0 1 21 8v12q0 .156-.015.307A3 3 0 0 1 18 23H6a3 3 0 0 1-3-3V8a1 1 0 0 1 .293-.707M9 21V8.414l-2-2-2 2V20a1 1 0 0 0 1 1zm10-5.477-8-3.2V9h8z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MilkCarton;

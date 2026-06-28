@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const LeftTriangle: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M17.589 2.003c1.26-1.26 3.416-.365 3.413 1.418L21 6.499a1 1 0 1 1-2-.002l.003-3.079L4.414 17.996h3.084a1 1 0 0 1 0 2H4.415C2.632 19.996 1.74 17.84 3 16.58zm3.416 6.994h.993a1 1 0 0 1 0 2h-.992v7a2 2 0 0 1-2 2h-7.003v1.005a1 1 0 0 1-2 0v-1.005a2 2 0 0 1 2-2h1.995v-1.995a3 3 0 0 1 3-3h2.008v-2.005a2 2 0 0 1 1.999-2",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default LeftTriangle;

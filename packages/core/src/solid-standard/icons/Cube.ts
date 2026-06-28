@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const Cube: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M22.5 1.914v13.172a2 2 0 0 1-.586 1.414l-4.707 4.707a1 1 0 0 1-.707.293h-14a1 1 0 0 1-1-1v-14a1 1 0 0 1 .293-.707l5-5A1 1 0 0 1 7.5.5h13.586l-6.793 6.793a1 1 0 0 0-.16.207H3.5v10.586l4-4V9.5a1 1 0 0 1 2 0v4H14a1 1 0 1 1 0 2H8.914l-4 4H15.5V8.866q.112-.064.207-.159z"
+      }
+    ]
+  ];
+
+export default Cube;

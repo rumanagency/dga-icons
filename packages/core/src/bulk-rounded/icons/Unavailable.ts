@@ -1,0 +1,25 @@
+import type { IconNode } from '../../types';
+
+const Unavailable: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11-4.925 11-11 11S1 18.075 1 12m4.048-5.396a8.8 8.8 0 0 0 12.348 12.348zm1.556-1.556 12.348 12.348A8.8 8.8 0 0 0 6.604 5.048",
+        "clipRule": "evenodd",
+        "opacity": ".4"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M23 12c0-6.075-4.925-11-11-11-3.434 0-6.5 1.573-8.516 4.038l15.478 15.48A10.98 10.98 0 0 0 23 12m-4.049 5.396L6.603 5.048a8.8 8.8 0 0 1 12.348 12.348",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Unavailable;

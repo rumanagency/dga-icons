@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const BulletproofVest: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M5.75 1.25h12.5v3.429A3.25 3.25 0 0 0 19.887 7.5l1.863 1.065V22.75H2.25V8.565L4.112 7.5A3.25 3.25 0 0 0 5.75 4.679zm1.5 1.5v1.929a4.75 4.75 0 0 1-2.393 4.124l-1.107.632v2.815H6.5v1.5H3.75v2.5H6.5v1.5H3.75v3.5h16.5v-3.5H17.5v-1.5h2.75v-2.5H17.5v-1.5h2.75V9.435l-1.107-.632a4.75 4.75 0 0 1-2.393-4.124V2.75h-1.075a3.751 3.751 0 0 1-7.35 0zm2.628 0a2.25 2.25 0 0 0 4.244 0zm-1.628 16v-7.5h7.5v7.5zm1.5-6v4.5h4.5v-4.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default BulletproofVest;

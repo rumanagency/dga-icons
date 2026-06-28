@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MinusSignCircle: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75 22.75 17.937 22.75 12 17.937 1.25 12 1.25M16 11H8v2h8z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MinusSignCircle;

@@ -1,0 +1,25 @@
+import type { IconNode } from '../../types';
+
+const Calculator: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6.5 3a1 1 0 0 0-2 0v1.5H3a1 1 0 1 0 0 2h1.5V8a1 1 0 0 0 2 0V6.5H8a1 1 0 0 0 0-2H6.5zM4.707 15.293a1 1 0 0 0-1.414 1.414L4.586 18l-1.293 1.293a1 1 0 1 0 1.414 1.414L6 19.414l1.293 1.293a1 1 0 0 0 1.414-1.414L7.414 18l1.293-1.293a1 1 0 1 0-1.414-1.414L6 16.586zM21 6a1 1 0 0 1-1 1h-4a1 1 0 1 1 0-2h4a1 1 0 0 1 1 1m-5 8.5a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2zm0 3a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2z",
+        "clipRule": "evenodd"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 1a1 1 0 0 1 1 1v9h9a1 1 0 1 1 0 2h-9v9a1 1 0 1 1-2 0v-9H2a1 1 0 1 1 0-2h9V2a1 1 0 0 1 1-1",
+        "clipRule": "evenodd",
+        "opacity": ".4"
+      }
+    ]
+  ];
+
+export default Calculator;

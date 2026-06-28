@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CheckList: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M9.125 3.22a1 1 0 0 1 .156 1.405l-4 5a1 1 0 0 1-1.488.082l-1.5-1.5a1 1 0 0 1 1.414-1.414l.71.71L7.72 3.375a1 1 0 0 1 1.406-.156M10 6a1 1 0 0 1 1-1h10a1 1 0 1 1 0 2H11a1 1 0 0 1-1-1m0 6a1 1 0 0 1 1-1h10a1 1 0 1 1 0 2H11a1 1 0 0 1-1-1m1 5a1 1 0 1 0 0 2h10a1 1 0 1 0 0-2zm-1.72-1.375a1 1 0 1 0-1.56-1.25l-3.303 4.128-.71-.71a1 1 0 0 0-1.414 1.414l1.5 1.5a1 1 0 0 0 1.488-.082z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CheckList;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CableCar: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4 2.75h8.708l-1.143 2H9v1.5h6v-1.5h-1.708l1.143-2H20v-1.5H4zm14 4.5a.75.75 0 0 1 .728.568l2 8q.037.152.012.305l-1 6a.75.75 0 0 1-.74.627H5a.75.75 0 0 1-.74-.627l-1-6a.8.8 0 0 1 .012-.305l2-8A.75.75 0 0 1 6 7.25zm1.115 9.5H4.885l.75 4.5h12.73zm-7.865-8H6.586l-1.625 6.5h6.289zm6.164 0H12.75v6.5h6.29z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CableCar;

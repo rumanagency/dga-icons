@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Hdd: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6 1.25A2.75 2.75 0 0 0 3.25 4v16A2.75 2.75 0 0 0 6 22.75h12A2.75 2.75 0 0 0 20.75 20V4A2.75 2.75 0 0 0 18 1.25zm6 3a5.25 5.25 0 0 0-4.32 8.235l3.121-3.197a1 1 0 0 1 1.405 1.424L9.11 13.883A5.25 5.25 0 1 0 12 4.25M9.25 19a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1-.75-.75",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Hdd;

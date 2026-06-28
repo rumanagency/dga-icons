@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SchoolReportCard: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 4a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v16a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3zm7.559 1.664A1 1 0 0 1 11.5 5h1a1 1 0 0 1 .942.664l2.5 7a1 1 0 1 1-1.883.672l-.656-1.836h-2.805l-.656 1.836a1 1 0 1 1-1.883-.672zm2.13 3.836L12 7.573 11.312 9.5zM8 16a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SchoolReportCard;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Android: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M9.3 1.4a1 1 0 1 0-1.6 1.2l1.133 1.51a6.25 6.25 0 0 0-3.08 5.14h12.491a6.25 6.25 0 0 0-3.077-5.139l1.133-1.51a1 1 0 0 0-1.6-1.2L13.223 3.37a6.3 6.3 0 0 0-2.446 0zM4 10a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0v-6a1 1 0 0 1 1-1m16 0a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0v-6a1 1 0 0 1 1-1m-4 9.75h.5A1.75 1.75 0 0 0 18.25 18v-7.25H5.75V18c0 .966.784 1.75 1.75 1.75H8V22a1 1 0 1 0 2 0v-2.25h4V22a1 1 0 1 0 2 0z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Android;

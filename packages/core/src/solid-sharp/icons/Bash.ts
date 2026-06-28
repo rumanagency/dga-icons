@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const Bash: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M2.25 2.25h19.5v19.5H2.25zM7 5.59 5.59 7l2 2-2 2L7 12.41 10.41 9zM16 10h-5v2h5z"
+      }
+    ]
+  ];
+
+export default Bash;

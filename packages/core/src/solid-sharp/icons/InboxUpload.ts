@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const InboxUpload: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M15.707 5.957 12 2.25 8.293 5.957l1.414 1.414L11 6.078v5.586h2V6.078l1.293 1.293zM3.225 2.25a.975.975 0 0 0-.975.975v17.55c0 .539.437.975.975.975h17.55a.975.975 0 0 0 .975-.975V3.225a.975.975 0 0 0-.975-.975H17V4.2h2.8V13h-5.55v.75a2.25 2.25 0 1 1-4.5 0V13H4.2V4.2H7V2.25z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default InboxUpload;

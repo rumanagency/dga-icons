@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const User: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M8.75 7a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0M12 2.25a4.75 4.75 0 1 0 0 9.5 4.75 4.75 0 0 0 0-9.5m1 12.5a6.25 6.25 0 0 1 6.206 5.5H4.795A6.25 6.25 0 0 1 11 14.75zm-2-1.5A7.75 7.75 0 0 0 3.25 21c0 .414.336.75.75.75h16a.75.75 0 0 0 .75-.75A7.75 7.75 0 0 0 13 13.25z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default User;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MailSearch01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 2.61A.75.75 0 0 1 2 1.86h20a.75.75 0 0 1 .75.75v8.5h-1.5V7.321L12 11.947 2.75 7.322V18.86H11v1.5H2a.75.75 0 0 1-.75-.75zm20 .75v2.285L12 10.27 2.75 5.645V3.36zm-3.724 9.5a4.277 4.277 0 1 0 2.445 7.786l1.5 1.495 1.058-1.063-1.497-1.492a4.277 4.277 0 0 0-3.506-6.726m-2.776 4.276a2.777 2.777 0 1 1 5.553 0 2.777 2.777 0 0 1-5.553 0",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MailSearch01;

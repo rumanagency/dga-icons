@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Share04: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.75 12A8.25 8.25 0 0 1 12 3.75v-1.5c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75h-1.5a8.25 8.25 0 1 1-16.5 0m13.718-7.48 1.725 1.73h-3.237l-4.944.027a.76.76 0 0 0-.756.76V15h1.5V7.773l4.202-.023h3.239l-1.72 1.73 1.064 1.057L22.058 7l-3.527-3.538z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Share04;

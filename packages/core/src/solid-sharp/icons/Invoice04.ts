@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Invoice04: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M22.75 1.25H1.25v9h2.443V8.355h-.488v-5.21h17.59v5.21h-.488v1.895h2.443zM6 5.25a.75.75 0 0 0-.743.65l-2 15a.75.75 0 0 0 .98.812l2.56-.854L8.47 22.53a.75.75 0 0 0 .946.094L12 20.901l2.584 1.723a.75.75 0 0 0 .946-.094l1.673-1.672 2.56.854a.75.75 0 0 0 .98-.811l-2-15A.75.75 0 0 0 18 5.25zm6 4H8.5v1.5H12zm-3.5 4H15v1.5H8.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Invoice04;

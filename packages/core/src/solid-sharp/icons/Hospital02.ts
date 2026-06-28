@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Hospital02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M8 1.25a.75.75 0 0 0-.75.75v3.25H4a.75.75 0 0 0-.75.75v14.75H2v2h20v-2h-1.25V6a.75.75 0 0 0-.75-.75h-3.25V2a.75.75 0 0 0-.75-.75zM15.25 6V2.75h-6.5v6.5h6.5zm0 14.75V17a.75.75 0 0 0-.75-.75h-5a.75.75 0 0 0-.75.75v3.75h1.5v-3h3.5v3zm-4-15.5V4h1.5v1.25H14v1.5h-1.25V8h-1.5V6.75H10v-1.5zM7 12h2.009v2H7zm3.991 0H13v2h-2.009zm4.001 0h2.01v2h-2.01z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Hospital02;

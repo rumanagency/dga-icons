@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const AdobePremier: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.25 3A.75.75 0 0 1 3 2.25h18a.75.75 0 0 1 .75.75v18a.75.75 0 0 1-.75.75H3a.75.75 0 0 1-.75-.75zm1.5.75v16.5h16.5V3.75zm9.5 6.75a.75.75 0 0 1 .75-.75h3.25v1.5h-2.5v5.5h-1.5zm-2.245-3.266H6.246v9.513h1.5V12.75h3.26a.76.76 0 0 0 .76-.76V7.994a.76.76 0 0 0-.76-.76m-.74 4.015h-2.52V8.734h2.52z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default AdobePremier;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CreditCardAdd: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4 3.25A2.75 2.75 0 0 0 1.25 6v12A2.75 2.75 0 0 0 4 20.75h8.5a.75.75 0 0 0 0-1.5H4c-.69 0-1.25-.56-1.25-1.25V9.75h18.5V11a.75.75 0 0 0 1.5 0V6A2.75 2.75 0 0 0 20 3.25zm17.25 5H2.75V6c0-.69.56-1.25 1.25-1.25h16c.69 0 1.25.56 1.25 1.25zm-2 4.75a.75.75 0 0 0-1.5 0v2.75H15a.75.75 0 0 0 0 1.5h2.75V20a.75.75 0 0 0 1.5 0v-2.75H22a.75.75 0 0 0 0-1.5h-2.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CreditCardAdd;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Gem: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.61 1.564a.75.75 0 0 0-1.213-.01l-10 13.5a.75.75 0 0 0 .194 1.075l10 6.5a.75.75 0 0 0 .795.014l10-6a.75.75 0 0 0 .224-1.079zM4.13 15.99l7.397 4.808 1.48-5.918zm9.036 4.436 6.895-4.137-5.516-1.38zm7.04-5.647L13.271 5.07l1.387 8.322zM11.55 3.867 3.645 14.54l9.486-1.186z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Gem;

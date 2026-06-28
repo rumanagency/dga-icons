@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MirroringScreen: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6 2a4 4 0 0 0-4 4v2a1 1 0 0 0 2 0V6a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-3.706a1 1 0 1 0 0 2H19a4 4 0 0 0 4-4V6a4 4 0 0 0-4-4zm5 19a9 9 0 0 0-9-9 1 1 0 1 1 0-2c6.075 0 11 4.925 11 11a1 1 0 1 1-2 0m-4 0a5 5 0 0 0-5-5 1 1 0 1 1 0-2 7 7 0 0 1 7 7 1 1 0 1 1-2 0m-4 0a1 1 0 0 0-1-1 1 1 0 1 1 0-2 3 3 0 0 1 3 3 1 1 0 1 1-2 0",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MirroringScreen;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const PineTree: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M14.25 18.99h6.24l-3.71-5h2.76l-3.53-4.5h2.51L12 1.01 5.48 9.49h2.51l-3.53 4.5h2.76l-3.71 5h6.24v-1.5H6.49l3.71-5H7.54l3.53-4.5H8.52L12 3.47l3.48 4.52h-2.55l3.53 4.5H13.8l3.71 5h-3.26zm-3-5.5h1.5v9.5h-1.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default PineTree;

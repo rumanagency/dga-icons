@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Film01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.25 4.5c0-.69.56-1.25 1.25-1.25h2.75v3h-4zm5.5 1.75v-3h6.5v3zm8 0v-3h2.75c.69 0 1.25.56 1.25 1.25v1.75zm-13.5 1.5v8.5h8v-8.5zm0 10v1.75c0 .69.56 1.25 1.25 1.25h2.75v-3zm5.5 0v3h6.5v-3zm8 0v3h2.75c.69 0 1.25-.56 1.25-1.25v-1.75zm4-1.5v-8.5h-8v8.5zM4.5 1.75A2.75 2.75 0 0 0 1.75 4.5v15a2.75 2.75 0 0 0 2.75 2.75h15a2.75 2.75 0 0 0 2.75-2.75v-15a2.75 2.75 0 0 0-2.75-2.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Film01;

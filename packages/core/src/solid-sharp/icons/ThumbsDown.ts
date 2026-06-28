@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ThumbsDown: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.252 14.25c-.552 0-1-.43-1-.958V3.708c0-.529.448-.958 1-.958h17.305l3.161 10.485A.75.75 0 0 1 22 14.2h-6.495l1.214 4.085a.75.75 0 0 1-.189.744l-2 2a.75.75 0 0 1-1.062-.002L6.736 14.25zM6.25 4.667v7.666H3.252V4.667z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ThumbsDown;

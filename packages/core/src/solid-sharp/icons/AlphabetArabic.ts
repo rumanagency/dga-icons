@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const AlphabetArabic: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.5 3.5v15h-2v2h3a1 1 0 0 0 1-1v-16zm4 7v-7h2v7zm4-7v15h-2v2h3a1 1 0 0 0 1-1v-5h9v-1c0-1.485-1.074-2.747-2.236-3.567C19.064 9.085 17.491 8.5 16 8.5v2c1.01 0 2.187.415 3.11 1.067.437.308.763.627.989.933H13.5v-9z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default AlphabetArabic;

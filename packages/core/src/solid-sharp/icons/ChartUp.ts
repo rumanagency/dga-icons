@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ChartUp: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M20.5 1.75h-5v2h1.61c-.49.45-1.16 1.01-2.01 1.63-2.23 1.63-5.76 3.71-10.91 5.42l-.95.32.63 1.9.95-.32c5.35-1.78 9.07-3.96 11.46-5.7.94-.68 1.67-1.3 2.22-1.81v1.56h2zm.75 7h-4.5v13.5h4.5zm-11.5 3.5h4.5v10h-4.5zm-2.5 2.5h-4.5v7.5h4.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ChartUp;

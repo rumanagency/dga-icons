@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SoftDrink02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M15.147 4.25h3.79l-2.177 18.5H6.426L4.25 4.25h9.392l.264-3h5.844v1.5h-4.47zm-.132 1.5h2.236l-.353 3H14.75zm-1.506 0-.264 3H6.29l-.353-3zM9.092 16a1 1 0 0 1 1-1h.009a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SoftDrink02;

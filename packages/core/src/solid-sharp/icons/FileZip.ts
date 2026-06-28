@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FileZip: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m3.255 1.25-.001 21.5H5V19a4 4 0 0 1 8 0v3.75h7.754V8.63l-7.39-7.38zm9.311 1.955 6.237 6.255h-6.237zM6.25 3.75h2v1.5h-2zm2.5 2h2v1.5h-2zm-2.5 2h2v1.5h-2zm2.5 2.023h2v1.5h-2zm-2.5 1.977h2v1.5h-2zM9 16.25A2.75 2.75 0 0 0 6.25 19v3.75h5.5V19A2.75 2.75 0 0 0 9 16.25",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FileZip;

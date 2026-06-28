@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const BookmarkCheck02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6.5 1.75A2.75 2.75 0 0 0 3.75 4.5v17a.75.75 0 0 0 1.103.662L12 18.35l7.147 3.812a.75.75 0 0 0 1.103-.662v-17a2.75 2.75 0 0 0-2.75-2.75zm9.207 7.457a1 1 0 0 0-1.414-1.414L11 11.086 9.707 9.793a1 1 0 0 0-1.414 1.414l2 2a1 1 0 0 0 1.414 0z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default BookmarkCheck02;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Redo: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m21.58 2.17-.49 5.63.07.12-.08.05-.11 1.18-7.06-.7.19-1.98 3.98.39A8 8 0 0 0 12 4.07c-4.42 0-8 3.57-8 7.97s3.58 7.97 8 7.97 8-3.57 8-7.97v-.99h2v.99c0 5.5-4.48 9.96-10 9.96S2 17.54 2 12.04s4.48-9.96 10-9.96c2.88 0 5.48 1.22 7.31 3.16L19.59 2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Redo;

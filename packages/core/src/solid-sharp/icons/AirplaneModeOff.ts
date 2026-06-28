@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const AirplaneModeOff: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m13.213 14.627 8.123 8.123 1.414-1.414L2.664 1.25 1.25 2.664 7.735 9.15 2 12.5v3l6.728-1.674L9 17.5 6 20l1 2 4-1.5 4 1.5 1-2-3-2.5zM14.01 9 20 12.5v3l-1.284-.32L8.282 4.748C9.037 2.652 11 2 11 2s3.009 1 3 4.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default AirplaneModeOff;

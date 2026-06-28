@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ChartLineData02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M21 19.5H4.956l4.151-7.03a2.5 2.5 0 0 0 1.421-.19l2.592 1.952a2.5 2.5 0 1 0 4.49-.572l2.018-4.163a2.5 2.5 0 1 0-1.878-.711l-1.817 3.751a2.5 2.5 0 0 0-1.482.193l-2.578-1.941q.125-.373.127-.789a2.5 2.5 0 1 0-4.578 1.39L4 17.186V2.5H2v18a1 1 0 0 0 1 1h18z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ChartLineData02;

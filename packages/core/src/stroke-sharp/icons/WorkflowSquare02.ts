@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const WorkflowSquare02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.25 2A.75.75 0 0 1 3 1.25h8a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-.75.75H7.75v1H17a.75.75 0 0 1 .75.75v1.75H21a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-.75.75h-3.25v1.5H21a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-.75.75h-8a.75.75 0 0 1-.75-.75v-4a.75.75 0 0 1 .75-.75h3.25v-1.5H13a.75.75 0 0 1-.75-.75v-4a.75.75 0 0 1 .75-.75h3.25v-1H7a.75.75 0 0 1-.75-.75V6.75H3A.75.75 0 0 1 2.25 6zm1.5.75v2.5h6.5v-2.5zm10 9v2.5h6.5v-2.5zm0 9.5v-2.5h6.5v2.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default WorkflowSquare02;

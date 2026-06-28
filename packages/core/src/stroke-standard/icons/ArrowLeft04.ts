@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ArrowLeft04: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M10.75 8a.75.75 0 0 0-1.166-.624l-6 4a.75.75 0 0 0 0 1.248l6 4A.75.75 0 0 0 10.75 16v-3.25H20a.75.75 0 1 0 0-1.5h-9.25zm-1.5 3.99V9.402l-3.898 2.6L9.25 14.6z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ArrowLeft04;

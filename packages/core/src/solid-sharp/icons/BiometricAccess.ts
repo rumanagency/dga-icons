@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const BiometricAccess: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M8.25 6.5a3.75 3.75 0 1 1 7.5 0v1.75h-7.5zm-1.5 1.75V6.5a5.25 5.25 0 1 1 10.5 0v1.75h3.5v14.5H3.251L3.25 8.25zm2 7.75a3.25 3.25 0 0 1 6.5 0v2.25h1.5V16a4.75 4.75 0 1 0-9.5 0v2.25h1.5zm3.25-.75a.75.75 0 0 0-.75.75v3.75h-1.5V16a2.25 2.25 0 0 1 4.5 0v.75h-1.5V16a.75.75 0 0 0-.75-.75m2.25 2.5v2h-1.5v-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default BiometricAccess;

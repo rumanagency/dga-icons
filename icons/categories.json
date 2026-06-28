@@ -1,0 +1,114 @@
+{
+  "categories": [
+    {
+      "id": "arrows",
+      "name": "Arrows",
+      "description": "Directional arrows and navigation indicators"
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "description": "Business, finance, and commerce related icons"
+    },
+    {
+      "id": "communication",
+      "name": "Communication",
+      "description": "Chat, email, phone, and messaging icons"
+    },
+    {
+      "id": "design",
+      "name": "Design",
+      "description": "Design tools, graphics, and creative icons"
+    },
+    {
+      "id": "devices",
+      "name": "Devices",
+      "description": "Computers, phones, tablets, and hardware"
+    },
+    {
+      "id": "education",
+      "name": "Education",
+      "description": "Learning, school, and academic icons"
+    },
+    {
+      "id": "files",
+      "name": "Files",
+      "description": "Documents, folders, and file management"
+    },
+    {
+      "id": "health",
+      "name": "Health",
+      "description": "Medical, fitness, and wellness icons"
+    },
+    {
+      "id": "interface",
+      "name": "Interface",
+      "description": "UI elements, controls, and navigation"
+    },
+    {
+      "id": "maps",
+      "name": "Maps & Location",
+      "description": "Location, navigation, and map-related icons"
+    },
+    {
+      "id": "media",
+      "name": "Media",
+      "description": "Audio, video, and entertainment icons"
+    },
+    {
+      "id": "nature",
+      "name": "Nature",
+      "description": "Plants, animals, and environment"
+    },
+    {
+      "id": "people",
+      "name": "People",
+      "description": "Users, profiles, and human figures"
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "description": "Lock, shield, privacy, and protection icons"
+    },
+    {
+      "id": "shapes",
+      "name": "Shapes",
+      "description": "Geometric shapes and basic forms"
+    },
+    {
+      "id": "shopping",
+      "name": "Shopping",
+      "description": "E-commerce, cart, and retail icons"
+    },
+    {
+      "id": "social",
+      "name": "Social",
+      "description": "Social media and networking icons"
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "description": "Athletic activities and equipment"
+    },
+    {
+      "id": "time",
+      "name": "Time",
+      "description": "Clocks, calendars, and time-related icons"
+    },
+    {
+      "id": "transportation",
+      "name": "Transportation",
+      "description": "Vehicles, travel, and transport icons"
+    },
+    {
+      "id": "weather",
+      "name": "Weather",
+      "description": "Climate, seasons, and weather conditions"
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "description": "Miscellaneous icons"
+    }
+  ]
+}

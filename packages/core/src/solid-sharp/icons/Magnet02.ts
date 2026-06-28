@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Magnet02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m11.979 4.533 1.555-2.488-1.273-.795-2.99 4.783h3l-1.555 2.489 1.273.795 2.99-4.784zM3.469 6.47A.75.75 0 0 1 4 6.25h4a.75.75 0 0 1 .75.75v2.25h-5.5V7c0-.199.078-.389.219-.53m-.219 4.28h5.5V14a3.25 3.25 0 1 0 6.5 0v-3.25h5.5V14a8.75 8.75 0 1 1-17.5 0zm12-1.5h5.5V7a.75.75 0 0 0-.75-.75h-4a.75.75 0 0 0-.75.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Magnet02;

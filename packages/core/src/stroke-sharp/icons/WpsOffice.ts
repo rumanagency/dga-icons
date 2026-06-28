@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const WpsOffice: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 4.75h8.214l1.707 3.415-1.342.67L8.536 6.25H2.952l5.307 11.056L14.537 4.75h8.213v1.42l-6.278 13.08h-1.436l-2.207-4.415 1.342-.67 1.57 3.14L21.048 6.25h-5.584l-6.5 13H7.528L1.25 6.17z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default WpsOffice;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Tie: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M11.602 1.364a.75.75 0 0 1 .795 0l4.611 2.882-1.716 3.004H8.706L6.99 4.246zM9.112 8.75h5.777l2.611 9.506-5 4.305a.75.75 0 0 1-.998 0L6.5 18.256z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Tie;

@@ -1,0 +1,25 @@
+import type { IconNode } from '../../types';
+
+const GitPullRequestDraft: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M8 6a2 2 0 1 1-4 0 2 2 0 0 1 4 0m0 12a2 2 0 1 1-4 0 2 2 0 0 1 4 0m10 2a2 2 0 1 0 0-4 2 2 0 0 0 0 4",
+        "clipRule": "evenodd",
+        "opacity": ".4"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6 4.75a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5M8.75 6a2.75 2.75 0 0 1-2 2.646v6.708a2.751 2.751 0 1 1-1.5 0V8.646A2.751 2.751 0 1 1 8.75 6M6 16.75a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5M16.75 18a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0M18 15.25a2.75 2.75 0 1 0 0 5.5 2.75 2.75 0 0 0 0-5.5M18 5a1 1 0 1 0 0 2h.009a1 1 0 1 0 0-2zm0 5a1 1 0 1 0 0 2h.009a1 1 0 1 0 0-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default GitPullRequestDraft;

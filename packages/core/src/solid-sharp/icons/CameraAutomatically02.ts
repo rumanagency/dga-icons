@@ -1,0 +1,22 @@
+import type { IconNode } from '../../types';
+
+const CameraAutomatically02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "m12 11.83 1.22 3.42h-2.442z"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M8.33 1.665A.75.75 0 0 1 9 1.25h6a.75.75 0 0 1 .67.415l1.793 3.585h4.538a.75.75 0 0 1 .75.75v16a.75.75 0 0 1-.75.75H2a.75.75 0 0 1-.75-.75V6A.75.75 0 0 1 2 5.25h4.536zM13 5h-2v2h2zm.028 5.25H10.97l-2.678 7.498 1.413.504.536-1.502h3.515l.536 1.502 1.413-.504z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CameraAutomatically02;

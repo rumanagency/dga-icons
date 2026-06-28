@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const InsertRow: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M8.25 2.25H3a.75.75 0 0 0-.75.75v18c0 .414.336.75.75.75h3.25v-1.5h-2.5V9.75h16.5v10.5h-2.5v1.5H21a.75.75 0 0 0 .75-.75V3a.75.75 0 0 0-.75-.75zm0 1.5h-4.5v4.5h4.5zm1.5 4.5h4.5v-4.5h-4.5zm6-4.5v4.5h4.5v-4.5zm-3 12.5v-4h-1.5v4h-4v1.5h4v4h1.5v-4h4v-1.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default InsertRow;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ColorPicker: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m22.559 6.5-5.056-5.062-2.497 2.5-.968-.969-1.061 1.06 6.992 7.002 1.062-1.06-.97-.97zm-3.557 1.439-2.936-2.94 1.437-1.439L20.44 6.5zm-4.983-.927-1.062-1.059L1.75 17.201v5.047h5.085l11.211-11.214-1.06-1.06-2.758 2.758H8.32zm-7.193 7.22h5.902l-6.514 6.516H3.25v-2.927z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ColorPicker;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CameraTripod: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 2A.75.75 0 0 1 2 1.25h20a.75.75 0 0 1 .75.75v16a.75.75 0 0 1-.75.75h-7.457l3.04 2.189-1.169 1.622-3.416-2.459v2.648h-2v-2.648l-3.415 2.46-1.169-1.623 3.04-2.189H2a.75.75 0 0 1-.75-.75zM12 13.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CameraTripod;

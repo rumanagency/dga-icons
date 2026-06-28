@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const StopLossOrder: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m19.41 6.207-3.96 3.97c.35.59.55 1.29.55 2.03 0 2.21-1.79 4-4 4-.74 0-1.44-.2-2.03-.55l-3.56 3.55H2v-2h3.59l2.96-2.97a4 4 0 0 1-.55-2.03c0-2.21 1.79-4 4-4 .74 0 1.44.2 2.03.55L18 4.797zm-9.41 6c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2m12 1v-2.01h-2v2.01zm-3 .01v-2.01h-2v2.01zm-15-2.01v2.01H2v-2.01zm3 .01v2.01H5v-2.01zm6 1.99v-2.01h-2v2.01z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default StopLossOrder;

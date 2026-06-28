@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ElectricPlugs: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M8.25 4.25V2h1.5v2.25h4.5V2h1.5v2.25h2.75a.75.75 0 0 1 .75.75v6.5a7.25 7.25 0 0 1-6.5 7.212V22h-1.5v-3.288a7.25 7.25 0 0 1-6.5-7.212V5a.75.75 0 0 1 .75-.75zm3.546 6.497 1.359-2.378-1.303-.744-2.641 4.622h3l-1.359 2.378 1.303.744 2.64-4.622zM6.25 11.5V5.75h11.5v5.75a5.75 5.75 0 0 1-11.5 0",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ElectricPlugs;

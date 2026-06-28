@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const YenSend: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.86 3.231a1 1 0 0 1 1.409.13L8 9.047l4.731-5.688a1 1 0 1 1 1.538 1.28L9 10.973V12.5h1.5a1 1 0 1 1 0 2H9v1h1.5a1 1 0 1 1 0 2H9V20a1 1 0 1 1-2 0v-2.5H5.5a1 1 0 1 1 0-2H7v-1H5.5a1 1 0 1 1 0-2H7v-1.527L1.731 4.64a1 1 0 0 1 .13-1.409m16.757 5.345a1 1 0 0 1 1.09.217l2.5 2.5a1 1 0 0 1 0 1.414l-2.5 2.5A1 1 0 0 1 18 14.5V13h-3a1 1 0 1 1 0-2h3V9.5a1 1 0 0 1 .617-.924",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default YenSend;

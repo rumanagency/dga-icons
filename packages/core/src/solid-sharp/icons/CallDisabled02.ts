@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CallDisabled02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.75 20.836 20.836 1.75l1.414 1.414-11.798 11.798c.953.774 2.099 1.417 3.548 2.038l3-3 4.5 2v5.5q-8.792 0-13.517-4.07l-4.819 4.82zM7 10c.372.868.752 1.627 1.163 2.3l-2.517 2.517Q2.5 10.231 2.5 2.5H8L10 7z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CallDisabled02;

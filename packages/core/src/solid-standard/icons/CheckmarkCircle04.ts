@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CheckmarkCircle04: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 22.75C6.063 22.75 1.25 17.937 1.25 12S6.063 1.25 12 1.25c1.122 0 2.206.172 3.225.492 1.553.488 2.783 1.191 3.759 2.003l-7.022 7.803-2.255-2.255a1 1 0 0 0-1.414 1.414l3 3a1 1 0 0 0 1.45-.038l7.642-8.49c.951 1.195 1.521 2.478 1.873 3.596.32 1.02.492 2.103.492 3.225 0 5.937-4.813 10.75-10.75 10.75",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CheckmarkCircle04;

@@ -1,0 +1,21 @@
+import type { IconNode } from '../../types';
+
+const NewTwitter: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M2.357 2.781a.98.98 0 0 1 .868-.531H8.1c.313 0 .607.15.79.404l12.675 17.55a.975.975 0 0 1-.79 1.546H15.9a.98.98 0 0 1-.79-.404L2.435 3.796a.98.98 0 0 1-.078-1.015",
+        "opacity": ".4"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "m2.536 20.086 17.55-17.55a.975.975 0 1 1 1.378 1.378l-17.55 17.55a.975.975 0 1 1-1.378-1.378"
+      }
+    ]
+  ];
+
+export default NewTwitter;

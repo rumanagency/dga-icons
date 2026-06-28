@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Tan: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M11.5 6a1 1 0 0 1 .958.713l3 10a1 1 0 1 1-1.916.574L12.556 14h-2.112l-.986 3.287a1 1 0 0 1-1.916-.574l3-10A1 1 0 0 1 11.5 6m.456 6-.456-1.52-.456 1.52zm4.814-5.973a1 1 0 0 1 1.124.526L21 12.764V7a1 1 0 1 1 2 0v10a1 1 0 0 1-1.894.447L18 11.237V17a1 1 0 1 1-2 0V7a1 1 0 0 1 .77-.973M2 6a1 1 0 0 0 0 2h1.5v9a1 1 0 1 0 2 0V8H7a1 1 0 1 0 0-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Tan;

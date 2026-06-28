@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ChangeScreenMode: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6 1.25a.75.75 0 0 0-.75.75v5.254L2 7.25a.75.75 0 0 0-.75.75v14a.75.75 0 0 0 .75.75h16a.75.75 0 0 0 .75-.75v-5.25H22a.75.75 0 0 0 .75-.75V2.01a.75.75 0 0 0-.75-.75zm11.25 15.5H6a.75.75 0 0 1-.75-.75V8.754l-2.5-.003V21.25h14.5zm-10.5-1.5V2.75l14.5.009V15.25z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ChangeScreenMode;

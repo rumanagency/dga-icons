@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Pendulum: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1 3a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2h-1.834L19.9 15.274a3.25 3.25 0 1 1-1.965.377L16.142 4H12.5v11.407a3.252 3.252 0 0 1-1 6.343A3.24 3.24 0 0 1 9 20.577a3.25 3.25 0 1 1-3.5-5.17V4H2a1 1 0 0 1-1-1m8 13.423c.39-.468.907-.825 1.5-1.016V4h-3v11.407c.593.191 1.11.548 1.5 1.016",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Pendulum;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Cabinet04: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m3.273 21.819.768-3.068H2a.75.75 0 0 1-.75-.75V8A.75.75 0 0 1 2 7.25h2.25v-6h7.5v6H22a.75.75 0 0 1 .75.75v10a.75.75 0 0 1-.75.75h-2.038l.767 3.068-1.456.364-.858-3.433H5.587l-.858 3.433zM10.25 7.25h-4.5v-4.5h4.5zm1.5 1.5h1.5v8.5H2.75v-8.5zm3 0h6.5v8.5h-6.5zM10 12.25H6v-1.5h4zm0 3H6v-1.5h4z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Cabinet04;

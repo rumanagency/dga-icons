@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const LaptopVideo: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M19.75 1.25h-8.5v8.5h8.5V7.04l3 1.672V2.288l-3 1.671zm1.045 13.554 1.917 6.702a.976.976 0 0 1-.94 1.244H2.228a.978.978 0 0 1-.94-1.244l1.917-6.702V2.25H9v1.952H5.16v9.762h13.681v-1.88h1.953z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default LaptopVideo;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Office: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M13.786 1.25a.97.97 0 0 1 .964.977V7.25H22a.75.75 0 0 1 .75.75v14a.75.75 0 0 1-.75.75h-8a1 1 0 0 1-.1-.007 1 1 0 0 1-.114.007H2.214a.96.96 0 0 1-.682-.286.98.98 0 0 1-.282-.691V2.227a.97.97 0 0 1 .964-.977zm-.965 1.955H3.18v17.59h9.642zM7 14v2H5v-2zm4 0v2H9v-2zm8 .25h-2v1.5h2zM7 10v2H5v-2zm4 0v2H9v-2zm8 .25h-2v1.5h2zM7 6v2H5V6zm4 0v2H9V6z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Office;

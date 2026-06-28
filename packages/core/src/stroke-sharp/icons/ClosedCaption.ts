@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ClosedCaption: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2 2.25a.75.75 0 0 0-.75.75v18c0 .414.336.75.75.75h20a.75.75 0 0 0 .75-.75V3a.75.75 0 0 0-.75-.75zm.75 18V3.75h18.5v16.5zm7.75-12H6.25v7.5h4.25v-1.5H7.75v-4.5h2.75zm6.5 0h-4.25v7.5H17v-1.5h-2.75v-4.5H17z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ClosedCaption;

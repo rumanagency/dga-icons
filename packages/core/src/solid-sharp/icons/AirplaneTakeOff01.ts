@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const AirplaneTakeOff01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M22.427 7.183c-2.04-2.784-5.82-3.709-8.92-2.242q-.168.075-.392.18c-1.652.756-5.473 2.507-6.4 2.946L5.084 6.03a.75.75 0 0 0-.97-.174l-2.5 1.5a.75.75 0 0 0-.32.9l2 5.5a.75.75 0 0 0 .874.474l5.197-1.2-.577 1.732a.75.75 0 0 0 .948.948l4.5-1.5a.75.75 0 0 0 .46-.433l.865-2.163 5.894-1.754c1.082-.3 1.723-1.634.974-2.673zM2 19.75h16v-2H2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default AirplaneTakeOff01;

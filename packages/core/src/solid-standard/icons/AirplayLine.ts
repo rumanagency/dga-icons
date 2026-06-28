@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const AirplayLine: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4 1a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h.5a1 1 0 1 0 0-2H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-.5a1 1 0 1 0 0 2h.5a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3zm9.884 12.524a2.25 2.25 0 0 0-3.773 0L6.375 19.27c-.973 1.497.101 3.477 1.887 3.477h7.471c1.786 0 2.86-1.98 1.887-3.477z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default AirplayLine;

@@ -1,0 +1,23 @@
+import type { IconNode } from '../../types';
+
+const BowlingBall: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M1.25 12C1.25 6.06 6.06 1.25 12 1.25S22.75 6.06 22.75 12 17.94 22.75 12 22.75 1.25 17.94 1.25 12",
+        "opacity": ".4"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M15 4.5c.83 0 1.5.67 1.5 1.5a1.5 1.5 0 1 1-3 .01c0-.84.67-1.51 1.5-1.51m3 4c.83 0 1.5.67 1.5 1.5a1.5 1.5 0 1 1-3 .01c0-.84.67-1.51 1.5-1.51M14.5 10a1.5 1.5 0 1 0-3 .01 1.5 1.5 0 1 0 3-.01",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default BowlingBall;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MoreOrLess: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m5.828 6.25 2.728-2.72-1.064-1.061-4.012 4a.748.748 0 0 0 .532 1.28H20.06v-1.5zm14.233 6.499H4.012v-1.5h16.049zm0 3.5H4.013v1.5h14.232l-2.728 2.72 1.064 1.06 4.012-4a.748.748 0 0 0-.532-1.28",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MoreOrLess;

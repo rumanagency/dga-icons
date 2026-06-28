@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Share01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-3a1 1 0 1 0-2 0v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h6a1 1 0 1 0 0-2zm11.555 1.496A.75.75 0 0 0 15.25 4v2.75H12a5.75 5.75 0 0 0-5.75 5.75V15a.75.75 0 0 0 1.28.53l2.036-2.035a4.25 4.25 0 0 1 3.005-1.245h2.679V15a.75.75 0 0 0 1.305.505l5-5.5a.75.75 0 0 0 0-1.01z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Share01;

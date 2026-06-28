@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Gps02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M13 2a1 1 0 1 0-2 0v1.055A9.004 9.004 0 0 0 3.055 11H2a1 1 0 1 0 0 2h1.055A9.004 9.004 0 0 0 11 20.945V22a1 1 0 1 0 2 0v-1.055A9.004 9.004 0 0 0 20.945 13H22a1 1 0 1 0 0-2h-1.055A9.004 9.004 0 0 0 13 3.055zm6 10a7 7 0 1 0-14 0 7 7 0 0 0 14 0",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Gps02;

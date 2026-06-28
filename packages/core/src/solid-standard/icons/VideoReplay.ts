@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const VideoReplay: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.5 4.5a1 1 0 0 1 1-1h15a1 1 0 0 1 1 1v12.131l-1.445-.963a1 1 0 0 0-1.11 1.664l3 2A1 1 0 0 0 22.5 18.5v-14a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v15a3 3 0 0 0 3 3h12a1 1 0 1 0 0-2h-12a1 1 0 0 1-1-1zm8.11 3.706c-1.33-.886-3.11.067-3.11 1.665v4.262c0 1.598 1.78 2.55 3.11 1.665l3.197-2.132a2 2 0 0 0 0-3.328z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default VideoReplay;

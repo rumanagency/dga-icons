@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const UploadCircle02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75 22.75 17.937 22.75 12 17.937 1.25 12 1.25M2.75 12a9.25 9.25 0 1 1 18.5 0 9.25 9.25 0 0 1-18.5 0m6.246-3.25H15v-1.5H8.996zm5.982 3.68-2.976-2.38-2.964 2.381.94 1.17 1.288-1.035V17h1.5v-4.418l1.275 1.02z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default UploadCircle02;

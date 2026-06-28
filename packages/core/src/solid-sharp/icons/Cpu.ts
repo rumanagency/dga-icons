@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Cpu: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M10.5 3.75h3V2h2v1.75h4a.75.75 0 0 1 .75.75v4H22v2h-1.75v3H22v2h-1.75v4a.75.75 0 0 1-.75.75h-4V22h-2v-1.75h-3V22h-2v-1.75h-4a.75.75 0 0 1-.75-.75v-4H2v-2h1.75v-3H2v-2h1.75v-4a.75.75 0 0 1 .75-.75h4V2h2zm1.793 4.543-4 4 1.414 1.414 4-4zm0 6 2-2 1.414 1.414-2 2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Cpu;

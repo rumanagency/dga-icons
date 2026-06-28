@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ComputerCheck: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 2.222c0-.537.438-.972.977-.972H12v1.944H3.205v13.612h17.59V9h1.955v8.778a.975.975 0 0 1-.977.972H14.75v2H17v2H7v-2h2.25v-2H2.227a.975.975 0 0 1-.977-.972zm21.5.442-6.707 6.707-2.707-2.707L14.75 5.25l1.293 1.293 5.293-5.293zM13.5 13.25v2h-3v-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ComputerCheck;

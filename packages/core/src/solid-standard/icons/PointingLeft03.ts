@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const PointingLeft03: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M5.707 3.207a1 1 0 0 0-1.414-1.414l-2.5 2.5a1 1 0 0 0 0 1.414l2.5 2.5a1 1 0 0 0 1.414-1.414L4.914 6H8.5a1 1 0 0 0 0-2H4.914zm6.23 2.088a2.49 2.49 0 0 1 3.094-.012l5.995 4a2.75 2.75 0 0 1 1.224 2.287v6.93a3.75 3.75 0 0 1-3.75 3.75h-5a3.75 3.75 0 0 1-3.75-3.75v-3.745h-5.5a2.5 2.5 0 0 1 0-5h8.12l-.768-.896a2.49 2.49 0 0 1 .335-3.564",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default PointingLeft03;

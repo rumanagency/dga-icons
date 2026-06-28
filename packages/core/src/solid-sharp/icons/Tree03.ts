@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Tree03: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M5.25 8a6.75 6.75 0 0 1 13.5 0v4a6.75 6.75 0 0 1-6 6.709V15.31l2.81-2.811-1.06-1.06-1.75 1.75V8.25h-1.5v2.94L9.5 9.44 8.44 10.5l2.81 2.81v5.399a6.75 6.75 0 0 1-6-6.709zm6 10.709a6.8 6.8 0 0 0 1.5 0v2.541h2v1.5h-5.5v-1.5h2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Tree03;

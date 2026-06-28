@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const InsertRowUp: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m12 1.75 4.414 4.41L15 7.58l-2-2v6.58h-2V5.58l-2 2-1.414-1.42zm-2.767 1H3c-.414 0-.75.34-.75.75v11.25h19.5V3.5c0-.41-.336-.75-.75-.75h-6.232l3.414 3.41L15 9.35l-.75-.75v4.81h-4.5V8.6L9 9.35 5.818 6.16zM2.25 21.5c0 .41.336.75.75.75h5.25v-6h-6zm19.5-5.25h-6v6H21c.414 0 .75-.34.75-.75zm-7.5 6v-6h-4.5v6z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default InsertRowUp;

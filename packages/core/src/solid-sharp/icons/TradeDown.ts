@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const TradeDown: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M9 11.586 4.414 7 3 8.414l6 6 4-4 4.586 4.587h-3.585v2h7v-7h-2v3.585l-6-6z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default TradeDown;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FileEdit: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.31 1.25H2.25v21.5h7.5v-1.5h-6V2.75h7.5v7h7v2h1.5V8.69zm4.88 7-4.44-4.44v4.44zm4.87 7.748L19 12.938l-6.75 6.75v3.06h3.06zm-8.31 5.25v-.94l5.25-5.25.94.94-5.25 5.25z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FileEdit;

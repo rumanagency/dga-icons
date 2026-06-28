@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const DirectionLeft02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M13 3.75H8.643L5 8l3.643 4.25H13v7.25h-3v2h8v-2h-3v-7.25h3.25a.75.75 0 0 0 .75-.75v-7a.75.75 0 0 0-.75-.75H15V2.5h-2z"
+      }
+    ]
+  ];
+
+export default DirectionLeft02;

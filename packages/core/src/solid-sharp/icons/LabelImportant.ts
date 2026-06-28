@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const LabelImportant: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M1.344 3.636A.75.75 0 0 1 2 3.25h15a.75.75 0 0 1 .636.353l5 8a.75.75 0 0 1 0 .795l-5 8a.75.75 0 0 1-.636.352H2a.75.75 0 0 1-.636-1.147L6.116 12 1.364 4.397a.75.75 0 0 1-.02-.76"
+      }
+    ]
+  ];
+
+export default LabelImportant;

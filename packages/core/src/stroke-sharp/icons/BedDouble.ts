@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const BedDouble: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 12a.75.75 0 0 1 .75-.75h1.25V5.649l.27-.225C5.905 3.433 8.83 2.25 12 2.25s6.094 1.183 8.48 3.174l.27.225v5.601H22a.75.75 0 0 1 .75.75v9h-1.5v-2.75H2.75V21h-1.5zm18-.75h-1.5V9.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0-.75.75v1.75h-1.5V9.5a.75.75 0 0 0-.75-.75H7a.75.75 0 0 0-.75.75v1.75h-1.5V6.357C6.841 4.702 9.333 3.75 12 3.75s5.159.952 7.25 2.607zm-11.5-1v1h2v-1zm8.5 1h-2v-1h2zm-13.5 5.5h18.5v-4H2.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default BedDouble;

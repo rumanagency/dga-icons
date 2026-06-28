@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const WeightScale01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.339 1.646A.75.75 0 0 1 4 1.25h16a.75.75 0 0 1 .624 1.166l-2 3A.75.75 0 0 1 18 5.75h-3v1.5h4a.75.75 0 0 1 .75.75v14a.75.75 0 0 1-.75.75H5a.75.75 0 0 1-.75-.75V8A.75.75 0 0 1 5 7.25h4v-1.5H6a.75.75 0 0 1-.624-.334l-2-3a.75.75 0 0 1-.037-.77M11 5.75v1.5h2v-1.5zm1 7A3.25 3.25 0 0 0 8.75 16h-1.5a4.75 4.75 0 1 1 9.5 0h-1.5A3.25 3.25 0 0 0 12 12.75m.67 4.585 1-2-1.342-.67-1 2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default WeightScale01;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const PayByCheck: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M18.024 2.47a.75.75 0 0 0-1.06 0L8.25 11.183v4.567l4.56.002 8.72-8.72a.75.75 0 0 0 0-1.061zM6.75 11.25H3a.75.75 0 0 0-.75.75v9c0 .414.336.75.75.75h18a.75.75 0 0 0 .75-.75v-9a.75.75 0 0 0-.75-.75h-1.566l-6.003 6.002-6.681-.003zM19 18.75h-4v-1.5h4z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default PayByCheck;

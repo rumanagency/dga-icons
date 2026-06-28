@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CancelSquare: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 2.25a.75.75 0 0 0-.75.75v18a.75.75 0 0 0 .75.75h18a.75.75 0 0 0 .75-.75V3a.75.75 0 0 0-.75-.75zm12.293 5.043L12 10.586 8.707 7.293 7.293 8.708 10.585 12l-3.292 3.292 1.414 1.415L12 13.414l3.293 3.293 1.414-1.414L13.414 12l3.293-3.293z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CancelSquare;

@@ -1,0 +1,23 @@
+import type { IconNode } from '../../types';
+
+const Time04: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M1.25 12C1.25 6.063 6.063 1.25 12 1.25S22.75 6.063 22.75 12 17.937 22.75 12 22.75 1.25 17.937 1.25 12",
+        "opacity": ".4"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M16.707 7.293a1 1 0 0 1 0 1.414L13.414 12l.293.293a1 1 0 0 1-1.414 1.414L12 13.414l-.293.293a1 1 0 0 1-1.414-1.414l.293-.293-1.793-1.793a1 1 0 1 1 1.414-1.414L12 10.586l3.293-3.293a1 1 0 0 1 1.414 0",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Time04;

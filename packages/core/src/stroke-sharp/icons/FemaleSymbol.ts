@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FemaleSymbol: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.75 14.709c3.369-.375 6-3.242 6-6.709 0-3.72-3.03-6.75-6.75-6.75S5.25 4.28 5.25 8c0 3.467 2.631 6.334 6 6.709v2.541h-3v1.5h3v4h1.5v-4h3v-1.5h-3zM12 13.25a5.25 5.25 0 1 1 0-10.5 5.25 5.25 0 1 1 0 10.5",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FemaleSymbol;

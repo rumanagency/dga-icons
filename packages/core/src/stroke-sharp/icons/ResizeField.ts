@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const ResizeField: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M15.998 19.06 14.938 18l3.06-3.06 1.06 1.06zm-5 0L9.938 18l8.06-8.06 1.06 1.06zm-5 0L4.938 18l13.06-13.06L19.057 6z"
+      }
+    ]
+  ];
+
+export default ResizeField;

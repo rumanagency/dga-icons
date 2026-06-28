@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const DeleteRow: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 2.095a.75.75 0 0 0-.75.75v18a.75.75 0 0 0 .75.75h3.25v-1.5h-2.5v-10.5h16.5v10.5h-2.5v1.5H21a.75.75 0 0 0 .75-.75v-18a.75.75 0 0 0-.75-.75zm5.25 1.5h-4.5v4.5h4.5zm1.5 4.5h4.5v-4.5h-4.5zm6-4.5v4.5h4.5v-4.5zM12 16.785l-3-3-1.06 1.06 3 3-3 3L9 21.905l3-3 3 3 1.06-1.06-3-3 3-3-1.06-1.06z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default DeleteRow;

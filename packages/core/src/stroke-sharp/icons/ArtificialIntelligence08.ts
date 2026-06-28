@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ArtificialIntelligence08: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M18.32 8.25h1.36l.6-1.97 1.97-.6V4.32l-1.97-.6-.6-1.97h-1.36l-.6 1.97-1.97.6v1.36l1.97.6zm-8.77 14h1.91l1.81-5.99 5.99-1.81v-1.91l-5.99-1.81-1.81-5.99H9.55l-1.81 5.99-5.99 1.81v1.91l5.99 1.81zm-.61-7.19L3.77 13.5l5.17-1.56 1.56-5.17 1.56 5.17 5.17 1.56-5.17 1.56-1.56 5.17z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ArtificialIntelligence08;

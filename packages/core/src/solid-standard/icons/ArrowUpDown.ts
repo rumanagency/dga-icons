@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ArrowUpDown: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M7 3a1 1 0 0 1 .707.293l3 3a1 1 0 0 1-1.414 1.414L8 6.414v13.588a1 1 0 1 1-2 0V6.414L4.707 7.707a1 1 0 1 1-1.414-1.414l3-3A1 1 0 0 1 7 3m11 1a1 1 0 1 0-2 0v13.586l-1.293-1.293a1 1 0 0 0-1.414 1.414l3 3a1 1 0 0 0 1.424-.01l2.99-2.99a1 1 0 0 0-1.414-1.414L18 17.586z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ArrowUpDown;

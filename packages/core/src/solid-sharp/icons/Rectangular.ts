@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const Rectangular: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M1.25 3.543c0-.438.336-.793.75-.793h20c.414 0 .75.355.75.793v16.914c0 .438-.336.793-.75.793H2c-.414 0-.75-.355-.75-.793z"
+      }
+    ]
+  ];
+
+export default Rectangular;

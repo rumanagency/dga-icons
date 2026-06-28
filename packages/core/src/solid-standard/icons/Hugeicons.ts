@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Hugeicons: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6.02 8.5h11.96c-.28-2.75-2.79-5-5.98-5s-5.7 2.25-5.98 5m13.96 0H22c.55 0 1 .45 1 1s-.45 1-1 1h-.62L20.32 19c-.25 2-1.95 3.5-3.97 3.5h-8.7c-2.02 0-3.72-1.5-3.97-3.5l-1.06-8.5H2c-.55 0-1-.45-1-1s.45-1 1-1h2.02c.27-3.97 3.81-7 7.98-7s7.71 3.03 7.98 7",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Hugeicons;

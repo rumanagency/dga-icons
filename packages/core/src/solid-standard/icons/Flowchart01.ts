@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Flowchart01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M9 1a2 2 0 0 0-2 2H6a3 3 0 0 0-3 3v4a3 3 0 0 0 3 3h2.586L11 15.414V17H9a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2h1a3 3 0 0 0 3-3v-4a3 3 0 0 0-3-3h-2.586L13 8.586V7h2a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm2 6H9a2 2 0 0 1-2-2H6a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.586L11 8.586zm2 10h2a2 2 0 0 1 2 2h1a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-2.586L13 15.414z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Flowchart01;

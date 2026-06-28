@@ -1,0 +1,25 @@
+import type { IconNode } from '../../types';
+
+const LookLeft: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 12C1.25 6.063 6.063 1.25 12 1.25S22.75 6.063 22.75 12 17.937 22.75 12 22.75 1.25 17.937 1.25 12M12 2.75a9.25 9.25 0 1 0 0 18.5 9.25 9.25 0 0 0 0-18.5",
+        "clipRule": "evenodd"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M9.416 14.624a.75.75 0 1 0-.831-1.248c-.754.502-2.048.874-3.585.874-.998 0-1.44-.153-2.236-.452a.75.75 0 0 0-.528 1.404c.875.329 1.51.548 2.764.548 1.735 0 3.345-.413 4.416-1.126M7.992 8a1 1 0 1 0 0 2h.01a1 1 0 0 0 0-2z",
+        "clipRule": "evenodd",
+        "opacity": ".4"
+      }
+    ]
+  ];
+
+export default LookLeft;

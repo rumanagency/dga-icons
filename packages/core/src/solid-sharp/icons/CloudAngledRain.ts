@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CloudAngledRain: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 13a5.75 5.75 0 0 1 4.603-5.635 6.252 6.252 0 0 1 12.394.938 5.251 5.251 0 0 1-.16 10.415l1.82-3.64-4.472-2.235-.9 1.8-3.6-1.8-.9 1.8-3.6-1.8L3.63 17.66A5.74 5.74 0 0 1 1.25 13m5.855 1.86-1 2 1.79.894 1-2zm4.5 0-1 2 1.79.894 1-2zm4.5 0-1 2 1.79.894 1-2zm-8 4-1 2 1.79.894 1-2zm4.5 0-1 2 1.79.894 1-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CloudAngledRain;

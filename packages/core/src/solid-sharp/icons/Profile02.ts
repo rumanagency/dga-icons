@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Profile02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M22 2.25a.75.75 0 0 1 .75.75v18a.75.75 0 0 1-.75.75H2a.75.75 0 0 1-.75-.75V3A.75.75 0 0 1 2 2.25zm-12 13H5.25v1.5H10zm8.75 0h-5.5v1.5h5.5zm-8.75-8H6a.75.75 0 0 0-.75.75v4c0 .414.336.75.75.75h4a.75.75 0 0 0 .75-.75V8a.75.75 0 0 0-.75-.75m8.75 4h-5.5v1.5h5.5zm0-4h-5.5v1.5h5.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Profile02;

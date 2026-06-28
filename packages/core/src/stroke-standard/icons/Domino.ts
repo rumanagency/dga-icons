@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Domino: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M8 1.25A3.75 3.75 0 0 0 4.25 5v14A3.75 3.75 0 0 0 8 22.75h8A3.75 3.75 0 0 0 19.75 19V5A3.75 3.75 0 0 0 16 1.25zm10.25 10V5A2.25 2.25 0 0 0 16 2.75H8A2.25 2.25 0 0 0 5.75 5v6.25zm-12.5 1.5h12.5V19A2.25 2.25 0 0 1 16 21.25H8A2.25 2.25 0 0 1 5.75 19zM9.492 15a1 1 0 1 0 0 2h.01a1 1 0 0 0 0-2zm4.999 2a1 1 0 0 0 0 2h.009a1 1 0 1 0 0-2zM13.008 7a1 1 0 0 1-1 1h-.01a1 1 0 1 1 0-2h.01a1 1 0 0 1 1 1",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Domino;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const BookmarkRemove01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m20.836 1.25-2.793 2.793L15.25 1.25l-1.414 1.415 2.792 2.792-2.792 2.793 1.414 1.414 2.793-2.793 2.793 2.793L22.25 8.25l-2.793-2.793 2.793-2.793zM1.75 7.75h10.465l-.5.5 3.535 3.535 2.793-2.792L19.25 10.2v12.55l-8.75-4.375-8.75 4.375zm11.38-6.5H2.5a.75.75 0 0 0-.75.75v4.25h11.965l.792-.793-2.792-2.792z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default BookmarkRemove01;

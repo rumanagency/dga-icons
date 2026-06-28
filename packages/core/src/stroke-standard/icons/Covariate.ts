@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Covariate: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.75 3a.75.75 0 0 0-1.5 0v18a.75.75 0 0 0 .75.75h18a.75.75 0 0 0 0-1.5H4.81L20.53 4.53a.75.75 0 0 0-1.06-1.06L3.75 19.19zM18 10a1 1 0 1 0 0 2h.009a1 1 0 1 0 0-2zm-5 5a1 1 0 0 1 1-1h.009a1 1 0 1 1 0 2H14a1 1 0 0 1-1-1M12 5a1 1 0 1 0 0 2h.009a1 1 0 1 0 0-2zm-5 5a1 1 0 0 1 1-1h.009a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Covariate;

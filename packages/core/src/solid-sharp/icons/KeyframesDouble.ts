@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const KeyframesDouble: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m17.251 12-8-9-8 9 8 9zm-2.83 9-1.613-1.743 1.302-1.465.31.336L20.093 12l-5.671-6.128-.311.336-1.302-1.465L14.42 3l8.329 9z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default KeyframesDouble;

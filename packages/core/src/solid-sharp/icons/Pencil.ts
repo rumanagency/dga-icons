@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const Pencil: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M12 1.25a.75.75 0 0 1 .624.334l6.126 9.189V22a.75.75 0 0 1-.75.75h-5.25v-12.5h3.85l-2.334-3.5h-4.53l-2.334 3.5h3.848v12.5H6a.75.75 0 0 1-.75-.75V10.773l6.126-9.189A.75.75 0 0 1 12 1.25"
+      }
+    ]
+  ];
+
+export default Pencil;

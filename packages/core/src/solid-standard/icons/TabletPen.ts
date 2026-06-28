@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const TabletPen: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M22.75 5v14A2.75 2.75 0 0 1 20 21.75H4A2.75 2.75 0 0 1 1.25 19V5A2.75 2.75 0 0 1 4 2.25h16A2.75 2.75 0 0 1 22.75 5m-2.996-.753H6.247l-.005 15.506h13.512a1 1 0 0 0 1-1V5.247a1 1 0 0 0-1-1M16.03 7.97a.75.75 0 0 0-1.06 0l-4.5 4.5a.75.75 0 0 0-.22.53v2.5c0 .414.336.75.75.75h2.5a.75.75 0 0 0 .53-.22l4.5-4.5a.75.75 0 0 0 0-1.06z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default TabletPen;

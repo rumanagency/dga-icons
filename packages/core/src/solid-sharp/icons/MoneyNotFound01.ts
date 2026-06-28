@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MoneyNotFound01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m19.336 20.75 2 2 1.414-1.414L2.664 1.25 1.25 2.664l.6.6A.75.75 0 0 0 1.248 4v16c0 .414.336.75.75.75zm-5.84-5.84-4.36-4.359a3.25 3.25 0 0 0 4.359 4.359m1.792-3.156a3.25 3.25 0 0 0-2.995-2.995L6.783 3.25h15.215a.75.75 0 0 1 .75.75v15.215zM6 11H4v2h2zm14 0h-2v2h2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MoneyNotFound01;

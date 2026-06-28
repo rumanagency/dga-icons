@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SquareLockAdd01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M11 3.25a3.5 3.5 0 0 0-3.5 3.5v1.5h7v-1.5a3.5 3.5 0 0 0-3.5-3.5m5.5 5v-1.5a5.5 5.5 0 1 0-11 0v1.5H2.25v14.5h13v-1.5h-3v-5h3v-3h4.5v-5zm5.25 11.5h-3v3h-2v-3h-3v-2h3v-3h2v3h3z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SquareLockAdd01;

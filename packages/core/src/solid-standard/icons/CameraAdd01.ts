@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CameraAdd01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m17.043 5.25-.601-1.803a1.75 1.75 0 0 0-1.66-1.197H9.223a1.75 1.75 0 0 0-1.66 1.197L6.962 5.25H4.437a2.75 2.75 0 0 0-2.748 2.658l-.367 11A2.75 2.75 0 0 0 4.07 21.75h15.865a2.75 2.75 0 0 0 2.748-2.842l-.366-11a2.75 2.75 0 0 0-2.749-2.658zM12 9.5a1 1 0 0 1 1 1V13h2.5a1 1 0 1 1 0 2H13v2.5a1 1 0 1 1-2 0V15H8.5a1 1 0 1 1 0-2H11v-2.5a1 1 0 0 1 1-1M12 5a1 1 0 1 0 0 2 1 1 0 1 0 0-2",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CameraAdd01;

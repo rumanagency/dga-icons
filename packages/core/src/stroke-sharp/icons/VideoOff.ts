@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const VideoOff: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m2.197 3.25-.72-.72 1.06-1.061 13.711 13.717V4.75h-9.57v-1.5h10.32a.75.75 0 0 1 .75.75v4.176l3.863-2.319a.75.75 0 0 1 1.136.643V17h-1.5V7.825l-3.499 2.1v6.762l4.78 4.782-1.06 1.06-3.72-3.72v1.212a.75.75 0 0 1-.75.75H2a.75.75 0 0 1-.75-.75V4A.75.75 0 0 1 2 3.25zm1.5 1.5H2.75v14.52h13.498v-1.962z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default VideoOff;

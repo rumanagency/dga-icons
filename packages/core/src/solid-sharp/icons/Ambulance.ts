@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Ambulance: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2 3.75h11.5a.75.75 0 0 1 .75.75v7h1.5V6.75h2.75a.75.75 0 0 1 .592.29l3.5 4.5a.75.75 0 0 1 .158.46v.75H21v1.5h1.75v3.25a.75.75 0 0 1-.75.75h-1.283q.033-.245.033-.5a3.75 3.75 0 1 0-7.467.5h-2.566q.033-.245.033-.5a3.75 3.75 0 1 0-7.467.5H2a.75.75 0 0 1-.75-.75v-13A.75.75 0 0 1 2 3.75M7 8V6.5h2V8h1.5v2H9v1.5H7V10H5.5V8zm2.5 9.75a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0m10 0a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Ambulance;

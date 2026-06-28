@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ArrangeByLettersZA: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 3a1 1 0 0 1 1-1h5.4a1 1 0 0 1 .825 1.566L6.498 9H10a1 1 0 1 1 0 2H4.6a1 1 0 0 1-.825-1.566L7.502 4H4a1 1 0 0 1-1-1m14.5 0a1 1 0 0 1 1 1v12.5H20a1 1 0 0 1 .707 1.707l-2.5 2.5a1 1 0 0 1-1.414 0l-2.5-2.5A1 1 0 0 1 15 16.5h1.5V4a1 1 0 0 1 1-1M7.895 14.553a1 1 0 0 0-1.79 0l-3 6a1 1 0 1 0 1.79.894L7 17.237l2.106 4.21a1 1 0 1 0 1.789-.894z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ArrangeByLettersZA;

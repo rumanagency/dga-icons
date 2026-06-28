@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const PathfinderUnite: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.347 2.004a.76.76 0 0 1 .76-.754h12.882a.76.76 0 0 1 .76.76v6.27h6.239a.76.76 0 0 1 .76.76v12.95a.76.76 0 0 1-.76.76H9.008a.76.76 0 0 1-.76-.766l.047-6.273-6.285.01a.76.76 0 0 1-.76-.767zm1.494.746-.085 11.47 7.05-.011-.052 7.04h11.494V9.78h-6.999V2.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default PathfinderUnite;

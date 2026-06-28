@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const GymnasticRings: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M8.5 1.5v4.074a6.52 6.52 0 0 1 4.313 2.646l-1.626 1.166A4.51 4.51 0 0 0 7.513 7.5 4.507 4.507 0 0 0 3 12c0 2.64 2.403 4.769 5.028 4.472l.225 1.988C4.453 18.889 1 15.847 1 12c0-3.247 2.386-5.936 5.5-6.422V1.5zm9 0v8.076a6.502 6.502 0 0 1-1 12.924 6.5 6.5 0 0 1-1-12.924V1.5zm-1 10a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default GymnasticRings;

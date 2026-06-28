@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const PackageOpen: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.25 18.485V7.998a.75.75 0 0 1 .445-.686l4.5-2 .61 1.371-2.958 1.315L12 11.178l7.153-3.18-2.958-1.315.61-1.37 4.5 2a.75.75 0 0 1 .445.685v10.487l-9.445 4.198a.75.75 0 0 1-.61 0zm5.915-3.316-2.33-1.165v-1.677l2.33 1.165zM11.25 1.25v3h1.5v-3zM7.33 2.585l1.5 3 1.34-.67-1.5-3zm8-.67-1.5 3 1.34.67 1.5-3z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default PackageOpen;

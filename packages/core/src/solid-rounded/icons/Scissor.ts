@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Scissor: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M17.75 4.25a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-4 2a4 4 0 1 1 1.49 3.115l-2.718 2.492 2.751 2.752a4 4 0 1 1-1.22 1.61l-3.007-3.009-7.12 6.527a1 1 0 1 1-1.352-1.474L14.041 7.75a4 4 0 0 1-.291-1.501m4 9.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4M3.923 4.26a1 1 0 0 0-1.346 1.48l5.5 5a1 1 0 0 0 1.346-1.48z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Scissor;

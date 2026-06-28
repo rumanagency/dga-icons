@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MoneyReceive01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M15.207 4.957 12 8.164 8.793 4.957l1.414-1.414.793.793V.75h2v3.586l.793-.793zM12 9.932l4.182-4.182H22a.75.75 0 0 1 .75.75v16a.75.75 0 0 1-.75.75H2a.75.75 0 0 1-.75-.75v-16A.75.75 0 0 1 2 5.75h5.819zm.049 1.318a3.25 3.25 0 1 0 0 6.5 3.25 3.25 0 0 0 0-6.5M6 13.5H4v2h2zm14 0h-2v2h2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MoneyReceive01;

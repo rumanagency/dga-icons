@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const PieChart06: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M11.99 1.25C6.3 1.25 1.64 5.67 1.25 11.26h5.03a5.764 5.764 0 0 1 5.71-5.01c3.18 0 5.76 2.58 5.76 5.76 0 2.93-2.19 5.34-5.01 5.71v5.03c5.59-.39 10.01-4.8 10.01-10.74S17.68 1.25 11.99 1.25m-.75 21.5c-5.35-.37-9.62-4.64-9.99-9.99h5.03a5.77 5.77 0 0 0 4.96 4.96z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default PieChart06;

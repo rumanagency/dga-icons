@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Tv01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m14.121 5.25 2.586-2.586-1.414-1.414L12 4.543 9.707 2.25 8.293 3.664 9.879 5.25H2a.75.75 0 0 0-.75.75v16c0 .414.336.75.75.75h20a.75.75 0 0 0 .75-.75V6a.75.75 0 0 0-.75-.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Tv01;

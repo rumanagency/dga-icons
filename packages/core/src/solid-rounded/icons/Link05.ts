@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Link05: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 12a4 4 0 0 1 4-4h3a1 1 0 1 0 0-2H7a6 6 0 1 0 0 12h3a1 1 0 1 0 0-2H7a4 4 0 0 1-4-4m11-6a1 1 0 1 0 0 2h3a4 4 0 0 1 0 8h-3a1 1 0 1 0 0 2h3a6 6 0 0 0 0-12zm-5 5a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Link05;

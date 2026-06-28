@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FileMinus: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6.188 1.25a2.92 2.92 0 0 0-2.886 2.5h8.944a2.25 2.25 0 0 1 0 4.5H3.264l-.018 11.564a2.924 2.924 0 0 0 2.917 2.936h6.803a.97.97 0 0 0 .687-.285l6.808-6.828a.98.98 0 0 0 .285-.692V4.182A2.924 2.924 0 0 0 17.83 1.25zM18.8 14.54l-6.237 6.254V16.04a1.5 1.5 0 0 1 1.5-1.5zM4.246 5a1 1 0 0 0 0 2h8a1 1 0 1 0 0-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FileMinus;

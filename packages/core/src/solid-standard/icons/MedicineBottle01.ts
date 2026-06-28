@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MedicineBottle01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M8 1a2 2 0 0 0-2 2v2a2 2 0 0 0 1.37 1.899l.007.018c.058.177.105.41.12.669.033.538-.078 1.014-.29 1.304l-1.33 1.664A4 4 0 0 0 5 13.052V21a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7.948a4 4 0 0 0-.876-2.498L16.792 8.89c-.211-.29-.322-.766-.29-1.304a2.7 2.7 0 0 1 .127-.687A2 2 0 0 0 18 5V3a2 2 0 0 0-2-2zm0 2h8v2H8zm4 9.5a1 1 0 0 1 1 1V15h1.5a1 1 0 1 1 0 2H13v1.5a1 1 0 1 1-2 0V17H9.5a1 1 0 1 1 0-2H11v-1.5a1 1 0 0 1 1-1",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MedicineBottle01;

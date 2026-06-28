@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const InequalityCircle01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75 22.75 17.937 22.75 12 17.937 1.25 12 1.25m2.661 6.5a1 1 0 1 0-1.322-1.5L7.5 11.396l-.012.011a1.46 1.46 0 0 0-.356 1.698c.242.533.783.895 1.418.895H16a1 1 0 1 0 0-2H9.84zM8 16a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default InequalityCircle01;

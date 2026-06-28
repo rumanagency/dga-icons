@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Door02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M7 2.75c-.69 0-1.25.56-1.25 1.25v17.25h12.5V4c0-.69-.56-1.25-1.25-1.25zm-4 18.5h1.25V4A2.75 2.75 0 0 1 7 1.25h10A2.75 2.75 0 0 1 19.75 4v17.25H21a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5M16.75 11a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Door02;

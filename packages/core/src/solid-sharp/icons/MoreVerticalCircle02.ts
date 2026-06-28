@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MoreVerticalCircle02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 22.75C6.063 22.75 1.25 17.937 1.25 12S6.063 1.25 12 1.25 22.75 6.063 22.75 12 17.937 22.75 12 22.75m1.25-14.493V5.75h-2.5v2.507zm0 2.486v2.506h-2.5v-2.506zm0 5v2.507h-2.5v-2.507z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MoreVerticalCircle02;

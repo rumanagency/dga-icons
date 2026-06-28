@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Package02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m22.1 6.05-.6.45h.75v15.75H1.75V6.5h.75l-.6-.45 3.23-4.3h13.75zm-2.09-.3-1.88-2.5h-3.65l.62 2.5zm-6.26 1.5h-3.5v2.5h3.5zm-.22-1.5-.62-2.5h-1.84l-.62 2.5zm-3.99-2.5H5.89l-1.88 2.5h4.91zm-6.29 17.5h17.5V7.25h-5.5v4h-6.5v-4h-5.5zm10-1.5h-8.5v-5.5h8.5zm-1.5-4h-5.5v2.5h5.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Package02;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const AspectRatio: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 5A2.75 2.75 0 0 1 4 2.25h16A2.75 2.75 0 0 1 22.75 5v14A2.75 2.75 0 0 1 20 21.75H4A2.75 2.75 0 0 1 1.25 19zM4 3.75c-.69 0-1.25.56-1.25 1.25v3.25H14A2.75 2.75 0 0 1 16.75 11v9.25H20c.69 0 1.25-.56 1.25-1.25V5c0-.69-.56-1.25-1.25-1.25zM2.75 19V9.75h6.5v10.5H4c-.69 0-1.25-.56-1.25-1.25m8 1.25h4.5V11c0-.69-.56-1.25-1.25-1.25h-3.25z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default AspectRatio;

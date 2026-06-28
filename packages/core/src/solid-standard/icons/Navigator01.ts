@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Navigator01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4 2a1 1 0 0 1 1 1v18a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1m16 0a1 1 0 0 1 1 1v18a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1m-8 11a1 1 0 0 1 .868.504l4 7a1 1 0 0 1-1.219 1.432L12 20.568l-3.649 1.368a1 1 0 0 1-1.22-1.432l4-7A1 1 0 0 1 12 13m1-10a1 1 0 1 0-2 0v2a1 1 0 1 0 2 0zm0 5a1 1 0 1 0-2 0v2a1 1 0 1 0 2 0z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Navigator01;

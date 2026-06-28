@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MailUpload02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 2.875a.75.75 0 0 1 .75-.75h20a.75.75 0 0 1 .75.75v8h-1.5v-7.25H2.75v15.5H14v1.5H2a.75.75 0 0 1-.75-.75zm4.334 5.123.832-1.248L12 10.473l5.584-3.723.832 1.248L12 12.275zm16.945 8.345L19 12.813l-3.53 3.53 1.06 1.06 1.72-1.72v6.19h1.5v-6.19l1.72 1.72z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MailUpload02;

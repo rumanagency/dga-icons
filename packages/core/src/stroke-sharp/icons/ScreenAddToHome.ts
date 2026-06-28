@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ScreenAddToHome: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6.246 2a.75.75 0 0 1 .75-.75h13.987a.75.75 0 0 1 .75.75v20a.75.75 0 0 1-.75.75H6.996a.75.75 0 0 1-.75-.75v-5h1.5v4.25h12.487V2.75H7.746V5h-1.5zm6.746 16h2.01v2h-2.01zM6.424 8.727h2.755l-6.726 6.749 1.063 1.058 6.719-6.742v2.77h1.5V7.228H6.424z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ScreenAddToHome;

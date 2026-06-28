@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const TextIndentLess: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M13 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1M9 3.5a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 5a1 1 0 0 1 0 2H6a1 1 0 1 1 0-2zm1 6a1 1 0 0 0-1-1H4a1 1 0 1 0 0 2h5a1 1 0 0 0 1-1m-1 4a1 1 0 1 1 0 2H6a1 1 0 1 1 0-2zM19.373 7.721A1 1 0 0 1 21 8.5v7a1 1 0 0 1-1.627.779l-1.596-1.285c-.607-.49-1.142-.92-1.517-1.32-.4-.427-.76-.964-.76-1.674s.36-1.247.76-1.674c.375-.4.964-.874 1.57-1.362z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default TextIndentLess;

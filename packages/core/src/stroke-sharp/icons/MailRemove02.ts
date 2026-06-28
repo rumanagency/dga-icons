@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MailRemove02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 2.61A.75.75 0 0 1 2 1.86h20a.75.75 0 0 1 .75.75v9h-1.5V3.36H2.75v15.5H12v1.5H2a.75.75 0 0 1-.75-.75zm4.334 5.122.832-1.248L12 10.207l5.584-3.723.832 1.248L12 12.01zm8.885 13.346 2.97-2.97-2.97-2.97 1.06-1.06 2.97 2.97 2.97-2.97 1.06 1.06-2.97 2.97 2.97 2.97-1.06 1.06-2.97-2.969-2.97 2.97z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MailRemove02;

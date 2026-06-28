@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Home06: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M20.75 19v-8.25H22a.75.75 0 0 0 .469-1.335l-9.376-7.5a1.75 1.75 0 0 0-2.186 0l-9.375 7.5A.75.75 0 0 0 2 10.751h1.25V19A2.75 2.75 0 0 0 6 21.75h12A2.75 2.75 0 0 0 20.75 19M13 17a1 1 0 1 0-2 0v1a1 1 0 1 0 2 0z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Home06;

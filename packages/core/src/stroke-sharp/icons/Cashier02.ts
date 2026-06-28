@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Cashier02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.75 1.75h7.5v4.5h-3v1.5h2.852l2.148 9.668v4.832H1.75v-4.832L3.898 7.75H15.75v-1.5h-3zm-7.648 7.5h13.796l1.667 7.5H3.435zm-1.852 9v2.5h17.5v-2.5zm12.5-13.5h3v-1.5h-4.5v1.5zm-6.5 14h5.5v1.5h-5.5zm-2.5-8h2v1.5h-2zm4.25 0h2v1.5h-2zm4.25 0h2v1.5h-2zm-6.5 3h-2v1.5h2zm4.25 0h-2v1.5h2zm4.25 0h-2v1.5h2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Cashier02;

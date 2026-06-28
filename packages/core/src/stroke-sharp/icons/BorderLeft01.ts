@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const BorderLeft01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 2.25a.75.75 0 0 0-.75.75v18c0 .414.336.75.75.75h4v-1.5H3.75V3.75H7v-1.5zm9.75 1.5H15v-1.5H9v1.5h2.25V7h1.5zm4.25 0h3.25V7h1.5V3a.75.75 0 0 0-.75-.75h-4zm3.25 9V15h1.5V9h-1.5v2.25H17v1.5zm0 4.25v3.25H17v1.5h4a.75.75 0 0 0 .75-.75v-4zm-9 3.25H9v1.5h6v-1.5h-2.25V17h-1.5zm0-11.25v2.25H8.999v1.5h2.25V15h1.5v-2.25H15v-1.5h-2.25V9z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default BorderLeft01;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Background: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M10.19 1.75H4.5c-1.52 0-2.75 1.23-2.75 2.75v5.69zM1.75 12.31v3.38L15.69 1.75h-3.38zM17.81 1.75 1.75 17.81v1.69c0 .49.13.94.35 1.34L20.84 2.1c-.4-.22-.85-.35-1.34-.35zm4.09 1.41L3.16 21.9c.4.22.85.35 1.34.35h1.69L22.25 6.19V4.5c0-.49-.13-.94-.35-1.34m.35 5.15L8.31 22.25h3.38l10.56-10.56zm0 5.5-8.44 8.44h5.69c1.52 0 2.75-1.23 2.75-2.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Background;

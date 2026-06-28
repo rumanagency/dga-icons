@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Scooter04: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M14.001 5h2.28l2.383 7.15a6 6 0 0 0-3.17 1.889L3.958 15a3 3 0 1 0 2.871 4h8.172a1 1 0 0 0 1-1 4 4 0 0 1 4-4 1 1 0 0 0 .949-1.316l-3-9A1 1 0 0 0 17 3h-3zM4 17a1 1 0 1 0 0 2 1 1 0 0 0 0-2m16 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-3 1a3 3 0 1 1 6 0 3 3 0 0 1-6 0",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Scooter04;

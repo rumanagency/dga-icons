@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Train01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 2.25a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-1.414l1.304 2.61-1.788.894-1.752-3.504H7.642L5.89 22.754l-1.788-.895 1.304-2.609H4a1 1 0 0 1-1-1zm16 1V11H5V3.25zM7.5 16.125H5v-2h2.5zm11.5 0h-2.5v-2H19z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Train01;

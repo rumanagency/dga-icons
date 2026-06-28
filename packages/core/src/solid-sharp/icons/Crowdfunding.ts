@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Crowdfunding: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M8.25 5a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0m1 15a2.75 2.75 0 1 1 5.5 0 2.75 2.75 0 0 1-5.5 0M20 17.25a2.75 2.75 0 1 0 0 5.5 2.75 2.75 0 0 0 0-5.5M1.25 20a2.75 2.75 0 1 1 5.5 0 2.75 2.75 0 0 1-5.5 0M11 10.5V12H4a1 1 0 0 0-1 1v2.5h2V14h6v1.5h2V14h6v1.5h2V13a1 1 0 0 0-1-1h-7v-1.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Crowdfunding;

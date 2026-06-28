@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const WindowsNew: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 21.75h7c1.52 0 2.75-1.23 2.75-2.75V5c0-1.52-1.23-2.75-2.75-2.75H5C3.48 2.25 2.25 3.48 2.25 5v14c0 1.52 1.23 2.75 2.75 2.75zm.75-1.5v-7.5h7.5V19c0 .69-.56 1.25-1.25 1.25zm7.5-9h-7.5v-7.5H19c.69 0 1.25.56 1.25 1.25zm-9-7.5H5c-.69 0-1.25.56-1.25 1.25v6.25h7.5zm-7.5 9h7.5v7.5H5c-.69 0-1.25-.56-1.25-1.25z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default WindowsNew;

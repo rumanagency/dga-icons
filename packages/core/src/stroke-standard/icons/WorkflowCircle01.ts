@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const WorkflowCircle01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6.75 2a.75.75 0 0 0-1.5 0v3.325a3.751 3.751 0 0 0 0 7.35V22a.75.75 0 0 0 1.5 0v-9.325A3.76 3.76 0 0 0 9.675 9.75H16c.69 0 1.25.56 1.25 1.25v3.325A3.751 3.751 0 0 0 18 21.75a3.75 3.75 0 0 0 .75-7.425V11A2.75 2.75 0 0 0 16 8.25H9.675A3.75 3.75 0 0 0 6.75 5.325zM6 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5M15.75 18a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default WorkflowCircle01;

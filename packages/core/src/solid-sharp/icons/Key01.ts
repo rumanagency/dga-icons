@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Key01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M15.5 1.75a6.75 6.75 0 0 0-6.351 9.04l-7.399 7.4v4.06h4.5v-2.5h2.5v-2.5h2.06l2.4-2.399A6.75 6.75 0 1 0 15.5 1.75m1 6.809 2.06-2.06-1.06-1.061-2.06 2.06z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Key01;

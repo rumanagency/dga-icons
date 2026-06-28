@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ShopSign: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6.95 2.252 7 2.25h11a.75.75 0 0 1 .734.595l4 19a.75.75 0 0 1-.734.905H12a.75.75 0 0 1-.725-.56L9.909 17H4.328l-1.362 5.04a1 1 0 1 1-1.931-.522L6.043 2.989a1 1 0 0 1 .907-.737m.205 4.286L4.868 15h4.514z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ShopSign;

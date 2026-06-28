@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SignalLowMedium: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2 4.25a.75.75 0 0 0-.643 1.136l2.893 4.822V19h1.5v-8.792l2.893-4.822A.75.75 0 0 0 8 4.25zm4.675 1.5L5 8.542 3.325 5.75zM18 17.469h-2.5v1.5H18zm4 0h-2.5v1.5H22zM8.25 19v-6h1.5v6zm4-8v8h1.5v-8z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SignalLowMedium;

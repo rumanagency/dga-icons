@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CurvyUpDownDirection: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m13 .938 3.53 3.53-1.06 1.06-1.72-1.72v2.215a2.75 2.75 0 0 1-2.761 2.75L7 8.757a1.246 1.246 0 1 0-.005 2.491H17a2.75 2.75 0 1 1 0 5.5h-4c-.69 0-1.25.56-1.25 1.25v2.19l1.72-1.72 1.06 1.06-3.53 3.53-3.53-3.53 1.06-1.06 1.72 1.72v-2.19a2.75 2.75 0 0 1 2.75-2.75h4a1.25 1.25 0 0 0 0-2.5H6.996a2.746 2.746 0 1 1 .011-5.491l3.988.016a1.25 1.25 0 0 0 1.255-1.25V3.81l-1.72 1.72-1.06-1.061z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CurvyUpDownDirection;

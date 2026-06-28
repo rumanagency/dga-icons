@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Bookshelf01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M5.75 19.75h12.5V22h1.5v-2.25H21a.75.75 0 0 0 .75-.75V2a.75.75 0 0 0-.75-.75H3a.75.75 0 0 0-.75.75v17c0 .414.336.75.75.75h1.25V22h1.5zm-2-10v-7h16.5v7h-2.5V5.5h-1.5v4.25h-2.242l-1.812-4.53-1.392.558 1.588 3.972H7.75V5.5h-1.5v4.25zm16.5 1.5v7h-3.334l.82-4.102-1.47-.294-.88 4.396H12.75V14h-1.5v4.25h-2.5V14h-1.5v4.25h-3.5v-7z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Bookshelf01;

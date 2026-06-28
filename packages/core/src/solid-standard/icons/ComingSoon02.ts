@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ComingSoon02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M11.25 3.5a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0m2.78.973a2.25 2.25 0 1 0-4.058 0C5.838 5.398 2.75 9.088 2.75 13.5a9.25 9.25 0 1 0 11.28-9.027m1.594 4.943a.75.75 0 1 0-1.248-.832l-3 4.5a.75.75 0 0 0 1.248.832zm-1.928-1.933a2 2 0 0 0-.36.408l-3 4.5A2 2 0 0 0 12 15.5v4.249a6.25 6.25 0 1 1 1.696-12.267",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ComingSoon02;

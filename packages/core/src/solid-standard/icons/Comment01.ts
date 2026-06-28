@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Comment01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4 1.253a2.75 2.75 0 0 0-2.75 2.75V16A2.75 2.75 0 0 0 4 18.75h1.249v1.286c0 1.43 1.623 2.257 2.78 1.415l3.714-2.701h8.255a2.75 2.75 0 0 0 2.75-2.75V4.003a2.75 2.75 0 0 0-2.75-2.75zm7.5 6.997a.75.75 0 0 0 0-1.5l-3.496.003a.75.75 0 1 0 .001 1.5zM8 11.75a.75.75 0 0 0 0 1.5h7.5a.75.75 0 0 0 0-1.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Comment01;

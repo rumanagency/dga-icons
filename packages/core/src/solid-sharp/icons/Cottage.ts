@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Cottage: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M20 21.75h2v-2h-1.25V11a8.75 8.75 0 1 0-17.5 0v8.75H2v2zm-11.75-2V15a.75.75 0 0 1 .75-.75h6a.75.75 0 0 1 .75.75v4.75h-1.5v-4h-4.5v4zM14 9a2 2 0 1 1-4 0 2 2 0 0 1 4 0",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Cottage;

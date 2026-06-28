@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const ArrowRight02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "m14.527 18-1.408-1.414L16.689 13H3.5v-2h13.189l-3.57-3.587L14.527 6l5.973 6z"
+      }
+    ]
+  ];
+
+export default ArrowRight02;

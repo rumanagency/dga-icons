@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const RotateTopRight: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M11.127 1.635a.95.95 0 0 0-1.336-.193A.966.966 0 0 0 9.6 2.79l.286.384H5.114A2.874 2.874 0 0 0 2.25 6.058v6.73c0 .531.427.962.955.962.527 0 .954-.43.954-.961V6.058c0-.531.427-.962.955-.962h6.681a.95.95 0 0 0 .854-.531.97.97 0 0 0-.09-1.007zM9 7.25A2.75 2.75 0 0 0 6.25 10v10A2.75 2.75 0 0 0 9 22.75h10A2.75 2.75 0 0 0 21.75 20V10A2.75 2.75 0 0 0 19 7.25z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default RotateTopRight;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const TextIndentMore: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M11 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1m9.75 4a1 1 0 0 0-1-1h-5a1 1 0 1 0 0 2h5a1 1 0 0 0 1-1m-2 4a1 1 0 0 0-1-1h-3a1 1 0 1 0 0 2h3a1 1 0 0 0 1-1m2 4a1 1 0 0 0-1-1h-5a1 1 0 1 0 0 2h5a1 1 0 0 0 1-1m-2 4a1 1 0 0 0-1-1h-3a1 1 0 1 0 0 2h3a1 1 0 0 0 1-1M3.25 8.5a.75.75 0 0 1 1.28-.53l3.5 3.5a.75.75 0 0 1 0 1.06l-3.5 3.5a.75.75 0 0 1-1.28-.53z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default TextIndentMore;

@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const Angle01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "m19.474 4.364-9.168 9.814c1.169 1.215 1.94 2.929 2.142 4.822H21.5v2h-18a1 1 0 0 1-.731-1.682L18.012 3z"
+      }
+    ]
+  ];
+
+export default Angle01;

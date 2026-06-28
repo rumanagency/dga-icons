@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const PercentCircle: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 11C1.25 5.063 6.063.25 12 .25S22.75 5.063 22.75 11 17.937 21.75 12 21.75 1.25 16.937 1.25 11m6-3a1.75 1.75 0 1 1 3.5 0 1.75 1.75 0 0 1-3.5 0m6 6a1.75 1.75 0 1 1 3.5 0 1.75 1.75 0 0 1-3.5 0m3.457-6.293a1 1 0 0 0-1.414-1.414l-8 8a1 1 0 1 0 1.414 1.414z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default PercentCircle;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const TextSuperscript: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.47 2.47A.75.75 0 0 1 2 2.25h14a.75.75 0 0 1 .75.75v2.994h-1.5V3.75H9.775v16.507h2.158v1.5H6v-1.5h2.275V3.75H2.75v2.244h-1.5V3a.75.75 0 0 1 .22-.53m16.78 2.772H22a.75.75 0 0 1 .75.75v2.994a.75.75 0 0 1-.75.75h-2.25v1.494h3v1.5H19a.75.75 0 0 1-.75-.75V8.986a.75.75 0 0 1 .75-.75h2.25V6.742h-3z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default TextSuperscript;

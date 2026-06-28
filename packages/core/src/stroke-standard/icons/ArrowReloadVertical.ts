@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ArrowReloadVertical: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M13 2.25a.75.75 0 0 0 0 1.5h3.5c.69 0 1.25.56 1.25 1.25v14.19l-1.22-1.22a.75.75 0 1 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l2.5-2.5a.75.75 0 1 0-1.06-1.06l-1.22 1.22V5a2.75 2.75 0 0 0-2.75-2.75zm-6.97.22a.75.75 0 0 0-1.06 0l-2.5 2.5a.75.75 0 0 0 1.06 1.06l1.22-1.22V19a2.75 2.75 0 0 0 2.75 2.75H12a.75.75 0 0 0 0-1.5H7.5c-.69 0-1.25-.56-1.25-1.25V4.81l1.22 1.22a.75.75 0 0 0 1.06-1.06z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ArrowReloadVertical;

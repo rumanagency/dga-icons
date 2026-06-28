@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CoinsSwap: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M9.252 7.844a8.26 8.26 0 0 1 6.904 6.904 6.75 6.75 0 1 0-6.904-6.904M2.75 8a4.25 4.25 0 0 1 3.5-4.184V5h1.5V2.25H7A5.746 5.746 0 0 0 1.25 8zM8 9.25a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5m9.75 10.934A4.25 4.25 0 0 0 21.25 16h1.5A5.746 5.746 0 0 1 17 21.75h-.75V19h1.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CoinsSwap;

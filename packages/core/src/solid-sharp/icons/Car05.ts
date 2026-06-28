@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Car05: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m22.75 8.65-.9-1.2-1.53 1.37L18 3.25H6L3.68 8.82 2.15 7.45l-.9 1.2 1.73 1.52-1.73 2.6v7.98h4.5v-3h12.5v3h4.5v-7.98l-1.73-2.6zM6.09 9.75l-1.07-.27 1.97-4.73h10l1.97 4.73-1.07.27H6.07zM19 13v2.01h-2V13zM7 15.01V13H5v2.01z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Car05;

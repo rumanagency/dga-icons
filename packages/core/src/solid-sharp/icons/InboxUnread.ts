@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const InboxUnread: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M18.5 1.25a4.25 4.25 0 1 0 0 8.5 4.25 4.25 0 0 0 0-8.5m-16.275 2a.975.975 0 0 0-.975.975v17.55c0 .539.437.975.975.975h17.55a.975.975 0 0 0 .975-.975V11.5H18.8V14h-5.55v.75a2.25 2.25 0 1 1-4.5 0V14H3.2V5.2h9.3V3.25z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default InboxUnread;

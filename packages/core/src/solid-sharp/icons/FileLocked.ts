@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FileLocked: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m3.25 22.75.001-21.5h10.11l7.389 7.38V15h-.575a3.751 3.751 0 0 0-7.35 0H11v7.75zM18.8 9.46l-6.238-6.255V9.46zm.2 6.29v.5h1.75v6.5h-8.5v-6.5H14v-.5a2.5 2.5 0 0 1 5 0m-2.5-1a1 1 0 0 0-1 1v.5h2v-.5a1 1 0 0 0-1-1",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FileLocked;

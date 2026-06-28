@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CursorEdit02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M5.75 1.25h-4.5v4.5h1.5v6.5h-1.5v4.5h4.5v-4.5h-1.5v-6.5h1.5v-1.5h6.5v1.5h4.5v-4.5h-4.5v1.5h-6.5zm-3 3v-1.5h1.5v1.5zm11-1.5v1.5h1.5v-1.5zM7.47 7.47a.75.75 0 0 1 .767-.182l14 4.667a.75.75 0 0 1 0 1.423l-6.644 2.215-2.215 6.644a.75.75 0 0 1-1.423 0l-4.666-14a.75.75 0 0 1 .18-.767m1.716 1.716 3.48 10.442 1.623-4.865a.75.75 0 0 1 .474-.474l4.865-1.622zM2.75 13.75v1.5h1.5v-1.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CursorEdit02;

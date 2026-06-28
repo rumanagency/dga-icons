@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const Telegram: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "m22 3-4 18-7-7.042 4.24-4.204-5.811 4.019 2.514 2.384L8.499 20l-1-6.042L2 11z"
+      }
+    ]
+  ];
+
+export default Telegram;

@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const Wise: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M6.138 1.993A1 1 0 0 1 7 1.5h12a1 1 0 0 1 .929 1.371l-8 19.629-1.857-.743 3.851-9.257H5a1 1 0 0 1-.707-1.707L8.26 6.826l-2.134-3.84a1 1 0 0 1 .012-.993"
+      }
+    ]
+  ];
+
+export default Wise;

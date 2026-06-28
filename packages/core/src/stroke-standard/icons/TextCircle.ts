@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const TextCircle: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.75 12a9.25 9.25 0 1 1 18.5 0 9.25 9.25 0 0 1-18.5 0M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75 22.75 17.937 22.75 12 17.937 1.25 12 1.25M8.75 8A.25.25 0 0 1 9 7.75h2.25v8.5h-.75a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5h-.75v-8.5H15a.25.25 0 0 1 .25.25v.5a.75.75 0 0 0 1.5 0V8A1.75 1.75 0 0 0 15 6.25H9A1.75 1.75 0 0 0 7.25 8v.5a.75.75 0 0 0 1.5 0z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default TextCircle;

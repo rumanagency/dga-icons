@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Maps: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M8 2.25a.75.75 0 0 1 .308.062l6.847 2.938H22a.75.75 0 0 1 .75.75v15a.75.75 0 0 1-.75.75h-7a.8.8 0 0 1-.296-.06l-6.726-2.888-5.742 1.91A.75.75 0 0 1 1.251 20V6.083a.75.75 0 0 1 .407-.667l5.914-3.032A.75.75 0 0 1 8 2.25M2.75 6.541l4.5-2.306v13.228l-4.5 1.497zm6 10.959 5.5 2.362V6.494l-5.5-2.36zm7-10.75v13.5h5.5V6.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Maps;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SearchMinus: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 11c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75a9.7 9.7 0 0 1-2.346 6.344l4.126 4.126a.75.75 0 1 1-1.06 1.06l-4.126-4.126A9.7 9.7 0 0 1 11 20.75 9.75 9.75 0 0 1 1.25 11M11 2.75a8.25 8.25 0 1 0 0 16.5 8.25 8.25 0 0 0 0-16.5m-3.5 7.5a.75.75 0 0 0 0 1.5h7a.75.75 0 0 0 0-1.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SearchMinus;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Delete02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M14.5 1.25c.3 0 .571.179.689.454l1.306 3.046H22v1.5h-1.794l-.957 15.795a.75.75 0 0 1-.748.705h-13a.75.75 0 0 1-.749-.705L3.795 6.25H2v-1.5h5.505l1.306-3.045A.75.75 0 0 1 9.5 1.25zm4.204 5H5.297l.91 15h11.588zM10.25 10.5v6h-1.5v-6zm5 0v6h-1.5v-6zm-1.245-7.75h-4.01l-.858 2h5.726z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Delete02;

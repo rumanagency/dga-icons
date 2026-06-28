@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const DashboardBrowsing: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.75 4.5A2.75 2.75 0 0 1 4.5 1.75h15a2.75 2.75 0 0 1 2.75 2.75v3.75H1.75zm0 5.25h20.5v9.75a2.75 2.75 0 0 1-2.75 2.75h-15a2.75 2.75 0 0 1-2.75-2.75zm6 8.25a4.25 4.25 0 0 1 8.5 0 .75.75 0 0 0 1.5 0 5.75 5.75 0 0 0-11.5 0 .75.75 0 0 0 1.5 0m5.28-2.53a.75.75 0 0 1 0 1.06l-1.5 1.5a.75.75 0 0 1-1.06-1.06l1.5-1.5a.75.75 0 0 1 1.06 0M7 4a1 1 0 0 0 0 2h.009a1 1 0 0 0 0-2zm3.996 0a1 1 0 1 0 0 2h.008a1 1 0 1 0 0-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default DashboardBrowsing;

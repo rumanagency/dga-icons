@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Radius: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 .25C6.063.25 1.25 5.063 1.25 11S6.063 21.75 12 21.75 22.75 16.937 22.75 11 17.937.25 12 .25m4.293 8.043a1 1 0 0 1 1.414 0l2 2a1 1 0 0 1 0 1.414l-2 2a1 1 0 0 1-1.414-1.414l.293-.293h-2.57a2.25 2.25 0 1 1 0-2h2.57l-.293-.293a1 1 0 0 1 0-1.414",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Radius;

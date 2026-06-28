@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SquareArrowRight03: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 2.25a.75.75 0 0 0-.75.75v18c0 .414.336.75.75.75h18a.75.75 0 0 0 .75-.75V3a.75.75 0 0 0-.75-.75zm.75 18V3.75h16.5v16.5zm14-4.25V8h-1.5v8zm-7.271-6.475 1.728 1.718H7v1.5h5.208l-1.729 1.718 1.058 1.064 3.553-3.532-3.554-3.532z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SquareArrowRight03;

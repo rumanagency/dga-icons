@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const University: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M22.5 22.75H1v-1.5h1.25v-7.493H1v-1.5h5.75V8.755H5.5v-1.5h6.048V2.009c0-.408.33-.76.76-.76h4.651v4.507h-3.911v1.499H18.5v1.5h-1.25v3.502H23v1.5h-1.25v7.493h.75zM15.75 8.756V21.25h-3v-2.263h-1.5v2.264h-3V8.754zm-9 5.002h-3v7.493h3zm13.5 0h-3v7.493h3zM9.75 11.01v1.498h1.5V11.01zm3 0v1.498h1.5V11.01zm-3 5.482v-1.497h1.5v1.497zm3 0v-1.497h1.5v1.497zm.298-13.741v1.506h2.411V2.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default University;

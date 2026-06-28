@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Factory02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m22.751 5.6-.001 16.151H12.407q0-.083-.009-.165L11.002 9.007l5.761-3.298V9.6zm-6.731 8.652h-1.996v1.5h1.996zm3.988 0h-1.996v1.5h1.996zm-17.095-7.5h6.33l1.664 15H1.25zm.425-3.833a.75.75 0 0 1 .744-.667h3.992c.381 0 .701.287.743.667l.259 2.332H3.079z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Factory02;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Download03: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.996 11.086V2.5h-2v8.586L9.703 9.793 8.29 11.207l3.707 3.707 3.707-3.707-1.414-1.414zm4.556-1.688 3.175 1.589-3.405 8.517H6.676L3.27 10.987l3.176-1.589-.894-1.789-4 2a1 1 0 0 0-.48 1.266l3.998 10a1 1 0 0 0 .929.629h12a1 1 0 0 0 .928-.629l4-10a1 1 0 0 0-.482-1.266l-3.999-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Download03;

@@ -1,0 +1,25 @@
+import type { IconNode } from '../../types';
+
+const BurjAlArab: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M7.75 2v1.383a12.75 12.75 0 0 1 7.468 4.867H17a.75.75 0 0 1 0 1.5h-.823a12.9 12.9 0 0 1 1.573 6.194c0 1.89-.405 3.688-1.132 5.306H21a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1 0-1.5h3.25V9.75H5a.75.75 0 0 1 0-1.5h1.25V2a.75.75 0 0 1 1.5 0m0 6.25V4.924a11.2 11.2 0 0 1 5.528 3.326zm6.683 1.5a11.4 11.4 0 0 1 1.817 6.194c0 1.918-.47 3.723-1.3 5.306h-7.2V9.75z",
+        "clipRule": "evenodd"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6.25 13a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1-.75-.75m0 4a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1-.75-.75",
+        "clipRule": "evenodd",
+        "opacity": ".4"
+      }
+    ]
+  ];
+
+export default BurjAlArab;

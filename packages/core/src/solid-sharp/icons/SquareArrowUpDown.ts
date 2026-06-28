@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SquareArrowUpDown: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 2.25a.75.75 0 0 0-.75.75v18c0 .414.336.75.75.75h18a.75.75 0 0 0 .75-.75V3a.75.75 0 0 0-.75-.75zm8.53 7.218L9 6.938l-2.531 2.53 1.06 1.06.72-.72v6.19h1.5v-6.19l.72.72zm4.22 4.72v-6.19h-1.5v6.19l-.72-.72-1.061 1.06 2.53 2.53 2.53-2.53-1.06-1.06z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SquareArrowUpDown;

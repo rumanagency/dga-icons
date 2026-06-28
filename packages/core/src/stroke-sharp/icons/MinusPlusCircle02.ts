@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MinusPlusCircle02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.75 12a9.25 9.25 0 1 1 18.5 0 9.25 9.25 0 0 1-18.5 0M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75 22.75 17.937 22.75 12 17.937 1.25 12 1.25m3.47 6.22-8 8 1.06 1.06 8-8zM8 10.25h3v-1.5H8zM14.25 17v-1.25H13v-1.5h1.25V13h1.5v1.25H17v1.5h-1.25V17z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MinusPlusCircle02;

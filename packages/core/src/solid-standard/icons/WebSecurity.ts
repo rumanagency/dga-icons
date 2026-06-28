@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const WebSecurity: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M20.5 18.499v-9.5h-17v9.5a1 1 0 0 0 1 1H5a1 1 0 1 1 0 2h-.5a3 3 0 0 1-3-3V4.009a3 3 0 0 1 2.998-3l15-.009A3 3 0 0 1 22.5 4v14.499a3 3 0 0 1-3 3H19a1 1 0 1 1 0-2h.5a1 1 0 0 0 1-1M5.5 5a1 1 0 0 1 1-1h.009a1 1 0 0 1 0 2H6.5a1 1 0 0 1-1-1m3.991 0a1 1 0 0 1 1-1h.009a1 1 0 1 1 0 2h-.009a1 1 0 0 1-1-1m1.259 10a1.25 1.25 0 1 1 2.5 0v.75h-2.5zm4 0v.75h.75a.75.75 0 0 1 .75.75V22a.75.75 0 0 1-.75.75h-7a.75.75 0 0 1-.75-.75v-5.5a.75.75 0 0 1 .75-.75h.75V15a2.75 2.75 0 1 1 5.5 0",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default WebSecurity;

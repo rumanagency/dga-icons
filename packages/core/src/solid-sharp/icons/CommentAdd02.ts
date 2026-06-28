@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CommentAdd02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 1.25H16.5V3h-3v4.5h3v3H21v-3h1.75v11.25H11.263l-6.013 4v-4h-4zm16.5 0v3h-3v2h3v3h2v-3h3v-2h-3v-3z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CommentAdd02;

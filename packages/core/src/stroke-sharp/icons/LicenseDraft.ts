@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const LicenseDraft: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.75 1.25h18.5v10.5h-1.5v-9H3.25v18.5h8v1.5h-9.5zm4.5 5h9.5v1.5h-9.5zm0 5h9.5v1.5h-9.5zm16.31 4.748-3.06-3.06-6.75 6.75v3.06h3.06zm-8.31 5.25v-.94l5.25-5.25.94.94-5.25 5.25z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default LicenseDraft;

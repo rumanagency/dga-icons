@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const PaymentSuccess01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 6A2.75 2.75 0 0 1 4 3.25h16A2.75 2.75 0 0 1 22.75 6v5.615a2.5 2.5 0 0 0-2.67.785l-3.248 3.897-.564-.565a2.5 2.5 0 1 0-3.536 3.536l1.482 1.482H4A2.75 2.75 0 0 1 1.25 18zm4.25 4a1 1 0 1 1 0 2h-.009a1 1 0 0 1 0-2zM9 11a3 3 0 1 1 6 0 3 3 0 0 1-6 0m13.768 3.64a1 1 0 1 0-1.536-1.28l-4.3 5.159-1.725-1.726a1 1 0 0 0-1.414 1.414l2.5 2.5a1 1 0 0 0 1.475-.067z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default PaymentSuccess01;

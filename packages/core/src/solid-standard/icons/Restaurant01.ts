@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Restaurant01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.895 2.328a2 2 0 0 0-1.79 0L5.573 5.095l-.037.019-1.982.99a1 1 0 1 0 .894 1.79L5 7.617V10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7.617l.553.277a1 1 0 1 0 .894-1.79l-1.982-.99-.037-.019zM4 12a1 1 0 1 0-2 0v9a1 1 0 1 0 2 0v-3h3v3a1 1 0 1 0 2 0v-4a1 1 0 0 0-1-1H4zm17-1a1 1 0 0 1 1 1v9a1 1 0 1 1-2 0v-3h-3v3a1 1 0 1 1-2 0v-4a1 1 0 0 1 1-1h4v-4a1 1 0 0 1 1-1M7 13a1 1 0 1 0 0 2h4v5a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2v-5h4a1 1 0 1 0 0-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Restaurant01;

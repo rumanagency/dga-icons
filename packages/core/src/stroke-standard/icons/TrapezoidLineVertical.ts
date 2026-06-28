@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const TrapezoidLineVertical: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.75 2a.75.75 0 0 0-1.5 0v2.25H8.234a2.75 2.75 0 0 0-2.723 2.361l-1.428 10a2.75 2.75 0 0 0 2.722 3.139h4.445V22a.75.75 0 0 0 1.5 0v-2.25h4.443a2.75 2.75 0 0 0 2.723-3.14l-1.43-9.997a2.75 2.75 0 0 0-2.72-2.362H12.75zm-1.5 3.75H8.234a1.25 1.25 0 0 0-1.238 1.073l-1.428 10a1.25 1.25 0 0 0 1.237 1.427h4.445zm1.5 12.5V5.75l3.015.001a1.25 1.25 0 0 1 1.237 1.074l1.428 9.998a1.25 1.25 0 0 1-1.237 1.427z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default TrapezoidLineVertical;

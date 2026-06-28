@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const VolumeMute01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M18.36 3.342a.75.75 0 0 1 .39.658v16a.75.75 0 0 1-1.156.63l-6.814-4.38H8a2.75 2.75 0 0 1-2.75-2.75v-3A2.75 2.75 0 0 1 8 7.75h2.78l6.814-4.38a.75.75 0 0 1 .765-.028m-1.11 2.032L11.406 9.13a.75.75 0 0 1-.406.12H8c-.69 0-1.25.56-1.25 1.25v3c0 .69.56 1.25 1.25 1.25h3a.75.75 0 0 1 .406.12l5.844 3.756z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default VolumeMute01;

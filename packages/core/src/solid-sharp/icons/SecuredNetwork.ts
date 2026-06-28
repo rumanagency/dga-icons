@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SecuredNetwork: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 1.25c2.49 0 4.5 2.03 4.5 4.52v2.2A6.752 6.752 0 0 1 13 19.677v1.073h7v2H4v-2h7v-1.074A6.752 6.752 0 0 1 7.5 7.97v-2.2c0-2.49 2.01-4.52 4.5-4.52m0 2a2.51 2.51 0 0 0-2.5 2.52v.958A6.7 6.7 0 0 1 12 6.25c.883 0 1.727.17 2.5.478v-.957A2.51 2.51 0 0 0 12 3.25M13 12h-2v2h2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SecuredNetwork;

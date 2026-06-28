@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FileUpload: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.082 5.664 7.668 1.25 3.254 5.664l1.414 1.414 2-2v6.586h2V5.078l2 2zm-1.414 3.182-.75-.75v4.818h-4.5V8.096l-.75.75-1.414-1.414V22.75h10.11l7.39-7.38V1.25H9.434l4.415 4.414zm8.135 5.694-6.237 6.255V14.54z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FileUpload;

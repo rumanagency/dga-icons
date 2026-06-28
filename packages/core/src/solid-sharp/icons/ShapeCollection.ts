@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ShapeCollection: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M10.75 2.25h-8.5v8.5h8.5zm7.25 0h-1L13.25 9.5v1.25h8.5V9.5zM2.25 17.5c0-2.35 1.9-4.25 4.25-4.25s4.25 1.9 4.25 4.25-1.9 4.25-4.25 4.25-4.25-1.9-4.25-4.25m17.502 1.19-5.25-5.25-1.06 1.06 5.25 5.25h-4.44v1.5h7v-7h-1.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ShapeCollection;

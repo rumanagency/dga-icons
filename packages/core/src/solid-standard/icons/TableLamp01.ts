@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const TableLamp01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M9.564 2.1a1.75 1.75 0 0 1 1.5-.85h1.868a1.75 1.75 0 0 1 1.5.85l1.8 3c.7 1.166-.14 2.65-1.5 2.65H13V11h8a1 1 0 1 1 0 2v9a1 1 0 1 1-2 0v-4H5v4a1 1 0 1 1-2 0v-9a1 1 0 1 1 0-2h8V7.75H9.264c-1.36 0-2.2-1.484-1.5-2.65zM11 13.75a.75.75 0 0 0 0 1.5h2a.75.75 0 0 0 0-1.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default TableLamp01;

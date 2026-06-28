@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Belt: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6 6a1 1 0 0 1 1-1h3a6.97 6.97 0 0 1 4.63 1.75h8.12v10.5h-8.12A6.97 6.97 0 0 1 10 19H7a1 1 0 0 1-1-1v-.75H1.25V6.75H6zm0 5H4v2h2zm2-4v4h3v2H8v4h2a5 5 0 0 0 0-10zm11 4h2.009v2H19z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Belt;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MoveTop: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.488 1.43a.75.75 0 0 0-.976 0l-3.5 3a.75.75 0 1 0 .976 1.14l2.262-1.94V12a.75.75 0 0 0 1.5 0V3.63l2.262 1.94a.75.75 0 1 0 .976-1.14zM9.75 19a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0M12 15.25a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MoveTop;

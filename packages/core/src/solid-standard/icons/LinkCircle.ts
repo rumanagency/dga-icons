@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const LinkCircle: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4 12a8 8 0 0 1 8-8 1 1 0 1 0 0-2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10a1 1 0 1 0-2 0 8 8 0 1 1-16 0M16.998 2a1 1 0 0 0-.707 1.707l1.293 1.294-3.291 3.292a1 1 0 1 0 1.414 1.414L19 6.415l1.292 1.292A1 1 0 0 0 21.998 7V3a1 1 0 0 0-1-1z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default LinkCircle;

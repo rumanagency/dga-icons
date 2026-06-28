@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Forward01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4.75 4.5a.75.75 0 0 0-1.5 0v15a.75.75 0 0 0 1.5 0zm4 1.292a.25.25 0 0 1 .381-.213l10.092 6.21a.25.25 0 0 1 0 .426l-10.092 6.21a.25.25 0 0 1-.381-.212zm1.167-1.49c-1.166-.718-2.667.12-2.667 1.49v12.42c0 1.37 1.501 2.209 2.667 1.491l10.092-6.21a1.75 1.75 0 0 0 0-2.981z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Forward01;

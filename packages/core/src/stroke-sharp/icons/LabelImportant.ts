@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const LabelImportant: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.344 3.636A.75.75 0 0 1 2 3.25h15a.75.75 0 0 1 .636.353l5 8a.75.75 0 0 1 0 .795l-5 8a.75.75 0 0 1-.636.352H2a.75.75 0 0 1-.636-1.147L6.116 12 1.364 4.397a.75.75 0 0 1-.02-.76m2.01 1.114 4.282 6.853a.75.75 0 0 1 0 .795L3.353 19.25h13.231L21.116 12l-4.532-7.25z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default LabelImportant;

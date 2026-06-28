@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Searching: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4 2a3 3 0 0 0-3 3v3a3 3 0 0 0 3 3h.5a1 1 0 1 0 0-2H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v3a1 1 0 0 1-.133.5 1 1 0 0 0 1.731 1A3 3 0 0 0 23 8V5a3 3 0 0 0-3-3zm9.3 4a7.3 7.3 0 1 0 4.42 13.11l2.57 2.594a1 1 0 0 0 1.42-1.408l-2.58-2.603A7.3 7.3 0 0 0 13.3 6m5.3 7.3c0 1.458-.59 2.78-1.543 3.738A5.3 5.3 0 1 1 18.6 13.3",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Searching;

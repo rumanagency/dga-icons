@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const RightTriangle: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.24 2.004a.76.76 0 0 1 1.297-.538L22.524 19.44a.76.76 0 0 1-.537 1.297H16v-1.5h4.2L4.74 3.79v4.197h-1.5zm-1.244 8.24H4.74v3.997h4.256a.75.75 0 0 1 .75.75v4.248h4v2.753h-1.5V20.74H3.24v-8.995H1.996zm6.25 8.995V15.74H4.74v3.498z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default RightTriangle;

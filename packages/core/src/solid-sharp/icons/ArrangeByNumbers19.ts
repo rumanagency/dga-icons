@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ArrangeByNumbers19: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6.656 2H8.74v7h1v2h-4V9h1V4.885l-.258.286L5 3.83zM4.5 13h6v9h-6v-2h4v-1.5h-4zm4 3.5V15h-2v1.5zm8.793.383V3.297h-2v13.586l-.793-.793-1.414 1.414 3.207 3.207 3.207-3.207-1.414-1.414z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ArrangeByNumbers19;

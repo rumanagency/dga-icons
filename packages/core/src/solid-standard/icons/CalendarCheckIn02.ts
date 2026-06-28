@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CalendarCheckIn02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6 1a1 1 0 0 1 1 1v1h10V2a1 1 0 1 1 2 0v1h.5a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3h-15a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3H5V2a1 1 0 0 1 1-1m5.383 11.076A1 1 0 0 1 12 13v1.5h3.5a1 1 0 1 1 0 2H12V18a1 1 0 0 1-1.707.707l-2.5-2.5a1 1 0 0 1 0-1.414l2.5-2.5a1 1 0 0 1 1.09-.217M3.5 20V9.5h17V20a1 1 0 0 1-1 1h-15a1 1 0 0 1-1-1",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CalendarCheckIn02;

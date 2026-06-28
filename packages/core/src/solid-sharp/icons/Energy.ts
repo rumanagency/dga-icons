@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const Energy: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M13.737 2.289A.75.75 0 0 1 14.25 3v7.25H18a.75.75 0 0 1 .6 1.2l-7.5 10A.75.75 0 0 1 9.75 21v-7.25H6a.75.75 0 0 1-.6-1.2l7.5-10a.75.75 0 0 1 .837-.261"
+      }
+    ]
+  ];
+
+export default Energy;

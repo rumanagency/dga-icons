@@ -1,0 +1,25 @@
+import type { IconNode } from '../../types';
+
+const Yen: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4.805 2.276a.75.75 0 0 1 .92.529C6.135 4.333 7.984 7.914 12 9.737c4.016-1.823 5.864-5.404 6.276-6.932a.75.75 0 0 1 1.448.39c-.494 1.836-2.55 5.782-6.974 7.848V21a.75.75 0 0 1-1.5 0v-9.957C6.826 8.977 4.77 5.031 4.276 3.195a.75.75 0 0 1 .529-.92",
+        "clipRule": "evenodd"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6.166 12.25a.75.75 0 0 0 0 1.5h11.667a.75.75 0 0 0 0-1.5zm0 4a.75.75 0 0 0 0 1.5h11.667a.75.75 0 0 0 0-1.5z",
+        "clipRule": "evenodd",
+        "opacity": ".4"
+      }
+    ]
+  ];
+
+export default Yen;

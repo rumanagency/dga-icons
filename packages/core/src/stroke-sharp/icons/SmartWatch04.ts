@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SmartWatch04: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M8 2.75h8v-1.5H8zm-3.5 1a.75.75 0 0 0-.75.75v15c0 .414.336.75.75.75h15a.75.75 0 0 0 .75-.75v-15a.75.75 0 0 0-.75-.75zm.75 15V5.25h13.5v13.5zM15.469 7.469l-3.47 3.47-2.47-2.47-1.06 1.06 2.47 2.47-.97.97 1.06 1.06.97-.97.97.97 1.06-1.06-.97-.97 3.47-3.47zM16 22.75H8v-1.5h8z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SmartWatch04;

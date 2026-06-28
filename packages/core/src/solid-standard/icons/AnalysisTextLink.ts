@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const AnalysisTextLink: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4 3a1 1 0 0 0-2 0v18a1 1 0 0 0 1 1h18a1 1 0 1 0 0-2H5.155l4.984-5.64 3.867 2.937a1 1 0 0 0 1.318-.096l6.39-6.5a1 1 0 1 0-1.426-1.402l-5.773 5.872-3.91-2.967a1 1 0 0 0-1.357.137L4 18.286zm5 2a1 1 0 0 0 0-2H7a1 1 0 0 0 0 2zm4 3a1 1 0 0 1-1 1H7a1 1 0 0 1 0-2h5a1 1 0 0 1 1 1",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default AnalysisTextLink;

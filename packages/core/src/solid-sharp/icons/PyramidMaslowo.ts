@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const PyramidMaslowo: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m15.635 8-3.636-6.545L8.363 8zm1.111 2H13v11.75h10.274L20.079 16H15v-2h3.968zM11 10v11.75H.725L3.919 16H9v-2H5.03l2.222-4z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default PyramidMaslowo;

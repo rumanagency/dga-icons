@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ServerStack02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M21.75 8.75H2.25v-6.5h19.5zm-18-1.5h16.5v-3.5H3.75zm18 9.5H2.25v-6.5h19.5zm-18-1.5h16.5v-3.5H3.75zm.5 6.5h15.5v-1.5h-7v-2h-1.5v2h-7zm2.51-7.5h-1.5l-.01-1.5h1.51zm-1.5-8h1.5v-1.5H5.25zm4.5 8h-1.5l-.01-1.5h1.51zm-1.5-8h1.5v-1.5H8.25z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ServerStack02;

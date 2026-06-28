@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SchoolTie: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M9.835 1.538a.75.75 0 0 1 .59-.288h6a.75.75 0 0 1 .728.932l-.767 3.068h-5.92l-.768-3.068a.75.75 0 0 1 .137-.644M5.25 12.023l4.833-5.273h6.268l2.4 11.522-4.824 4.289a.75.75 0 0 1-.997 0l-4.825-4.289.586-2.809zm2.076-.046 2.706-2.951-.976 4.682z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SchoolTie;

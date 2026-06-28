@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MailReply01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.23 2.25c-.54 0-.98.436-.98.974v16.552c0 .538.44.974.98.974H12v-1.947H3.21V8.102L12 12.5l8.8-4.398V13h1.95V3.224a.98.98 0 0 0-.98-.974zm15.73 12.21-1.42-1.413-3.2 3.207 3.2 3.207 1.42-1.414-.8-.793h.59c1.66 0 3 1.343 3 3v1.5h2v-1.5c0-2.761-2.24-5-5-5h-.59z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MailReply01;

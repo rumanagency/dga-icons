@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const DressingTable01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4 22.5v-7H3v-2h2v-5a7 7 0 0 1 14 0v5h2v2h-1v7h-2v-2.25H6v2.25zm13-9H7v-5a5 5 0 0 1 10 0zm-4 4.25h-2v-1.5h2zM10.469 4.969l1.06 1.06-2 2-1.06-1.06zm4.06 2.06-4 4-1.06-1.06 4-4z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default DressingTable01;

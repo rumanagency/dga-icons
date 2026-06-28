@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const VoiceId: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M9.144 1.5H1.5v7.644h2V3.5h5.644zm5.712 2H20.5v5.644h2V1.5h-7.644zm7.644 19v-7.644h-2V20.5h-5.644v2zm-19-7.644V20.5h5.644v2H1.5v-7.644zM11 7v10h2V7zM7 9v6h2V9zm10 6V9h-2v6z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default VoiceId;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const TextIndent: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.53 2.47a.75.75 0 0 0-1.06 1.06L5.44 6.5 2.47 9.47a.75.75 0 1 0 1.06 1.06l3.5-3.5a.75.75 0 0 0 0-1.06zm7.47.28a.75.75 0 0 0 0 1.5h10a.75.75 0 0 0 0-1.5zm0 6a.75.75 0 0 0 0 1.5h10a.75.75 0 0 0 0-1.5zm-8 5.5a.75.75 0 0 0 0 1.5h18a.75.75 0 0 0 0-1.5zM2.25 21a.75.75 0 0 1 .75-.75h18a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default TextIndent;

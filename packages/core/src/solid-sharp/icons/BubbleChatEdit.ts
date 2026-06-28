@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const BubbleChatEdit: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M17.203 2.53A11.1 11.1 0 0 0 12 1.25C6.1 1.25 1.25 5.804 1.25 11.5c0 2.719 1.11 5.186 2.911 7.014L3.25 22.75l4.767-1.727c1.233.47 2.578.727 3.983.727 5.9 0 10.75-4.554 10.75-10.25 0-1.722-.443-3.34-1.224-4.758L17.768 10.5H13.5V6.232zM7 11h2.009v2H7zm6.005 0v2h-2.01v-2zm1.745-1.75v-2.5l5.5-5.5 2.5 2.5-5.5 5.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default BubbleChatEdit;

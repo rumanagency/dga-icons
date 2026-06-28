@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FolderEdit: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m9.898 2.945 2.493 3.3H20a2.75 2.75 0 0 1 2.75 2.75v3.927l-1.336-1.336a2 2 0 0 0-2.828 0l-6 6A2 2 0 0 0 12 19v2c0 .265.052.518.145.75H4A2.75 2.75 0 0 1 1.25 19V4c0-.966.784-1.75 1.75-1.75h5.502a1.75 1.75 0 0 1 1.396.695M20.53 12.47a.75.75 0 0 0-1.06 0l-6 6a.75.75 0 0 0-.22.53v2c0 .414.336.75.75.75h2a.75.75 0 0 0 .53-.22l6-6a.75.75 0 0 0 0-1.06z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FolderEdit;

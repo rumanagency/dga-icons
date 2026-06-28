@@ -1,0 +1,25 @@
+import type { IconNode } from '../../types';
+
+const TennisBall: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 2.75a9.25 9.25 0 1 0 0 18.5 9.25 9.25 0 0 0 0-18.5M1.25 12C1.25 6.063 6.063 1.25 12 1.25S22.75 6.063 22.75 12 17.937 22.75 12 22.75 1.25 17.937 1.25 12",
+        "clipRule": "evenodd"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4.504 5.562c3.653 3.223 3.67 9.637 0 12.875l.992 1.125c4.35-3.837 4.328-11.306 0-15.125zm14.992 12.875c-3.67-3.238-3.653-9.652 0-12.875l-.992-1.125c-4.328 3.819-4.35 11.288 0 15.125z",
+        "clipRule": "evenodd",
+        "opacity": ".4"
+      }
+    ]
+  ];
+
+export default TennisBall;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FolderSearch: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M9.373 2.25H1.25v19.5h11.5v-1.5h-10V3.75h5.877l1.884 2.494H7.25v1.5h14v4.003h1.5V6.244H12.391zm8.056 10a4.179 4.179 0 1 0 2.376 7.616L22 22.06 23.06 21l-2.194-2.195a4.179 4.179 0 0 0-3.437-6.555m-2.679 4.179a2.679 2.679 0 1 1 5.357 0 2.679 2.679 0 0 1-5.357 0",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FolderSearch;

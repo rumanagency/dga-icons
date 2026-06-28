@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Safari: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M11.248 1.25v2.23h1.504V1.25a10.78 10.78 0 0 1 9.998 9.998h-2.23v1.504h2.23a10.78 10.78 0 0 1-9.998 9.998v-2.23h-1.504v2.23a10.78 10.78 0 0 1-9.998-9.998h2.23v-1.504H1.25a10.78 10.78 0 0 1 9.998-9.998m5.5 6-2.327 6.11-3.783-3.782zm-9.5 9.5 2.329-6.112 3.784 3.783z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Safari;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const RemoteControl: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.75 2a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 .75.75v20a.75.75 0 0 1-.75.75h-15a.75.75 0 0 1-.75-.75zm6.75 13.75h-3v-1.5h3zm6 0h-3v-1.5h3zm-6 3h-3v-1.5h3zm6 0h-3v-1.5h3zM9.75 8a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0M12 4.25a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default RemoteControl;

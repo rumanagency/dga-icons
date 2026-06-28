@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const BorderAll01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.5 5.5a2 2 0 0 1 2-2H11v.9a1 1 0 1 0 2 0v-.9h5.5a2 2 0 0 1 2 2V11h-.9a1 1 0 1 0 0 2h.9v5.5a2 2 0 0 1-2 2H13v-.9a1 1 0 1 0-2 0v.9H5.5a2 2 0 0 1-2-2V13h.9a1 1 0 1 0 0-2h-.9zm-2 6.5V5.5a4 4 0 0 1 4-4h13a4 4 0 0 1 4 4v13a4 4 0 0 1-4 4h-13a4 4 0 0 1-4-4zM13 9.15a1 1 0 1 0-2 0V11H9.15a1 1 0 1 0 0 2H11v1.85a1 1 0 1 0 2 0V13h1.85a1 1 0 1 0 0-2H13z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default BorderAll01;

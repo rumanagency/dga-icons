@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const QqPlot: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M7.498 2h2.009v2H7.498zM4.5 3v15.586L20.078 3l1.413 1.414L5.913 20H21.49v2H3.5a1 1 0 0 1-1-1V3zm12.004 0h-2.009v2h2.01zM9.507 8H7.498v2h2.009zm9.985 2h2.01v2h-2.01zm-4.987 6h-2.009v2h2.01z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default QqPlot;

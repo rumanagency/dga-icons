@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SlidersHorizontal: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M10 1a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0V6H4a1 1 0 1 1 0-2h5V2a1 1 0 0 1 1-1m2 4a1 1 0 0 1 1-1h7a1 1 0 1 1 0 2h-7a1 1 0 0 1-1-1m5 4a1 1 0 1 0-2 0v6a1 1 0 1 0 2 0v-2h3a1 1 0 1 0 0-2h-3zm-4 7a1 1 0 1 0-2 0v6a1 1 0 1 0 2 0v-2h7a1 1 0 1 0 0-2h-7zm-9-3h9a1 1 0 1 0 0-2H4a1 1 0 0 0 0 2m0 7h5a1 1 0 0 0 0-2H4a1 1 0 0 0 0 2",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SlidersHorizontal;

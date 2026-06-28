@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Underpants02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M10.091 7.25H2.785l.6-3h17.23l.6 3zm-8.214 8.49 4.792.798L9.09 8.75H2.485l-1.22 6.103a.75.75 0 0 0 .612.887m14.132 1.599-2.67-8.589h-2.678l-2.67 8.589 1.385 2.077a.75.75 0 0 0 .624.334h4a.75.75 0 0 0 .624-.334zm6.608-1.913a.75.75 0 0 0 .118-.573l-1.22-6.103H14.91l2.421 7.788 4.792-.798a.75.75 0 0 0 .494-.314",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Underpants02;

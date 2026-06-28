@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const UserAdd01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M5.75 6.5a4.75 4.75 0 1 1 9.5 0 4.75 4.75 0 0 1-9.5 0m-4 14c0-4.371 4.015-7.75 8.75-7.75 1.948 0 3.775.572 5.25 1.55v1.45h-3v5.5h-11zm17.5 1.75v-3h3v-2h-3v-3h-2v3h-3v2h3v3z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default UserAdd01;

@@ -1,0 +1,25 @@
+import type { IconNode } from '../../types';
+
+const BabyBed02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4 7v8h4V7zm12 0v8h4V7z",
+        "clipRule": "evenodd",
+        "opacity": ".4"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M20.75 16.919q.423-.255.82-.533a.75.75 0 0 1 .86 1.228c-2.798 1.96-6.45 3.136-10.43 3.136s-7.632-1.175-10.43-3.136a.75.75 0 0 1 .86-1.228q.397.278.82.533V6c0-.69-.56-1.25-1.25-1.25a.75.75 0 0 1 0-1.5A2.75 2.75 0 0 1 4.75 6v.25h14.5V6A2.75 2.75 0 0 1 22 3.25a.75.75 0 0 1 0 1.5c-.69 0-1.25.56-1.25 1.25zm-1.5-1.169v1.961c-2.123.976-4.598 1.539-7.25 1.539s-5.127-.563-7.25-1.539V15.75zm-2.5-1.5h2.5v-6.5h-2.5zm-1.5 0h-2.5v-6.5h2.5zm-4 0h-2.5v-6.5h2.5zm-4 0h-2.5v-6.5h2.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default BabyBed02;

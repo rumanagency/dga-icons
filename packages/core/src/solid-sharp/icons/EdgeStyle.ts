@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const EdgeStyle: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M21 7H3V5h18zm-10 4H3V9h8zm2 0h8V9h-8zm-5 4H3v-2h5zm2 0h4v-2h-4zm11 0h-5v-2h5zm-8.5 4H16v-2h-3.5zm5 0H21v-2h-3.5zM3 19h3v-2H3zm4.5 0H11v-2H7.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default EdgeStyle;

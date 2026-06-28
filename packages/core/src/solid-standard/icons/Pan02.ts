@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Pan02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M5.175 5.838a2.006 2.006 0 1 0-2.837 2.837l2.487 2.487a2.01 2.01 0 0 0 2.205.428l1.72 1.72V14a4.75 4.75 0 0 0 4.75 4.75h4A4.75 4.75 0 0 0 22.25 14v-1a.75.75 0 0 0-.75-.75H9.81l-1.72-1.72a2.01 2.01 0 0 0-.428-2.205z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Pan02;

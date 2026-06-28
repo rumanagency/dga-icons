@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const AirplaneLanding01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.5 3.25a.75.75 0 0 0-.727.568l-1.5 5.985a.75.75 0 0 0 .485.892l5.45 1.86-1.675 1.333a.75.75 0 0 0 .252 1.305l5 1.497c.24.071.5.019.692-.14l2.177-1.795 5.538 1.89a1.932 1.932 0 0 0 2.558-1.826 7.245 7.245 0 0 0-6.482-7.198L7.66 6.808l-.417-2.914A.75.75 0 0 0 6.5 3.25zM6 19a1 1 0 1 0 0 2h16a1 1 0 1 0 0-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default AirplaneLanding01;

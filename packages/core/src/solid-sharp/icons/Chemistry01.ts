@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Chemistry01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4 20.5v-11H2v-2h2v-5h2v5h4.25v-3H9v-2h10v2h-1.25v3H22v2h-4.25v4.786c0 2.14-1.631 3.964-3.75 3.964s-3.75-1.824-3.75-3.964V9.5H6v10h16v2H5a1 1 0 0 1-1-1",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Chemistry01;

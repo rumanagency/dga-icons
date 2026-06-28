@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ShippingCenter: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M5.25 5A2.75 2.75 0 0 1 8 2.25h8A2.75 2.75 0 0 1 18.75 5v8c0 .353-.066.69-.187 1H19a4 4 0 0 1 0 8H5a4 4 0 0 1 0-8h.437a2.7 2.7 0 0 1-.187-1zM9.5 6a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-3a1 1 0 0 1-1-1M5 16a2 2 0 1 0 0 4h14a2 2 0 1 0 0-4zm1 2a1 1 0 0 1 1-1h.009a1 1 0 1 1 0 2H7a1 1 0 0 1-1-1m4.996 0a1 1 0 0 1 1-1h.008a1 1 0 1 1 0 2h-.008a1 1 0 0 1-1-1m4.995 0a1 1 0 0 1 1-1H17a1 1 0 1 1 0 2h-.009a1 1 0 0 1-1-1",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ShippingCenter;

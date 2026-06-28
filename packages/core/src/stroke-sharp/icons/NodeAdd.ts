@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const NodeAdd: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6.25 2v2.25H4v1.5h2.25V8h1.5V5.75H10v-1.5H7.75V2zm6.5 7a.75.75 0 0 1 .75-.75h6a.75.75 0 0 1 .75.75v5a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1-.75-.75v-1.75h-5v6.5h5V17a.75.75 0 0 1 .75-.75h6a.75.75 0 0 1 .75.75v5a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1-.75-.75v-1.75H7a.75.75 0 0 1-.75-.75V10h1.5v.75h5zm1.5.75v3.5h4.5v-3.5zm4.5 11.5h-4.5v-3.5h4.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default NodeAdd;

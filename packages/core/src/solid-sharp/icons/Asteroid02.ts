@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Asteroid02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m17.25 4.164 1.5-1.5-1.414-1.414-1.5 1.5zm-2.914.086 1.414 1.414-1.854 1.854a8.25 8.25 0 1 1-1.934-.894zm-1 8-3 3 1.457 1.414 2.957-3zm-1.374-5.626L6.336 12.25l1.414 1.414 6.146-6.146a8.2 8.2 0 0 0-1.934-.894m7.288 3.54 3.5-3.5-1.414-1.414-3.5 3.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Asteroid02;

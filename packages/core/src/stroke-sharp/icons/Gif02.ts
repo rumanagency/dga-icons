@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Gif02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.31 1.25H2.25v21.5h17.5v-1.5h-16V2.75h7.5v7h7v2h1.5V8.69zm4.88 7-4.44-4.44v4.44zm-5.94 5h-5v6.5h5v-4h-2.5v1.5h1v1h-2v-3.5h3.5zm5.5 0h-4.5v1.5h1.5v3.5h-1.5v1.5h4.5v-1.5h-1.5v-3.5h1.5zm5 1.5v-1.5h-4v6.5h1.5v-2.5h2v-1.5h-2v-1z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Gif02;

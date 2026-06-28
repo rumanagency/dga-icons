@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SmartPhone01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M5 1.25h3.433l1 3.5h5.131l1-3.5H19a.75.75 0 0 1 .75.75v20a.75.75 0 0 1-.75.75H5a.75.75 0 0 1-.75-.75V2A.75.75 0 0 1 5 1.25m4.993 0h4.011l-.571 2h-2.869zm.507 18.5h3v-1.5h-3z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SmartPhone01;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Chart: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M7.847 6.537a2.75 2.75 0 1 1 .892-1.79l7.43 3.701a2.75 2.75 0 1 1-.906 1.783zM5 9.5a1 1 0 0 1 1-1h.009a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1m0 3a1 1 0 0 1 1-1h.009a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1m0 3a1 1 0 0 1 1-1h.009a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1m0 3a1 1 0 0 1 1-1h.009a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1m13-4a1 1 0 1 0 0 2h.009a1 1 0 1 0 0-2zm0 3a1 1 0 1 0 0 2h.009a1 1 0 1 0 0-2zM2 22.25h20v-2H2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Chart;

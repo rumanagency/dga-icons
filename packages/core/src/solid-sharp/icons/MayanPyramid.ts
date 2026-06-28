@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MayanPyramid: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M8.25 2v4.25h7.5V2a.75.75 0 0 0-.75-.75H9a.75.75 0 0 0-.75.75m10.5 9.25v-3.5h-4.318l.765 3.5zm2 1.5v3.5h-4.46l-.766-3.5zm2 10v-5h-6.13l1.093 5zm-6.572 0H7.823l3.28-15h1.793zm-8.797-5-1.094 5H1.25v-5zm-4.131-1.5v-3.5h5.224l-.765 3.5zm2-8.5v3.5h3.553l.765-3.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MayanPyramid;

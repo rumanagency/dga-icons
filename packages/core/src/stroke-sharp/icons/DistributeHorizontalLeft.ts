@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const DistributeHorizontalLeft: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.75 2v20h1.5V2zm11 0v20h1.5V2zm3 6a.75.75 0 0 1 .75-.75h5a.75.75 0 0 1 .75.75v8a.75.75 0 0 1-.75.75h-5a.75.75 0 0 1-.75-.75zm1.5.75v6.5h3.5v-6.5zM5.5 4.25a.75.75 0 0 0-.75.75v14c0 .414.336.75.75.75h5a.75.75 0 0 0 .75-.75V5a.75.75 0 0 0-.75-.75zm.75 14V5.75h3.5v12.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default DistributeHorizontalLeft;

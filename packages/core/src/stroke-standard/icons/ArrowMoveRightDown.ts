@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ArrowMoveRightDown: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M17.47 1.47a.75.75 0 0 1 1.06 0l2.983 2.982a.75.75 0 0 1 0 1.096L18.53 8.53a.75.75 0 1 1-1.06-1.06l1.72-1.72H8c-.69 0-1.25.56-1.25 1.25v13.19l1.72-1.72a.75.75 0 0 1 1.06 1.06l-2.988 2.99a.75.75 0 0 1-1.084 0L2.47 19.53a.75.75 0 1 1 1.06-1.06l1.72 1.72V7A2.75 2.75 0 0 1 8 4.25h11.19l-1.72-1.72a.75.75 0 0 1 0-1.06",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ArrowMoveRightDown;

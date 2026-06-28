@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ArrowMoveUpRight: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M18.18 5.25H6A2.75 2.75 0 0 0 3.25 8v13a.75.75 0 0 0 1.5 0V8c0-.69.56-1.25 1.25-1.25h12.198L16.47 8.478a.75.75 0 0 0 1.06 1.06l3-3a.75.75 0 0 0 .22-.534V6a.75.75 0 0 0-.291-.594L17.53 2.478a.75.75 0 1 0-1.06 1.06z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ArrowMoveUpRight;

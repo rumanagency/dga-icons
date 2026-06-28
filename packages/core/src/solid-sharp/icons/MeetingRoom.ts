@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MeetingRoom: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M17 2.25a.75.75 0 0 1 .75.75v2.25h3.083c.507 0 .917.435.917.97v14.56c0 .535-.41.97-.917.97H3a.75.75 0 0 1-.75-.75V3A.75.75 0 0 1 3 2.25zm2.917 4.941H17.75V19.81h2.167zM13.75 10.5h-1.5v3h1.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MeetingRoom;

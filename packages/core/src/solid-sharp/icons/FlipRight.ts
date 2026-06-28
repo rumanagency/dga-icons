@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FlipRight: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.246 3.23c0-.54.438-.98.977-.98h10.75v19.5l-10.75-.01a.97.97 0 0 1-.977-.97zm20.529-.98c.539 0 .977.44.977.97v2.93h-1.955V4.2h-1.954V2.25zM16.888 4.2h-1.954V2.25h1.954zm5.864 3.9v2.93h-1.955V8.1zm0 4.87v2.93h-1.955v-2.93zm0 4.88v2.93c0 .25-.104.5-.288.69a1 1 0 0 1-.695.28l-2.932-.02.01-1.95 1.95.01v-1.94zm-5.864 3.9h-1.954V19.8h1.954z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FlipRight;

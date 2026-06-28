@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Man: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 1.25c-1.52 0-2.75 1.23-2.75 2.75S10.48 6.75 12 6.75 14.75 5.52 14.75 4 13.52 1.25 12 1.25m-2 6.5c-1.52 0-2.75 1.23-2.75 2.75v6.25h2v6h5.5v-6h2V10.5c0-1.52-1.23-2.75-2.75-2.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Man;

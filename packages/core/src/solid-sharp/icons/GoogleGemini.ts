@@ -1,0 +1,13 @@
+import type { IconNode } from '../../types';
+
+const GoogleGemini: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "d": "M3 11.25A8.25 8.25 0 0 0 11.25 3h1.5A8.25 8.25 0 0 0 21 11.25v1.5A8.25 8.25 0 0 0 12.75 21h-1.5A8.25 8.25 0 0 0 3 12.75z"
+      }
+    ]
+  ];
+
+export default GoogleGemini;

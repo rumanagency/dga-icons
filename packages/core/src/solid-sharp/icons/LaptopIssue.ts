@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const LaptopIssue: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m22.712 21.006-1.917-6.702V1.75H3.205v12.554l-1.917 6.702a.975.975 0 0 0 .94 1.244h19.545a.978.978 0 0 0 .94-1.244m-3.87-17.304v9.762H5.16V3.702zM11 10h2.009v2H11zm0-5v3.5h2V5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default LaptopIssue;

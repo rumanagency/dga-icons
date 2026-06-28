@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Celsius: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.75 6a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0M5 3.25a2.75 2.75 0 1 0 0 5.5 2.75 2.75 0 0 0 0-5.5m15.99 0H10.25v17.5h10.74c.42 0 .76-.34.76-.76V17h-1.5v2.25h-8.5V4.75h8.5V7h1.5V4.01a.76.76 0 0 0-.76-.76",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Celsius;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CallEnd03: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.5 2.5H8L10 7l-3 3c1.583 3.694 3.306 5.416 7 7l3-3 4.5 2v5.5q-19 0-19-19m14.75 2.888L14.362 2.5 13 3.86l2.888 2.889L13 9.638 14.362 11l2.888-2.89L20.138 11 21.5 9.638 18.612 6.75 21.5 3.86 20.138 2.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CallEnd03;

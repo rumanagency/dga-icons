@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Inbox: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 2.25a.75.75 0 0 0-.75.75v18c0 .414.336.75.75.75h18a.75.75 0 0 0 .75-.75V3a.75.75 0 0 0-.75-.75zm.75 11v-9.5h16.5v9.5h-6V14a2.25 2.25 0 0 1-4.5 0v-.75zm0 1.5v5.5h16.5v-5.5h-4.575a3.751 3.751 0 0 1-7.35 0z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Inbox;

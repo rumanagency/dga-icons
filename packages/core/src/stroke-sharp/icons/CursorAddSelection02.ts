@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CursorAddSelection02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.237 1.289a.75.75 0 0 0-.948.948l5.333 16a.75.75 0 0 0 1.423 0l2.548-7.644 7.644-2.548a.75.75 0 0 0 0-1.423zm5.096 14.34L3.186 3.185l12.442 4.147L9.763 9.29a.75.75 0 0 0-.474.474zM12.75 17a4.25 4.25 0 1 1 8.5 0 4.25 4.25 0 0 1-8.5 0M17 11.25a5.75 5.75 0 1 0 0 11.5 5.75 5.75 0 0 0 0-11.5m.75 8.25v-1.75h1.75v-1.5h-1.75V14.5h-1.5v1.75H14.5v1.5h1.75v1.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CursorAddSelection02;

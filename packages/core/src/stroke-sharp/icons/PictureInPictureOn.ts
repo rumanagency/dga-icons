@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const PictureInPictureOn: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 4A.75.75 0 0 1 2 3.25h20a.75.75 0 0 1 .75.75v7.5h-1.5V4.75H2.75v14.5H11v1.5H2a.75.75 0 0 1-.75-.75zm12 9.25h9.5v7.5h-9.5zm1.5 1.5v4.5h6.5v-4.5zM5.453 8.513l3.741 3.746H7.488v1.5h4.265V9.446h-1.5v1.75L6.515 7.454z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default PictureInPictureOn;

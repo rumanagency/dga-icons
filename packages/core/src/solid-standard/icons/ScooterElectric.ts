@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ScooterElectric: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M15 3a1 1 0 1 0 0 2h.98a1 1 0 0 1 .963.732l1.78 6.404a6 6 0 0 0-3.23 1.903L3.96 15a3 3 0 1 0 2.87 4H15a1 1 0 0 0 1-1c0-.902.297-1.731.8-2.4A4 4 0 0 1 20 14a1 1 0 0 0 .963-1.268L18.87 5.197A3 3 0 0 0 15.98 3zM3.98 17H4a1 1 0 1 1-.02 0m7.852-10.445a1 1 0 0 0-1.664-1.11l-2 3A1 1 0 0 0 9 10h1.132l-.964 1.445a1 1 0 0 0 1.664 1.11l2-3A1 1 0 0 0 12 8h-1.132zM20 17a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-3 1a3 3 0 1 1 6 0 3 3 0 0 1-6 0",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ScooterElectric;

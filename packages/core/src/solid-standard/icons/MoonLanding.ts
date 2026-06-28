@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MoonLanding: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 1a1 1 0 0 0-1 1v9.296C5.532 11.8 1.25 16.4 1.25 22c0 .414.336.75.75.75h3.25V22a3.75 3.75 0 1 1 7.5 0v.75H22a.75.75 0 0 0 .75-.75c0-5.6-4.282-10.2-9.75-10.704V7.994h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zm-.75 21v.75h-4.5V22a2.25 2.25 0 0 1 4.5 0M15 16a1 1 0 1 0 0 2h.009a1 1 0 1 0 0-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MoonLanding;

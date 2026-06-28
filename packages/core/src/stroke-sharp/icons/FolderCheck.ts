@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FolderCheck: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.022 2.25a.76.76 0 0 0-.76.76v17.918a1 1 0 0 0 0 .108.754.754 0 0 0 .749.71h9.032v-1.5h-8.28L2.761 3.75h5.871l1.877 2.498h-3.51v1.5h14.264l-.008 5.288 1.5.002.01-6.029a.76.76 0 0 0-.76-.76h-9.619L9.383 2.25zm-.756 18.627-.001.011zm13.75 1.182 6.537-6.529-1.06-1.061-5.476 5.47-1.473-1.47-1.06 1.061z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FolderCheck;

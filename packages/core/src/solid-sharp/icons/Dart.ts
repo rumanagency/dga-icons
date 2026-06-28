@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Dart: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m22.498 2.56-2.61 2.612a3.724 3.724 0 0 1-.478 4.678l-5.26-5.26a3.72 3.72 0 0 1 4.676-.479L21.438 1.5zm-9.227 3.272L7.16 15.78l-.816.815L1.5 18.21v4.29h4.291l1.615-4.846.81-.81 9.952-6.115z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Dart;

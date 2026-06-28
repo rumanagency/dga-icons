@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SmartAc: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2 2.75a.75.75 0 0 0-.75.75v12c0 .414.336.75.75.75h20a.75.75 0 0 0 .75-.75v-12a.75.75 0 0 0-.75-.75zm4 10.5h12v-1.5H6zM17 6.5h2.009v2H17zM6 17.25v4h2v-4zm5 4v-4h2v4zm5-4v4h2v-4z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SmartAc;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const DocumentCode: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M19.92 1.25H9.642L2.248 8.69v13.199c0 .47.382.85.85.85h6.877v-1.5H3.748V9.749h7.03l-.066-6.999h8.557v10.268h1.5V2.1a.85.85 0 0 0-.85-.85m-10.657 7H4.801l4.42-4.448zm5.2 7.219 1.059 1.062-2.473 2.467 2.473 2.466-1.06 1.062-3.536-3.529zm5.476 3.528-2.472-2.466 1.06-1.062 3.536 3.528-3.537 3.53-1.06-1.063z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default DocumentCode;

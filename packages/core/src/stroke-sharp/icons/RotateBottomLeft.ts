@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const RotateBottomLeft: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2 2.75a.75.75 0 0 0-.75.75v13c0 .414.336.75.75.75h13a.75.75 0 0 0 .75-.75v-13a.75.75 0 0 0-.75-.75zm.75 13V4.25h11.5v11.5zm16.78-5.78a.75.75 0 0 0-1.28.53v9.25H10v1.5h9a.75.75 0 0 0 .75-.75v-8.19l1.72 1.72 1.06-1.06z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default RotateBottomLeft;

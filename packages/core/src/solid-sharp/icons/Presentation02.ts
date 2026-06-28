@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Presentation02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.5 1.5h17a.75.75 0 0 1 .75.75v13H22v2h-9v.828l4.5 2.707-1.026 1.715L13 20.41v2.09h-2v-2.09L7.526 22.5 6.5 20.785l4.5-2.707v-.828H2v-2h.75v-13a.75.75 0 0 1 .75-.75",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Presentation02;

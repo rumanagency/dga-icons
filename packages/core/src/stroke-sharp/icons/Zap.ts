@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Zap: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M9.014 1.844h10.278l-4 7h3.683a.76.76 0 0 1 .538 1.297L6.615 23.04l2.424-9.695H5.015a.76.76 0 0 1-.693-1.072zm.97 1.5-3.825 8.5h3.827a.76.76 0 0 1 .738.944l-1.34 5.36 7.805-7.804h-3.172a.76.76 0 0 1-.66-1.137l3.35-5.863z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Zap;

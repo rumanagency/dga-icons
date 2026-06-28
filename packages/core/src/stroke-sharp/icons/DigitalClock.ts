@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const DigitalClock: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M5.493 1.75H9.51l1 2.5H22a.75.75 0 0 1 .75.75v13a.75.75 0 0 1-.75.75h-2.25V21h-1.5v-2.25H5.75V21h-1.5v-2.25H2a.75.75 0 0 1-.75-.75V5A.75.75 0 0 1 2 4.25h2.493zm3 1.5.4 1H6.11l.4-1zm-5.743 14V5.75h18.5v11.5zm9.75-8.5a.75.75 0 0 0-.75.75v4c0 .414.336.75.75.75H15a.75.75 0 0 0 .75-.75v-4a.75.75 0 0 0-.75-.75zm.75 4v-2.5h1v2.5zm-6 1.5v-5.5h-1.5v5.5zm11 0v-5.5h-1.5v5.5zM10.259 9.5H8.75V11h1.509zm0 2.5H8.75v1.5h1.509z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default DigitalClock;

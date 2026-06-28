@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Rhombus01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 1.25a.75.75 0 0 1 .53.22l10 10a.75.75 0 0 1 0 1.06l-10 10a.75.75 0 0 1-1.061 0l-10-10a.75.75 0 0 1 0-1.06l10-10a.75.75 0 0 1 .53-.22M3.06 12 12 20.94 20.937 12 12 3.06z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Rhombus01;

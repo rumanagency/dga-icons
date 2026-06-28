@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Uv02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M11 2.5V5h2V2.5zm7.363 2.219-1.767 1.768L18.01 7.9l1.767-1.768zM6.25 13.25v-.75a5.75 5.75 0 1 1 11.5 0v.75zM22 11.5h-2.5v2H22zm-20 0h2.5v2H2zm5.406-5.008L5.638 4.724 4.224 6.14l1.768 1.767zM7 19.5v-4H5v5a1 1 0 0 0 1 1h5v-6H9v4zm10.07-4.375-1.57 3.929-1.572-3.929-1.857.743 2.252 5.628h2.354l2.251-5.628z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Uv02;

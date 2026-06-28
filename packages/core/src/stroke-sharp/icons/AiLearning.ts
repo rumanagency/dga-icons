@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const AiLearning: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m5.293 4.812-2.541-.79v13.443l8.5 2.533V15h1.5v4.997l8.498-2.532V4.022l-2.541.79-.445-1.433 3.384-1.051a.85.85 0 0 1 1.102.812v15.444L12 21.787 1.253 18.584V3.14a.85.85 0 0 1 1.102-.812l3.384 1.051zm7.459-.554h-1.5V3h-1.5v1.258h-1.5V5.75h-1.25v1.5h1.25v1.5h-1.25v1.5h1.25v1.508h1.5V13h1.5v-1.242h1.5V13h1.5v-1.242h1.5V10.25h1.25v-1.5h-1.25v-1.5h1.25v-1.5h-1.25V4.258h-1.5V3h-1.5zm-3 6v-4.5h4.5v4.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default AiLearning;

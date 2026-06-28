@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const SortingZA01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M8.315 3.75H4v-1.5h6.25v1.522L5.685 9.25H10v1.5H3.75V9.228zm-2.344 9.5h2.057l2.678 7.498-1.413.504-2.294-6.422-2.293 6.422-1.413-.504zm13.498 3.22-1.72 1.72V4h-1.5v14.19l-1.72-1.72-1.06 1.06 3.53 3.53 3.53-3.53z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default SortingZA01;

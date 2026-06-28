@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Repository: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6 1a4 4 0 0 0-4 4v11a4 4 0 0 0 4 4 1 1 0 1 0 0-2 2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2 1 1 0 1 0 0 2 4 4 0 0 0 4-4V5a4 4 0 0 0-4-4zm2 8a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2zM7 6a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1m3 7.25A1.75 1.75 0 0 0 8.25 15v7a.75.75 0 0 0 1.166.624L12 20.901l2.584 1.723A.75.75 0 0 0 15.75 22v-7A1.75 1.75 0 0 0 14 13.25z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Repository;

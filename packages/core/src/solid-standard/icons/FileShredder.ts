@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FileShredder: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3.25 4.135c0-1.595 1.308-2.887 2.92-2.885l6.8.007a.98.98 0 0 1 .685.281l6.81 6.723c.182.18.285.425.285.68v2.809h.75a1 1 0 1 1 0 2h-19a1 1 0 1 1 0-2h.75zm15.556 5.206-6.24-6.16v4.66a1.5 1.5 0 0 0 1.5 1.5zM7 15.75a1 1 0 1 0-2 0v1a1 1 0 1 0 2 0zm4 0a1 1 0 1 0-2 0v6a1 1 0 1 0 2 0zm4 0a1 1 0 1 0-2 0v2a1 1 0 1 0 2 0zm4 0a1 1 0 1 0-2 0v4a1 1 0 1 0 2 0z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FileShredder;

@@ -1,0 +1,19 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+
+# Generated source files (rebuild with `pnpm generate`)
+packages/core/src/icons/
+packages/core/src/index.ts
+packages/react/src/icons/
+packages/react/src/index.ts
+packages/react/src/*/icons/
+packages/react/src/*/index.ts
+
+# Backups from fix script
+icons/backups/
+
+# Temp
+all_icon_names.txt
+fix_metadata.py

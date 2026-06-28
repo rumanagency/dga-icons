@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Keyboard: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M14.75 2v3.75h-2v1.5H22a.75.75 0 0 1 .75.75v14a.75.75 0 0 1-.75.75H2a.75.75 0 0 1-.75-.75V8A.75.75 0 0 1 2 7.25h9.25v-3h2V2zm-12 6.75v12.5h18.5V8.75zm8.25 4.5h2v-1.5h-2zm5 0h2v-1.5h-2zm-10 0h2v-1.5H6zm0 5h12v-1.5H6z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Keyboard;

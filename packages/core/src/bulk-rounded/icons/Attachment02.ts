@@ -1,0 +1,25 @@
+import type { IconNode } from '../../types';
+
+const Attachment02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12 3a3 3 0 0 0-3 3v2a1 1 0 0 1-2 0V6a5 5 0 0 1 10 0v12a5 5 0 0 1-5 5 1 1 0 1 1 0-2 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3",
+        "clipRule": "evenodd"
+      }
+    ],
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M10.5 12A1.5 1.5 0 0 0 9 13.5V18a3 3 0 0 0 3 3 1 1 0 1 1 0 2 5 5 0 0 1-5-5v-4.5a3.5 3.5 0 1 1 7 0V16a1 1 0 1 1-2 0v-2.5a1.5 1.5 0 0 0-1.5-1.5",
+        "clipRule": "evenodd",
+        "opacity": ".4"
+      }
+    ]
+  ];
+
+export default Attachment02;

@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Book03: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6 1a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h14a1 1 0 1 0 0-2h-.139a1.48 1.48 0 0 1-.361-1c0-.425.155-.773.362-1H20a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zm11.64 18H6a1 1 0 1 0 0 2h11.64a3.63 3.63 0 0 1 0-2M12.67 6.665a.75.75 0 0 0-1.342 0l-2 4-1 2a.75.75 0 1 0 1.342.67l.793-1.585h3.073l.792 1.585a.75.75 0 0 0 1.342-.67zm.116 3.585h-1.573L12 8.677z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Book03;

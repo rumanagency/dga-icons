@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const PreferenceHorizontal: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M12.25 1.25h4.5v5.5h-4.5v-2H3v-1.5h9.25zm1.5 1.5v2.5h1.5v-2.5zm-6.5 6h4.5v2H21v1.5h-9.25v2h-4.5zm1.5 1.5v2.5h1.5v-2.5zm6 6h-4.5v2H3v1.5h7.25v2h4.5zm-3 4v-2.5h1.5v2.5zm4.25-2h5v1.5h-5zm2-15h3v1.5h-3zm-12 7.5H3v1.5h3z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default PreferenceHorizontal;

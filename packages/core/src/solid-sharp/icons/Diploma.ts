@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Diploma: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2 2.25a.75.75 0 0 0-.75.75v16c0 .414.336.75.75.75h5.5V14a4.5 4.5 0 1 1 9 0v5.75H22a.75.75 0 0 0 .75-.75V3a.75.75 0 0 0-.75-.75zm5 3h10v1.5H7zM15 14a3 3 0 1 1-6 0 3 3 0 0 1 6 0m0 2.76A4.24 4.24 0 0 1 12 18a4.24 4.24 0 0 1-3-1.24v4.99l3-1.5 3 1.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Diploma;

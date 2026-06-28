@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MailValidation02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4 1.5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h5.5a1 1 0 1 0 0-2H4a1 1 0 0 1-1-1V6.839l7.77 3.885a2.75 2.75 0 0 0 2.46 0L21 6.839V10a1 1 0 1 0 2 0V4.5a3 3 0 0 0-3-3zm13 9.25a5.75 5.75 0 1 0 0 11.5 5.75 5.75 0 0 0 0-11.5m2.576 4.73a.75.75 0 0 0-1.152-.96l-1.974 2.369-.92-.92a.75.75 0 1 0-1.06 1.061l1.5 1.5a.75.75 0 0 0 1.106-.05z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MailValidation02;

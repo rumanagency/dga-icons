@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const TextSubscript: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M2.47 2.47A.75.75 0 0 1 3 2.25h14a.75.75 0 0 1 .75.75v3h-1.5V3.75h-5.408v16.504h2.157v1.5H7.066v-1.5h2.276V3.75H3.75V6h-1.5V3a.75.75 0 0 1 .22-.53m14.78 11.78H21a.75.75 0 0 1 .75.75v3a.75.75 0 0 1-.75.75h-2.25v1.5h3v1.5H18a.75.75 0 0 1-.75-.75v-3a.75.75 0 0 1 .75-.75h2.25v-1.5h-3z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default TextSubscript;

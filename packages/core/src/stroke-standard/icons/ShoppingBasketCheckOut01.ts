@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ShoppingBasketCheckOut01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M11.5 2.75A3.75 3.75 0 0 0 7.75 6.5v.75h7.5V6.5a3.75 3.75 0 0 0-3.75-3.75M6.25 6.5v.75H3a.75.75 0 0 0-.742.856L4.012 20.39a2.75 2.75 0 0 0 2.723 2.361H13.5a.75.75 0 0 0 0-1.5H6.735a1.25 1.25 0 0 1-1.238-1.073L3.865 8.75H19.15l-.394 3.157a.75.75 0 0 0 1.488.186l.5-4A.75.75 0 0 0 20 7.25h-3.25V6.5a5.25 5.25 0 1 0-10.5 0m13.5 9a.75.75 0 0 0-1.5 0v4.69l-.72-.72a.75.75 0 1 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0l2-2a.75.75 0 1 0-1.06-1.06l-.72.72z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ShoppingBasketCheckOut01;

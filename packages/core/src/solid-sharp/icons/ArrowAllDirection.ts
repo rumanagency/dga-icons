@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const ArrowAllDirection: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m12.002 2 4 4-1.414 1.414-1.586-1.586V10h-2V5.829L9.416 7.414 8.002 6zm0 20 4-4-1.414-1.415-1.586 1.586V14h-2v4.171l-1.586-1.586L8.002 18zM18 16l4-4-4-4-1.415 1.414L18.171 11H14v2h4.171l-1.586 1.586zM2 12l4 4 1.414-1.414L5.828 13H10v-2H5.829l1.585-1.586L6 8z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default ArrowAllDirection;

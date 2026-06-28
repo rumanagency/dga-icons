@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const BatteriesEnergy: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "m11.352 5.534 2.18-3.489-1.273-.795-3.614 5.784h4l-2.18 3.488 1.271.795 3.615-5.783zM4.25 5.251l.001-.001zm0 0h3v1.5h-1.5v4.499H4.251zm15.5 0h-3v1.5h1.501v4.5h1.5zM16 12.25a.75.75 0 0 0-.75.75v1.75h7.5V13a.75.75 0 0 0-.75-.75zm-.75 4h7.5v2.5h-7.5zm7.5 4h-7.5V22c0 .414.336.75.75.75h6a.75.75 0 0 0 .75-.75zM1.25 13a.75.75 0 0 1 .75-.75h6a.75.75 0 0 1 .75.75v1.75h-7.5zm7.5 3.25h-7.5v2.5h7.5zm-7.5 4h7.5V22a.75.75 0 0 1-.75.75H2a.75.75 0 0 1-.75-.75z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default BatteriesEnergy;

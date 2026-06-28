@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const MailEdit02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M11 20.754H2a.75.75 0 0 1-.75-.75V3A.75.75 0 0 1 2 2.25h20a.75.75 0 0 1 .75.75v8.002h-1.5V3.75H2.75v15.504H11zm1-8.353L5.584 8.123l.832-1.248L12 10.598l5.584-3.723.832 1.248zm1.23 9.346h3.574l5.948-5.985v-.63l-2.442-2.435-.42-.419-.326-.325-.288.285-.43.424-5.616 5.544zm2.948-1.5H14.73v-1.415l4.828-4.766 1.387 1.384z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default MailEdit02;

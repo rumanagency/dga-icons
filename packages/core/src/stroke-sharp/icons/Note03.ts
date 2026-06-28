@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Note03: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6.25 4.75V6h1.5V4.75h3.5V6h1.5V4.75h3.5V6h1.5V4.75h2.5v16.5H3.75V4.75zm0-1.5H3a.75.75 0 0 0-.75.75v18c0 .414.336.75.75.75h18a.75.75 0 0 0 .75-.75V4a.75.75 0 0 0-.75-.75h-3.25V2h-1.5v1.25h-3.5V2h-1.5v1.25h-3.5V2h-1.5zm11.25 14.5H13v-1.5h4.5zm-4.5-6h4.5v-1.5H13zm-2.531-3.281 1.06 1.06L8 13.06l-2.03-2.03 1.06-1.06.97.97zm1.06 7.06-1.06-1.06-2.47 2.47-.97-.97-1.06 1.06 2.03 2.03z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Note03;

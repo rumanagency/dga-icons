@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const Chip: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M8.75 3.75h2.5V2h1.5v1.75h2.5V2h1.5v1.75h3.5v3.5H22v1.5h-1.75v2.5H22v1.5h-1.75v2.5H22v1.5h-1.75v3.5h-3.5V22h-1.5v-1.75h-2.5V22h-1.5v-1.75h-2.5V22h-1.5v-1.75h-3.5v-3.5H2v-1.5h1.75v-2.5H2v-1.5h1.75v-2.5H2v-1.5h1.75v-3.5h3.5V2h1.5zm-3.5 1.5v13.5h13.5V5.25zm1.5 1.5h10.5v7.56l-2.94 2.94H6.75zm1.5 1.5v7.5h5.44l2.06-2.06V8.25z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default Chip;

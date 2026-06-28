@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const WifiLowSignal: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.464 6.677A14.7 14.7 0 0 1 12 2.25c4.127 0 7.86 1.696 10.536 4.427a.75.75 0 0 1 .071.965l-6.631 9.15A14.8 14.8 0 0 0 12 16.25c-1.377 0-2.71.189-3.976.542l-6.631-9.15a.75.75 0 0 1 .071-.965m13.564 11.42a13.3 13.3 0 0 0-3.03-.347c-1.042 0-2.056.12-3.03.348l2.423 3.342a.75.75 0 0 0 1.215 0z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default WifiLowSignal;

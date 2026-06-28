@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CircleLock01: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M6.75 6.5a5.25 5.25 0 1 1 10.5 0v2.8a7.75 7.75 0 1 1-10.5 0zm9 0v1.716A7.7 7.7 0 0 0 12 7.25a7.7 7.7 0 0 0-3.75.966V6.5a3.75 3.75 0 1 1 7.5 0M12 8.75a6.25 6.25 0 1 0 0 12.5 6.25 6.25 0 0 0 0-12.5M13.009 14H11v2h2.009z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CircleLock01;

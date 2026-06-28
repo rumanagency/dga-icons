@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const AiPhone02: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M16.75 6.75v-5.5H2.25v21.5h14.5v-5.5H13.5v-3h-3v-4.5h3v-3zM8.5 18h2.009v2H8.5zM20.25 5.25a1.5 1.5 0 0 0-1.45 1.888L17.69 8.25H15v1.5h3a.75.75 0 0 0 .53-.22l1.331-1.33a1.5 1.5 0 0 0 1.889-1.45 1.5 1.5 0 0 0-1.5-1.5m-2.25 9h-3v1.5h2.69l1.11 1.111a1.503 1.503 0 0 0 1.45 1.889 1.5 1.5 0 1 0-.389-2.95l-1.33-1.33a.75.75 0 0 0-.531-.22m.95-3a1.5 1.5 0 1 1 0 1.5H12v-1.5z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default AiPhone02;

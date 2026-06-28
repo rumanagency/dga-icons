@@ -1,0 +1,107 @@
+{
+  "name": "@dga-icons/react",
+  "version": "0.1.0",
+  "description": "React components for DGA Icons — 4,354 beautifully crafted icons in 9 styles",
+  "license": "ISC",
+  "author": "Saleh @ Ruman",
+  "type": "module",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/esm/index.d.ts",
+        "default": "./dist/esm/index.js"
+      },
+      "require": {
+        "types": "./dist/cjs/index.d.cts",
+        "default": "./dist/cjs/index.cjs"
+      }
+    },
+    "./solid-rounded": {
+      "import": {
+        "types": "./dist/esm/solid-rounded/index.d.ts",
+        "default": "./dist/esm/solid-rounded/index.js"
+      }
+    },
+    "./bulk-rounded": {
+      "import": {
+        "types": "./dist/esm/bulk-rounded/index.d.ts",
+        "default": "./dist/esm/bulk-rounded/index.js"
+      }
+    },
+    "./duotone-rounded": {
+      "import": {
+        "types": "./dist/esm/duotone-rounded/index.d.ts",
+        "default": "./dist/esm/duotone-rounded/index.js"
+      }
+    },
+    "./twotone-rounded": {
+      "import": {
+        "types": "./dist/esm/twotone-rounded/index.d.ts",
+        "default": "./dist/esm/twotone-rounded/index.js"
+      }
+    },
+    "./solid-sharp": {
+      "import": {
+        "types": "./dist/esm/solid-sharp/index.d.ts",
+        "default": "./dist/esm/solid-sharp/index.js"
+      }
+    },
+    "./solid-standard": {
+      "import": {
+        "types": "./dist/esm/solid-standard/index.d.ts",
+        "default": "./dist/esm/solid-standard/index.js"
+      }
+    },
+    "./stroke-sharp": {
+      "import": {
+        "types": "./dist/esm/stroke-sharp/index.d.ts",
+        "default": "./dist/esm/stroke-sharp/index.js"
+      }
+    },
+    "./stroke-standard": {
+      "import": {
+        "types": "./dist/esm/stroke-standard/index.d.ts",
+        "default": "./dist/esm/stroke-standard/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  },
+  "dependencies": {
+    "@dga-icons/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0"
+  },
+  "keywords": [
+    "icons",
+    "react",
+    "svg",
+    "components",
+    "ui",
+    "dga-icons",
+    "icon-library"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user/dga-icons",
+    "directory": "packages/react"
+  }
+}

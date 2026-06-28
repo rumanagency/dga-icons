@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const GoogleDoc: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4.75 21.245 4.751 2.75h9.52v5.031h4.977v13.464zM18.203 6.281l-2.431-2.436v2.436zM4.011 1.25a.76.76 0 0 0-.76.76L3.25 21.985c0 .42.34.76.76.76h15.978a.76.76 0 0 0 .76-.76V6.708L15.302 1.25zm12.01 10.531h-8v-1.5h8zm0 3h-8v-1.5h8zm-2 3h-6v-1.5h6z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default GoogleDoc;

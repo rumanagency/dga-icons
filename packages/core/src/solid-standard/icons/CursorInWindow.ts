@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const CursorInWindow: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M4 1a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h5a1 1 0 1 0 0-2H4a1 1 0 0 1-1-1V8h16v1.5a1 1 0 0 0 2 0V4a3 3 0 0 0-3-3zm8.776 10.357a1.25 1.25 0 0 0-1.419 1.419l1.147 7.795c.15 1.017 1.394 1.429 2.12.702l1.544-1.544 2.45 2.45a1.25 1.25 0 0 0 1.768 0l1.792-1.793a1.25 1.25 0 0 0 0-1.768l-2.45-2.45 1.545-1.544c.727-.726.315-1.97-.702-2.12z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default CursorInWindow;

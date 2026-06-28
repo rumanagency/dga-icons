@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const FolderPin: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M1.25 2.25h8.123l3.018 3.994H22.75V11h-8.19l.803 4.015L14 16.833V20h3v1.75H1.25zm17 19.5h1.5v-3h3v-1.5l-1.449-1.932.614-3.068h-5.83l.614 3.068-1.449 1.932v1.5h3z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default FolderPin;

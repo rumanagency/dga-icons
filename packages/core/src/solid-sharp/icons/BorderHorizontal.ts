@@ -1,0 +1,15 @@
+import type { IconNode } from '../../types';
+
+const BorderHorizontal: IconNode = [
+    [
+      "path",
+      {
+        "fill": "currentColor",
+        "fillRule": "evenodd",
+        "d": "M3 2a1 1 0 0 0-1 1v4h2V4h3V2zm10 2h2V2H9v2h2v3h2zm4 0h3v3h2V3a1 1 0 0 0-1-1h-4zM4 11V9H2v6h2v-2h7v2h2v-2h7v2h2V9h-2v2h-7V9h-2v2zm0 6v3h3v2H3a1 1 0 0 1-1-1v-4zm16 0v3h-3v2h4a1 1 0 0 0 1-1v-4zm-9 3H9v2h6v-2h-2v-3h-2z",
+        "clipRule": "evenodd"
+      }
+    ]
+  ];
+
+export default BorderHorizontal;
