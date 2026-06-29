@@ -53,19 +53,34 @@ npm install @dga-icons/react
 # Vue
 npm install @dga-icons/vue
 
+# Svelte
+npm install @dga-icons/svelte
+
+# Solid
+npm install @dga-icons/solid
+
+# Preact
+npm install @dga-icons/preact
+
+# React Native
+npm install @dga-icons/react-native react-native-svg
+
 # Vanilla JS
 npm install @dga-icons/js
+
+# Raw SVG
+npm install @dga-icons/svg
 ```
 
 ## 💻 Usage
 
-### Usage with React
+By default, importing from any framework package gives you the `stroke-rounded` style. You can import other styles by appending the style name (e.g., `@dga-icons/react/solid-rounded`).
 
-By default, importing from `@dga-icons/react` gives you the `stroke-rounded` style.
+### React
 
 ```tsx
 import { Home01, ShoppingCart01 } from '@dga-icons/react';
-import { Camera } from '@dga-icons/react/solid-rounded'; // using a different style
+import { Camera } from '@dga-icons/react/solid-rounded';
 
 function App() {
   return (
@@ -78,14 +93,12 @@ function App() {
 }
 ```
 
-### Usage with Vue
-
-By default, importing from `@dga-icons/vue` gives you the `stroke-rounded` style.
+### Vue
 
 ```vue
 <script setup>
 import { Home01, ShoppingCart01 } from '@dga-icons/vue';
-import { Camera } from '@dga-icons/vue/solid-rounded'; // using a different style
+import { Camera } from '@dga-icons/vue/solid-rounded';
 </script>
 
 <template>
@@ -97,7 +110,77 @@ import { Camera } from '@dga-icons/vue/solid-rounded'; // using a different styl
 </template>
 ```
 
-### Usage with Vanilla JS
+### Svelte
+
+```svelte
+<script>
+import { Home01, ShoppingCart01 } from '@dga-icons/svelte';
+import { Camera } from '@dga-icons/svelte/solid-rounded';
+</script>
+
+<!-- Using Svelte action (recommended for reactivity) -->
+<div use:Home01></div>
+<div use:ShoppingCart01={{ size: 32, color: 'blue' }}></div>
+
+<!-- Or using the {@html} block -->
+<div>
+  {@html Camera({ size: 24 })}
+</div>
+```
+
+### Solid JS
+
+```tsx
+import { Home01, ShoppingCart01 } from '@dga-icons/solid';
+import { Camera } from '@dga-icons/solid/solid-rounded';
+
+function App() {
+  return (
+    <div style={{ display: 'flex', gap: '16px' }}>
+      <Home01 />
+      <ShoppingCart01 size={32} color="blue" strokeWidth={2} />
+      <Camera />
+    </div>
+  );
+}
+```
+
+### Preact
+
+```tsx
+import { Home01, ShoppingCart01 } from '@dga-icons/preact';
+import { Camera } from '@dga-icons/preact/solid-rounded';
+
+export function App() {
+  return (
+    <div style={{ display: 'flex', gap: '16px' }}>
+      <Home01 />
+      <ShoppingCart01 size={32} color="blue" strokeWidth={2} />
+      <Camera />
+    </div>
+  );
+}
+```
+
+### React Native
+
+```tsx
+import { View } from 'react-native';
+import { Home01, ShoppingCart01 } from '@dga-icons/react-native';
+import { Camera } from '@dga-icons/react-native/solid-rounded';
+
+export default function App() {
+  return (
+    <View style={{ flexDirection: 'row', gap: 16 }}>
+      <Home01 color="black" />
+      <ShoppingCart01 size={32} color="blue" strokeWidth={2} />
+      <Camera />
+    </View>
+  );
+}
+```
+
+### Vanilla JS
 
 The Vanilla JS package exposes factory functions that return ready-to-mount `SVGElement` nodes.
 
@@ -114,6 +197,18 @@ const cameraIcon = Camera();
 document.body.appendChild(homeIcon);
 document.body.appendChild(cartIcon);
 document.body.appendChild(cameraIcon);
+```
+
+### Raw SVG
+
+The `@dga-icons/svg` package simply contains all the `.svg` files organized by style. You can use them directly in bundlers like Webpack/Vite or copy them using build scripts.
+
+```javascript
+// Example using Vite's static asset import
+import homeIconPath from '@dga-icons/svg/stroke-rounded/home-01.svg';
+
+const img = document.createElement('img');
+img.src = homeIconPath;
 ```
 
 ---
