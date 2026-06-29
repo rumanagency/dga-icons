@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { MailReplyAll01 as iconData } from '@dga-icons/core/duotone-rounded';
+
+const MailReplyAll01 = createVueIcon('mail-reply-all-01', iconData);
+
+export default MailReplyAll01;

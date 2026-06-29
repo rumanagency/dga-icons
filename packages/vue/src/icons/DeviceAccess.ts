@@ -1,0 +1,6 @@
+import { createVueIcon } from '../createVueIcon';
+import { DeviceAccess as iconData } from '@dga-icons/core';
+
+const DeviceAccess = createVueIcon('device-access', iconData);
+
+export default DeviceAccess;

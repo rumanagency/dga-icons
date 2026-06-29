@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { MailSearch01 as iconData } from '@dga-icons/core/bulk-rounded';
+
+const MailSearch01 = createJsIcon('mail-search-01', iconData);
+
+export default MailSearch01;

@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { ImageCompositionOval as iconData } from '@dga-icons/core/stroke-standard';
+
+const ImageCompositionOval = createJsIcon('image-composition-oval', iconData);
+
+export default ImageCompositionOval;

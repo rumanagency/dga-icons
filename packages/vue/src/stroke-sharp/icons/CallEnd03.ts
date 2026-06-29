@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { CallEnd03 as iconData } from '@dga-icons/core/stroke-sharp';
+
+const CallEnd03 = createVueIcon('call-end-03', iconData);
+
+export default CallEnd03;

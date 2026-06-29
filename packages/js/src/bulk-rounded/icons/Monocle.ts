@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { Monocle as iconData } from '@dga-icons/core/bulk-rounded';
+
+const Monocle = createJsIcon('monocle', iconData);
+
+export default Monocle;

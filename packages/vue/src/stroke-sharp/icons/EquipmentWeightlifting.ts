@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { EquipmentWeightlifting as iconData } from '@dga-icons/core/stroke-sharp';
+
+const EquipmentWeightlifting = createVueIcon('equipment-weightlifting', iconData);
+
+export default EquipmentWeightlifting;

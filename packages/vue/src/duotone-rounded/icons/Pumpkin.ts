@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { Pumpkin as iconData } from '@dga-icons/core/duotone-rounded';
+
+const Pumpkin = createVueIcon('pumpkin', iconData);
+
+export default Pumpkin;

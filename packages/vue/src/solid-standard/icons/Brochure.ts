@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { Brochure as iconData } from '@dga-icons/core/solid-standard';
+
+const Brochure = createVueIcon('brochure', iconData);
+
+export default Brochure;

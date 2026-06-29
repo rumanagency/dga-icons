@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { UsbMemory02 as iconData } from '@dga-icons/core/solid-standard';
+
+const UsbMemory02 = createJsIcon('usb-memory-02', iconData);
+
+export default UsbMemory02;

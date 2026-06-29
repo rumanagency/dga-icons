@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { CameraOff01 as iconData } from '@dga-icons/core/solid-standard';
+
+const CameraOff01 = createVueIcon('camera-off-01', iconData);
+
+export default CameraOff01;

@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { Dress03 as iconData } from '@dga-icons/core/duotone-rounded';
+
+const Dress03 = createVueIcon('dress-03', iconData);
+
+export default Dress03;

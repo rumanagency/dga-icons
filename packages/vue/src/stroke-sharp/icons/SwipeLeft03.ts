@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { SwipeLeft03 as iconData } from '@dga-icons/core/stroke-sharp';
+
+const SwipeLeft03 = createVueIcon('swipe-left-03', iconData);
+
+export default SwipeLeft03;

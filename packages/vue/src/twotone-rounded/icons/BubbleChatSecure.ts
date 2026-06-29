@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { BubbleChatSecure as iconData } from '@dga-icons/core/twotone-rounded';
+
+const BubbleChatSecure = createVueIcon('bubble-chat-secure', iconData);
+
+export default BubbleChatSecure;

@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { CallAdd as iconData } from '@dga-icons/core/duotone-rounded';
+
+const CallAdd = createJsIcon('call-add', iconData);
+
+export default CallAdd;

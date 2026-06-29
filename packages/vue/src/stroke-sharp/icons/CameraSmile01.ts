@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { CameraSmile01 as iconData } from '@dga-icons/core/stroke-sharp';
+
+const CameraSmile01 = createVueIcon('camera-smile-01', iconData);
+
+export default CameraSmile01;

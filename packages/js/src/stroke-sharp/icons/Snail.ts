@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { Snail as iconData } from '@dga-icons/core/stroke-sharp';
+
+const Snail = createJsIcon('snail', iconData);
+
+export default Snail;

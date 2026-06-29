@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { ArrowMoveDownRight as iconData } from '@dga-icons/core/bulk-rounded';
+
+const ArrowMoveDownRight = createJsIcon('arrow-move-down-right', iconData);
+
+export default ArrowMoveDownRight;

@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { TrapezoidLineVertical as iconData } from '@dga-icons/core/duotone-rounded';
+
+const TrapezoidLineVertical = createJsIcon('trapezoid-line-vertical', iconData);
+
+export default TrapezoidLineVertical;

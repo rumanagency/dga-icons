@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { Satellite as iconData } from '@dga-icons/core/solid-rounded';
+
+const Satellite = createVueIcon('satellite', iconData);
+
+export default Satellite;

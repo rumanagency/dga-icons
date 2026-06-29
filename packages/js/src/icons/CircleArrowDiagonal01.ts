@@ -1,0 +1,6 @@
+import { createJsIcon } from '../createJsIcon';
+import { CircleArrowDiagonal01 as iconData } from '@dga-icons/core';
+
+const CircleArrowDiagonal01 = createJsIcon('circle-arrow-diagonal-01', iconData);
+
+export default CircleArrowDiagonal01;

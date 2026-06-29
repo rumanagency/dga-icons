@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { Lollipop as iconData } from '@dga-icons/core/solid-sharp';
+
+const Lollipop = createVueIcon('lollipop', iconData);
+
+export default Lollipop;

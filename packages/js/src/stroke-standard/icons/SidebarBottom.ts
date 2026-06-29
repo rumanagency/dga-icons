@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { SidebarBottom as iconData } from '@dga-icons/core/stroke-standard';
+
+const SidebarBottom = createJsIcon('sidebar-bottom', iconData);
+
+export default SidebarBottom;

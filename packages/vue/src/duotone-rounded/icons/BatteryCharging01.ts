@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { BatteryCharging01 as iconData } from '@dga-icons/core/duotone-rounded';
+
+const BatteryCharging01 = createVueIcon('battery-charging-01', iconData);
+
+export default BatteryCharging01;

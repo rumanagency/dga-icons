@@ -22,6 +22,8 @@ const elements = {
     modalPreview: document.getElementById('modal-preview'),
     modalTitle: document.getElementById('modal-title'),
     codeReact: document.getElementById('code-react'),
+    codeVue: document.getElementById('code-vue'),
+    codeJs: document.getElementById('code-js'),
     codeSvg: document.getElementById('code-svg'),
     toast: document.getElementById('toast'),
     copyBtns: document.querySelectorAll('.copy-btn')
@@ -130,8 +132,16 @@ function openModal(icon) {
     
     // Generate React import code
     const isDefaultStyle = state.currentStyle === 'stroke-rounded';
-    const importPath = isDefaultStyle ? '@dga-icons/react' : `@dga-icons/react/${state.currentStyle}`;
-    elements.codeReact.textContent = `import { ${icon.name} } from '${importPath}';\n\n<${icon.name} size={24} />`;
+    const reactImportPath = isDefaultStyle ? '@dga-icons/react' : `@dga-icons/react/${state.currentStyle}`;
+    elements.codeReact.textContent = `import { ${icon.name} } from '${reactImportPath}';\n\n<${icon.name} size={24} />`;
+
+    // Generate Vue import code
+    const vueImportPath = isDefaultStyle ? '@dga-icons/vue' : `@dga-icons/vue/${state.currentStyle}`;
+    elements.codeVue.textContent = `import { ${icon.name} } from '${vueImportPath}';\n\n<${icon.name} :size="24" />`;
+
+    // Generate Vanilla JS import code
+    const jsImportPath = isDefaultStyle ? '@dga-icons/js' : `@dga-icons/js/${state.currentStyle}`;
+    elements.codeJs.textContent = `import { ${icon.name} } from '${jsImportPath}';\n\nconst svgIcon = ${icon.name}({ size: 24, color: 'currentColor' });\ndocument.body.appendChild(svgIcon);`;
     
     // Show Raw SVG
     elements.codeSvg.textContent = icon.svg;

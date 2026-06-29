@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { MessageUnlock02 as iconData } from '@dga-icons/core/solid-sharp';
+
+const MessageUnlock02 = createJsIcon('message-unlock-02', iconData);
+
+export default MessageUnlock02;

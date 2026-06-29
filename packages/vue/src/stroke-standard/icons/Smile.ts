@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { Smile as iconData } from '@dga-icons/core/stroke-standard';
+
+const Smile = createVueIcon('smile', iconData);
+
+export default Smile;

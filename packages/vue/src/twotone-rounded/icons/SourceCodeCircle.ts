@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { SourceCodeCircle as iconData } from '@dga-icons/core/twotone-rounded';
+
+const SourceCodeCircle = createVueIcon('source-code-circle', iconData);
+
+export default SourceCodeCircle;

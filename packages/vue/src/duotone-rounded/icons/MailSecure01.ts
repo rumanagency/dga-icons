@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { MailSecure01 as iconData } from '@dga-icons/core/duotone-rounded';
+
+const MailSecure01 = createVueIcon('mail-secure-01', iconData);
+
+export default MailSecure01;

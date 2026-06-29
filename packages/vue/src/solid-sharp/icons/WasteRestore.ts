@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { WasteRestore as iconData } from '@dga-icons/core/solid-sharp';
+
+const WasteRestore = createVueIcon('waste-restore', iconData);
+
+export default WasteRestore;

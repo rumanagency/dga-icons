@@ -1,0 +1,6 @@
+import { createJsIcon } from '../createJsIcon';
+import { Loading04 as iconData } from '@dga-icons/core';
+
+const Loading04 = createJsIcon('loading-04', iconData);
+
+export default Loading04;

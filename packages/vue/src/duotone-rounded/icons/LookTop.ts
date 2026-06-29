@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { LookTop as iconData } from '@dga-icons/core/duotone-rounded';
+
+const LookTop = createVueIcon('look-top', iconData);
+
+export default LookTop;

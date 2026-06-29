@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { PyramidMaslowo as iconData } from '@dga-icons/core/bulk-rounded';
+
+const PyramidMaslowo = createVueIcon('pyramid-maslowo', iconData);
+
+export default PyramidMaslowo;

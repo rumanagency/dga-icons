@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { SchoolBell02 as iconData } from '@dga-icons/core/duotone-rounded';
+
+const SchoolBell02 = createJsIcon('school-bell-02', iconData);
+
+export default SchoolBell02;

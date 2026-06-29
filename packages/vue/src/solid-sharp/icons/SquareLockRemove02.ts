@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { SquareLockRemove02 as iconData } from '@dga-icons/core/solid-sharp';
+
+const SquareLockRemove02 = createVueIcon('square-lock-remove-02', iconData);
+
+export default SquareLockRemove02;

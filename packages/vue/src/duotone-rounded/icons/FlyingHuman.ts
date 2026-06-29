@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { FlyingHuman as iconData } from '@dga-icons/core/duotone-rounded';
+
+const FlyingHuman = createVueIcon('flying-human', iconData);
+
+export default FlyingHuman;

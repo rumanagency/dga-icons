@@ -1,0 +1,6 @@
+import { createJsIcon } from '../createJsIcon';
+import { CallDone02 as iconData } from '@dga-icons/core';
+
+const CallDone02 = createJsIcon('call-done-02', iconData);
+
+export default CallDone02;

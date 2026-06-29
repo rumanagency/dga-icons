@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { GolfBall as iconData } from '@dga-icons/core/duotone-rounded';
+
+const GolfBall = createVueIcon('golf-ball', iconData);
+
+export default GolfBall;

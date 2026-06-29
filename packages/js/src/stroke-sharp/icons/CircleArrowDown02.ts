@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { CircleArrowDown02 as iconData } from '@dga-icons/core/stroke-sharp';
+
+const CircleArrowDown02 = createJsIcon('circle-arrow-down-02', iconData);
+
+export default CircleArrowDown02;

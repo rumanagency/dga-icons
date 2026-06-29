@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { Repeat as iconData } from '@dga-icons/core/solid-rounded';
+
+const Repeat = createVueIcon('repeat', iconData);
+
+export default Repeat;

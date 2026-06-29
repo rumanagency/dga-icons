@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { SustainableEnergy as iconData } from '@dga-icons/core/solid-rounded';
+
+const SustainableEnergy = createVueIcon('sustainable-energy', iconData);
+
+export default SustainableEnergy;

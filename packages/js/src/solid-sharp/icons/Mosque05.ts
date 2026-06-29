@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { Mosque05 as iconData } from '@dga-icons/core/solid-sharp';
+
+const Mosque05 = createJsIcon('mosque-05', iconData);
+
+export default Mosque05;

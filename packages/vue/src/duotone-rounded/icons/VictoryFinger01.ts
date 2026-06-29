@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { VictoryFinger01 as iconData } from '@dga-icons/core/duotone-rounded';
+
+const VictoryFinger01 = createVueIcon('victory-finger-01', iconData);
+
+export default VictoryFinger01;

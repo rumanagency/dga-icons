@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { LicenseThirdParty as iconData } from '@dga-icons/core/duotone-rounded';
+
+const LicenseThirdParty = createJsIcon('license-third-party', iconData);
+
+export default LicenseThirdParty;

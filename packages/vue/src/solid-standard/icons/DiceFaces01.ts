@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { DiceFaces01 as iconData } from '@dga-icons/core/solid-standard';
+
+const DiceFaces01 = createVueIcon('dice-faces-01', iconData);
+
+export default DiceFaces01;

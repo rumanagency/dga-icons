@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { RemoveCircle as iconData } from '@dga-icons/core/stroke-sharp';
+
+const RemoveCircle = createJsIcon('remove-circle', iconData);
+
+export default RemoveCircle;

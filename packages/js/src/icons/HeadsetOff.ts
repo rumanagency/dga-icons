@@ -1,0 +1,6 @@
+import { createJsIcon } from '../createJsIcon';
+import { HeadsetOff as iconData } from '@dga-icons/core';
+
+const HeadsetOff = createJsIcon('headset-off', iconData);
+
+export default HeadsetOff;

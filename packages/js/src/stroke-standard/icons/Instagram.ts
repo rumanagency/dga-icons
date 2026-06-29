@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { Instagram as iconData } from '@dga-icons/core/stroke-standard';
+
+const Instagram = createJsIcon('instagram', iconData);
+
+export default Instagram;

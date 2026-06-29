@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { Mouse02 as iconData } from '@dga-icons/core/stroke-standard';
+
+const Mouse02 = createJsIcon('mouse-02', iconData);
+
+export default Mouse02;

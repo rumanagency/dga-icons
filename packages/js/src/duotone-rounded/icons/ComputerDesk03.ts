@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { ComputerDesk03 as iconData } from '@dga-icons/core/duotone-rounded';
+
+const ComputerDesk03 = createJsIcon('computer-desk-03', iconData);
+
+export default ComputerDesk03;

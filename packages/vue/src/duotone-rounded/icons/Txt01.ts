@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { Txt01 as iconData } from '@dga-icons/core/duotone-rounded';
+
+const Txt01 = createVueIcon('txt-01', iconData);
+
+export default Txt01;

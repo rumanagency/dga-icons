@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { CheckmarkBadge02 as iconData } from '@dga-icons/core/twotone-rounded';
+
+const CheckmarkBadge02 = createJsIcon('checkmark-badge-02', iconData);
+
+export default CheckmarkBadge02;

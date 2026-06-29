@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { SearchRemove as iconData } from '@dga-icons/core/stroke-standard';
+
+const SearchRemove = createJsIcon('search-remove', iconData);
+
+export default SearchRemove;

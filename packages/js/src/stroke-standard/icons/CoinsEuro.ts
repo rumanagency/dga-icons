@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { CoinsEuro as iconData } from '@dga-icons/core/stroke-standard';
+
+const CoinsEuro = createJsIcon('coins-euro', iconData);
+
+export default CoinsEuro;

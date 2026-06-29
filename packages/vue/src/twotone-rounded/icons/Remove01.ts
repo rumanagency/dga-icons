@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { Remove01 as iconData } from '@dga-icons/core/twotone-rounded';
+
+const Remove01 = createVueIcon('remove-01', iconData);
+
+export default Remove01;

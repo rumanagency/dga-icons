@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { Bathtub01 as iconData } from '@dga-icons/core/solid-rounded';
+
+const Bathtub01 = createJsIcon('bathtub-01', iconData);
+
+export default Bathtub01;

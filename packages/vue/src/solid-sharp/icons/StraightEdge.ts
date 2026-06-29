@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { StraightEdge as iconData } from '@dga-icons/core/solid-sharp';
+
+const StraightEdge = createVueIcon('straight-edge', iconData);
+
+export default StraightEdge;

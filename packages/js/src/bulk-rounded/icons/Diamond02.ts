@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { Diamond02 as iconData } from '@dga-icons/core/bulk-rounded';
+
+const Diamond02 = createJsIcon('diamond-02', iconData);
+
+export default Diamond02;

@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { TaskDaily02 as iconData } from '@dga-icons/core/solid-sharp';
+
+const TaskDaily02 = createJsIcon('task-daily-02', iconData);
+
+export default TaskDaily02;

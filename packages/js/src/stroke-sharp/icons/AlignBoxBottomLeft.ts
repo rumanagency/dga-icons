@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { AlignBoxBottomLeft as iconData } from '@dga-icons/core/stroke-sharp';
+
+const AlignBoxBottomLeft = createJsIcon('align-box-bottom-left', iconData);
+
+export default AlignBoxBottomLeft;

@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { Github01 as iconData } from '@dga-icons/core/bulk-rounded';
+
+const Github01 = createJsIcon('github-01', iconData);
+
+export default Github01;

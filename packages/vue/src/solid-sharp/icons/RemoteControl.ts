@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { RemoteControl as iconData } from '@dga-icons/core/solid-sharp';
+
+const RemoteControl = createVueIcon('remote-control', iconData);
+
+export default RemoteControl;

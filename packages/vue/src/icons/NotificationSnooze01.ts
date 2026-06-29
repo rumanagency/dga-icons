@@ -1,0 +1,6 @@
+import { createVueIcon } from '../createVueIcon';
+import { NotificationSnooze01 as iconData } from '@dga-icons/core';
+
+const NotificationSnooze01 = createVueIcon('notification-snooze-01', iconData);
+
+export default NotificationSnooze01;

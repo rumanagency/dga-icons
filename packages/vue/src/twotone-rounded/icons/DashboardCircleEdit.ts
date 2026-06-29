@@ -1,0 +1,6 @@
+import { createVueIcon } from '../../createVueIcon';
+import { DashboardCircleEdit as iconData } from '@dga-icons/core/twotone-rounded';
+
+const DashboardCircleEdit = createVueIcon('dashboard-circle-edit', iconData);
+
+export default DashboardCircleEdit;

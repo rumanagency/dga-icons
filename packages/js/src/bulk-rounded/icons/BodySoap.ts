@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { BodySoap as iconData } from '@dga-icons/core/bulk-rounded';
+
+const BodySoap = createJsIcon('body-soap', iconData);
+
+export default BodySoap;

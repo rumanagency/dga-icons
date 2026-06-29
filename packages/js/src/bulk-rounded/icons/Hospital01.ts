@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { Hospital01 as iconData } from '@dga-icons/core/bulk-rounded';
+
+const Hospital01 = createJsIcon('hospital-01', iconData);
+
+export default Hospital01;

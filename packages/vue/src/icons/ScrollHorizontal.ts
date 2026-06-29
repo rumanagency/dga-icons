@@ -1,0 +1,6 @@
+import { createVueIcon } from '../createVueIcon';
+import { ScrollHorizontal as iconData } from '@dga-icons/core';
+
+const ScrollHorizontal = createVueIcon('scroll-horizontal', iconData);
+
+export default ScrollHorizontal;

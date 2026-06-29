@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { TouchInteraction04 as iconData } from '@dga-icons/core/stroke-standard';
+
+const TouchInteraction04 = createJsIcon('touch-interaction-04', iconData);
+
+export default TouchInteraction04;

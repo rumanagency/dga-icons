@@ -1,0 +1,6 @@
+import { createJsIcon } from '../../createJsIcon';
+import { AiSearch as iconData } from '@dga-icons/core/solid-rounded';
+
+const AiSearch = createJsIcon('ai-search', iconData);
+
+export default AiSearch;
