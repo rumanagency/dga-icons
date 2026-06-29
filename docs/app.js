@@ -24,6 +24,9 @@ const elements = {
     codeReact: document.getElementById('code-react'),
     codeVue: document.getElementById('code-vue'),
     codeJs: document.getElementById('code-js'),
+    codeSvelte: document.getElementById('code-svelte'),
+    codeSolid: document.getElementById('code-solid'),
+    codePreact: document.getElementById('code-preact'),
     codeSvg: document.getElementById('code-svg'),
     toast: document.getElementById('toast'),
     copyBtns: document.querySelectorAll('.copy-btn')
@@ -142,6 +145,18 @@ function openModal(icon) {
     // Generate Vanilla JS import code
     const jsImportPath = isDefaultStyle ? '@dga-icons/js' : `@dga-icons/js/${state.currentStyle}`;
     elements.codeJs.textContent = `import { ${icon.name} } from '${jsImportPath}';\n\nconst svgIcon = ${icon.name}({ size: 24, color: 'currentColor' });\ndocument.body.appendChild(svgIcon);`;
+    
+    // Generate Svelte import code
+    const svelteImportPath = isDefaultStyle ? '@dga-icons/svelte' : `@dga-icons/svelte/${state.currentStyle}`;
+    elements.codeSvelte.textContent = `<script>\nimport { ${icon.name} } from '${svelteImportPath}';\n</script>\n\n<!-- Using Svelte action -->\n<div use:${icon.name}={{ size: 24, color: 'currentColor' }}></div>\n\n<!-- Or using {@html} -->\n<!-- {@html ${icon.name}({ size: 24 })} -->`;
+
+    // Generate Solid import code
+    const solidImportPath = isDefaultStyle ? '@dga-icons/solid' : `@dga-icons/solid/${state.currentStyle}`;
+    elements.codeSolid.textContent = `import { ${icon.name} } from '${solidImportPath}';\n\n<${icon.name} size={24} />`;
+
+    // Generate Preact import code
+    const preactImportPath = isDefaultStyle ? '@dga-icons/preact' : `@dga-icons/preact/${state.currentStyle}`;
+    elements.codePreact.textContent = `import { ${icon.name} } from '${preactImportPath}';\n\n<${icon.name} size={24} />`;
     
     // Show Raw SVG
     elements.codeSvg.textContent = icon.svg;

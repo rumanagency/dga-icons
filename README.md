@@ -23,9 +23,9 @@
 | :--- | :--- | :--- |
 | <img src="assets/packages_logos/react.svg" width="24" height="24" valign="middle" /> **React** | [![npm](https://img.shields.io/npm/v/@dga-icons/react.svg?style=flat-square)](https://www.npmjs.com/package/@dga-icons/react) | [Source](https://github.com/rumanagency/dga-icons/tree/main/packages/react) |
 | <img src="assets/packages_logos/vue.svg" width="24" height="24" valign="middle" /> **Vue** | [![npm](https://img.shields.io/npm/v/@dga-icons/vue.svg?style=flat-square)](https://www.npmjs.com/package/@dga-icons/vue) | [Source](https://github.com/rumanagency/dga-icons/tree/main/packages/vue) |
-| <img src="assets/packages_logos/svelte.svg" width="24" height="24" valign="middle" /> **Svelte** | SOON | SOON |
-| <img src="assets/packages_logos/solid.svg" width="24" height="24" valign="middle" /> **Solid** | SOON | SOON |
-| <img src="assets/packages_logos/preact.svg" width="24" height="24" valign="middle" /> **Preact** | SOON | SOON |
+| <img src="assets/packages_logos/svelte.svg" width="24" height="24" valign="middle" /> **Svelte** | [![npm](https://img.shields.io/npm/v/@dga-icons/svelte.svg?style=flat-square)](https://www.npmjs.com/package/@dga-icons/svelte) | [Source](https://github.com/rumanagency/dga-icons/tree/main/packages/svelte) |
+| <img src="assets/packages_logos/solid.svg" width="24" height="24" valign="middle" /> **Solid** | [![npm](https://img.shields.io/npm/v/@dga-icons/solid.svg?style=flat-square)](https://www.npmjs.com/package/@dga-icons/solid) | [Source](https://github.com/rumanagency/dga-icons/tree/main/packages/solid) |
+| <img src="assets/packages_logos/preact.svg" width="24" height="24" valign="middle" /> **Preact** | [![npm](https://img.shields.io/npm/v/@dga-icons/preact.svg?style=flat-square)](https://www.npmjs.com/package/@dga-icons/preact) | [Source](https://github.com/rumanagency/dga-icons/tree/main/packages/preact) |
 | <img src="assets/packages_logos/angular.svg" width="24" height="24" valign="middle" /> **Angular** | SOON | SOON |
 | <img src="assets/packages_logos/react-native.svg" width="24" height="24" valign="middle" /> **React Native** | SOON | SOON |
 | <img src="assets/packages_logos/astro.svg" width="24" height="24" valign="middle" /> **Astro** | SOON | SOON |

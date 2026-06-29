@@ -1,0 +1,79 @@
+{
+  "name": "@dga-icons/solid",
+  "version": "0.1.0",
+  "description": "Solid components for DGA Icons — 4,354 beautifully crafted icons in 9 styles",
+  "license": "MIT",
+  "author": "Saleh @ Ruman",
+  "type": "module",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": {
+        "default": "./dist/esm/index.js"
+      },
+      "require": {
+        "default": "./dist/cjs/index.cjs"
+      }
+    },
+    "./solid-rounded": {
+      "import": {
+        "default": "./dist/esm/solid-rounded/index.js"
+      }
+    },
+    "./bulk-rounded": {
+      "import": {
+        "default": "./dist/esm/bulk-rounded/index.js"
+      }
+    },
+    "./duotone-rounded": {
+      "import": {
+        "default": "./dist/esm/duotone-rounded/index.js"
+      }
+    },
+    "./twotone-rounded": {
+      "import": {
+        "default": "./dist/esm/twotone-rounded/index.js"
+      }
+    },
+    "./solid-sharp": {
+      "import": {
+        "default": "./dist/esm/solid-sharp/index.js"
+      }
+    },
+    "./solid-standard": {
+      "import": {
+        "default": "./dist/esm/solid-standard/index.js"
+      }
+    },
+    "./stroke-sharp": {
+      "import": {
+        "default": "./dist/esm/stroke-sharp/index.js"
+      }
+    },
+    "./stroke-standard": {
+      "import": {
+        "default": "./dist/esm/stroke-standard/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rm -rf dist src/icons src/*-rounded src/*-sharp src/*-standard src/index.ts"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.0.0"
+  },
+  "dependencies": {
+    "@dga-icons/core": "workspace:*"
+  },
+  "devDependencies": {
+    "solid-js": "^1.8.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  }
+}
