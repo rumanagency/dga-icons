@@ -16,13 +16,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
           registry-url: 'https://registry.npmjs.org/'
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v3
         with:
-          version: 8
+          version: 11.9.0
           
       - name: Get pnpm store directory
         shell: bash
@@ -45,7 +45,7 @@ jobs:
           pnpm generate
           pnpm build
         env:
-          NODE_OPTIONS: --max_old_space_size=8192
+          NODE_OPTIONS: --max_old_space_size=6144
 
       - name: Publish to npm
         if: env.NPM_TOKEN != ''
